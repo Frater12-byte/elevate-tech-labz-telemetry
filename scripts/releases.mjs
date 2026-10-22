@@ -7,7 +7,7 @@
 //   GH_OWNERS       optional, comma list of users/orgs to include (e.g. "Frater12-byte,SamirElevate,elevate-tech-labz")
 //   GH_EXCLUDE      optional, comma list of "owner/repo" to skip
 //   REPO_ALIASES    optional JSON {"owner/repo":"hub"} — the public name shown on the site
-//   MESSAGE_MODE    "subject" (default: first line, cleaned) | "type" (only "feat(hub)") | "hidden"
+//   MESSAGE_MODE    "subject" (first line, cleaned) | "first2" (first 2 words + hidden length) | "type" | "hidden"
 const TOKEN = (process.env.GH_READ_TOKEN || process.env.SECRET_GH_READ_TOKEN);
 if (!TOKEN) { console.error("GH_READ_TOKEN is not set"); process.exit(1); }
 const OWNERS = (process.env.GH_OWNERS || "").split(",").map((s) => s.trim().toLowerCase()).filter(Boolean);
@@ -36,6 +36,7 @@ function clean(msg) {
   let s = (msg || "").split("\n")[0].trim();
   s = s.replace(/\S+@\S+/g, "…").replace(/https?:\/\/\S+/g, "…").replace(/\b[A-Za-z0-9_\-]{32,}\b/g, "…").replace(/\b[A-Z]{2,}-\d+\b/g, "").replace(/\s{2,}/g, " ").trim();
   if (MODE === "hidden") return "";
+  if (MODE === "first2") { const w = s.split(/\s+/); return w.length <= 2 ? s : { text: w.slice(0, 2).join(" "), rest: w.slice(2).join(" ").length }; }
   if (MODE === "type") { const m = s.match(/^(\w+)(\([^)]*\))?!?:/); return m ? m[0].replace(/:$/, "") : "update"; }
   return s.length > 80 ? s.slice(0, 79) + "…" : s;
 }
@@ -53,11 +54,11 @@ for (const r of repos) {
   for (const c of await all(`/repos/${r.full_name}/commits?since=${week}`, 300)) {
     if ((c.parents || []).length > 1) continue;                   // skip merge commits
     authors.add((c.author && c.author.login) || c.commit.author.name);
-    commits.push({ repo: name, sha: c.sha.slice(0, 7), msg: clean(c.commit.message), at: c.commit.author.date });
+    { const m = clean(c.commit.message); commits.push({ repo: name, sha: c.sha.slice(0, 7), msg: typeof m === "object" ? m.text : m, hidden: typeof m === "object" ? m.rest : 0, at: c.commit.author.date }); }
   }
   for (const rel of await gh(`/repos/${r.full_name}/releases?per_page=10`)) {
     if (rel.draft || Date.parse(rel.published_at) < month) continue;
-    releases.push({ repo: name, tag: rel.tag_name, name: MODE === "hidden" ? "" : clean(rel.name || rel.tag_name), at: rel.published_at, pre: rel.prerelease });
+    releases.push({ repo: name, tag: rel.tag_name, name: (function(){ const m = MODE === "hidden" ? "" : clean(rel.name || rel.tag_name); return typeof m === "object" ? m.text : m; })(), at: rel.published_at, pre: rel.prerelease });
   }
   const runs = await gh(`/repos/${r.full_name}/actions/runs?per_page=20&created=>=${week.slice(0, 10)}`);
   for (const w of runs.workflow_runs || []) {
