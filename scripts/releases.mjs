@@ -47,7 +47,7 @@ const repos = (await all("/user/repos?affiliation=owner,collaborator,organizatio
   .filter((r) => !OWNERS.length || OWNERS.includes(r.owner.login.toLowerCase()))
   .filter((r) => !EXCLUDE.has(r.full_name.toLowerCase()));
 
-const commits = [], releases = [], authors = new Set(), runsList = []; let runsOk = 0, runsFail = 0, lastRun = null, prsMerged7d = 0;
+const commits = [], releases = [], authors = new Set(), runsList = []; let runsOk = 0, runsFail = 0, lastRun = null, prsMerged7d = 0, prAccess = true;
 const day = (t) => t.slice(0, 10), perDay = {}, byRepo = {};
 for (const r of repos) {
   if (Date.parse(r.pushed_at) < month) continue;                  // quiet repos don't need a call
@@ -63,7 +63,7 @@ for (const r of repos) {
     if (rel.draft || Date.parse(rel.published_at) < month) continue;
     releases.push({ repo: name, tag: rel.tag_name, name: (function(){ const m = MODE === "hidden" ? "" : clean(rel.name || rel.tag_name); return typeof m === "object" ? m.text : m; })(), at: rel.published_at, pre: rel.prerelease });
   }
-  for (const pr of await gh(`/repos/${r.full_name}/pulls?state=closed&sort=updated&direction=desc&per_page=50`)) if (pr.merged_at && pr.merged_at >= week) prsMerged7d++;
+  try { for (const pr of await gh(`/repos/${r.full_name}/pulls?state=closed&sort=updated&direction=desc&per_page=50`)) if (pr.merged_at && pr.merged_at >= week) prsMerged7d++; } catch (e) { prAccess = false; }   // needs "Pull requests: read" on the token
   const runs = await gh(`/repos/${r.full_name}/actions/runs?per_page=20&created=>=${week.slice(0, 10)}`);
   for (const w of runs.workflow_runs || []) {
     if (w.status !== "completed") continue;
@@ -83,7 +83,7 @@ process.stdout.write(JSON.stringify({
   stats: {
     commits7d: commits.length,
     commits30d,
-    prsMerged7d,
+    prsMerged7d: prAccess ? prsMerged7d : null,
     releases30d: releases.length,
     activeRepos7d: new Set(commits.map((c) => c.repo)).size,
     contributors7d: authors.size,
