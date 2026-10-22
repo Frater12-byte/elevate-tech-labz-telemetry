@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T11:25:15.548Z",
+  "updatedAt": "2026-10-22T11:28:56.141Z",
   "stats": {
     "commits7d": 166,
     "releases30d": 0,
@@ -18,241 +18,281 @@
     {
       "repo": "elevate-tech-labz-site",
       "sha": "9eb5644",
-      "msg": "update",
+      "msg": "Delete telemetry.mjs",
+      "hidden": 0,
       "at": "2026-10-22T10:41:53Z"
     },
     {
       "repo": "elevate-tech-labz-site",
       "sha": "a4c84e3",
-      "msg": "update",
+      "msg": "Marketing Meta",
+      "hidden": 21,
       "at": "2026-10-22T10:28:51Z"
     },
     {
       "repo": "elevate-tech-labz-site",
       "sha": "d656f37",
-      "msg": "ci",
+      "msg": "ci: add",
+      "hidden": 35,
       "at": "2026-10-22T09:40:43Z"
     },
     {
       "repo": "elevate-tech-labz-site",
       "sha": "06d8503",
-      "msg": "update",
+      "msg": "Create security.txt",
+      "hidden": 0,
       "at": "2026-10-22T09:36:51Z"
     },
     {
       "repo": "elevate-tech-labz-site",
       "sha": "f03a954",
-      "msg": "update",
+      "msg": "Add files",
+      "hidden": 10,
       "at": "2026-10-22T09:36:14Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "1542285",
-      "msg": "fix(admin)",
+      "msg": "fix(admin): no",
+      "hidden": 48,
       "at": "2026-10-22T05:20:44Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "4f189b5",
-      "msg": "fix(infra)",
+      "msg": "fix(infra): give",
+      "hidden": 62,
       "at": "2026-10-21T16:12:06Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "8bc5b90",
-      "msg": "chore(mobile)",
+      "msg": "chore(mobile): 5.1.0",
+      "hidden": 25,
       "at": "2026-10-21T15:11:06Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "42b9312",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): removing",
+      "hidden": 49,
       "at": "2026-10-21T14:45:03Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "86180d7",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): a",
+      "hidden": 52,
       "at": "2026-10-21T14:40:58Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "1bc153f",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): a",
+      "hidden": 78,
       "at": "2026-10-21T14:39:20Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "8e67c0a",
-      "msg": "feat(mobile)",
+      "msg": "feat(mobile): one",
+      "hidden": 46,
       "at": "2026-10-21T14:30:25Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "75b252f",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): price",
+      "hidden": 66,
       "at": "2026-10-21T14:21:24Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "9d55a40",
-      "msg": "feat(mobile)",
+      "msg": "feat(mobile): price",
+      "hidden": 54,
       "at": "2026-10-21T14:11:33Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "3b5746d",
-      "msg": "chore(mobile)",
+      "msg": "chore(mobile): 5.1.0",
+      "hidden": 25,
       "at": "2026-10-21T13:48:01Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "d049310",
-      "msg": "feat(mobile)",
+      "msg": "feat(mobile): planned",
+      "hidden": 63,
       "at": "2026-10-21T13:33:36Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "b5333a7",
-      "msg": "chore(mobile)",
+      "msg": "chore(mobile): 5.1.0",
+      "hidden": 25,
       "at": "2026-10-21T12:54:15Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "63f4a8c",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): a",
+      "hidden": 54,
       "at": "2026-10-21T12:37:57Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "275ccb1",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): one",
+      "hidden": 62,
       "at": "2026-10-21T12:04:56Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "5f2687f",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): retry",
+      "hidden": 87,
       "at": "2026-10-21T11:58:21Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "acccea9",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): an",
+      "hidden": 59,
       "at": "2026-10-21T11:55:29Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "547786e",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): keep",
+      "hidden": 69,
       "at": "2026-10-21T11:43:04Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "b0206d6",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): planner",
+      "hidden": 80,
       "at": "2026-10-21T11:40:16Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "155c9a3",
-      "msg": "feat(mobile)",
+      "msg": "feat(mobile): planned",
+      "hidden": 70,
       "at": "2026-10-21T11:28:47Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "9be0870",
-      "msg": "feat(mobile)",
+      "msg": "feat(mobile): planner",
+      "hidden": 88,
       "at": "2026-10-21T11:14:38Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "2bf5c66",
-      "msg": "feat(mobile)",
+      "msg": "feat(mobile): a",
+      "hidden": 61,
       "at": "2026-10-21T11:05:48Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "4e22660",
-      "msg": "chore(mobile)",
+      "msg": "chore(mobile): 5.1.0",
+      "hidden": 25,
       "at": "2026-10-21T10:31:53Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "d456519",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): See",
+      "hidden": 60,
       "at": "2026-10-21T10:11:44Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "2fa6c61",
-      "msg": "chore(mobile)",
+      "msg": "chore(mobile): 5.1.0",
+      "hidden": 64,
       "at": "2026-10-21T08:59:45Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "26774ba",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): drop",
+      "hidden": 107,
       "at": "2026-10-21T08:54:11Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "48311cd",
-      "msg": "fix(mobile)",
+      "msg": "fix(mobile): keep",
+      "hidden": 87,
       "at": "2026-10-21T08:31:18Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "8a3e084",
-      "msg": "feat(mobile)",
+      "msg": "feat(mobile): basket",
+      "hidden": 62,
       "at": "2026-10-21T08:14:43Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "a16dc98",
-      "msg": "fix(infra)",
+      "msg": "fix(infra): let",
+      "hidden": 59,
       "at": "2026-10-21T04:32:06Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "640ce24",
-      "msg": "fix(storefront)",
+      "msg": "fix(storefront): keep",
+      "hidden": 55,
       "at": "2026-10-21T04:32:06Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "93bafc8",
-      "msg": "fix(rayna)",
+      "msg": "fix(rayna): number",
+      "hidden": 75,
       "at": "2026-10-21T04:32:06Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "60562e0",
-      "msg": "docs(rayna)",
+      "msg": "docs(rayna): record",
+      "hidden": 77,
       "at": "2026-10-20T17:18:39Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "e94b7ff",
-      "msg": "feat(rayna)",
+      "msg": "feat(rayna): give",
+      "hidden": 99,
       "at": "2026-10-20T17:14:15Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "b153a4a",
-      "msg": "feat(storefront)",
+      "msg": "feat(storefront): answer",
+      "hidden": 83,
       "at": "2026-10-20T17:06:32Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "c07f810",
-      "msg": "docs(rayna)",
+      "msg": "docs(rayna): retire",
+      "hidden": 49,
       "at": "2026-10-20T16:26:14Z"
     },
     {
       "repo": "yalator-v2",
       "sha": "c37ceca",
-      "msg": "docs(rayna)",
+      "msg": "docs(rayna): point",
+      "hidden": 55,
       "at": "2026-10-20T16:20:30Z"
     }
   ]
