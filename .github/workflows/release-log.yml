@@ -1,0 +1,50 @@
+# Commits, releases and CI across every repo and contributor -> releases.json
+name: release-log
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  id-token: write
+concurrency:
+  group: publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Keys come from Azure Key Vault (if AZURE_CLIENT_ID is set) or from repo secrets.
+      - if: ${{ vars.AZURE_CLIENT_ID != '' }}
+        uses: azure/login@v2
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+      - if: ${{ vars.AZURE_CLIENT_ID != '' }}
+        name: Read keys from Key Vault
+        run: |
+          for pair in GH_READ_TOKEN=github-read-token; do
+            name="${pair%%=*}"; secret="${pair##*=}"
+            value=$(az keyvault secret show --vault-name "${{ vars.KEY_VAULT_NAME }}" --name "$secret" --query value -o tsv 2>/dev/null || true)
+            if [ -n "$value" ]; then echo "::add-mask::$value"; echo "$name=$value" >> "$GITHUB_ENV"; fi
+          done
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Build releases.json
+        env:
+          SECRET_GH_READ_TOKEN: ${{ secrets.GH_READ_TOKEN }}
+          GH_OWNERS: ${{ vars.GH_OWNERS }}
+          GH_EXCLUDE: ${{ vars.GH_EXCLUDE }}
+          REPO_ALIASES: ${{ vars.REPO_ALIASES }}
+          MESSAGE_MODE: ${{ vars.MESSAGE_MODE }}
+        run: node scripts/releases.mjs > releases.json.tmp && mv releases.json.tmp releases.json
+      - name: Commit
+        run: |
+          git config user.name "telemetry-bot"; git config user.email "telemetry-bot@users.noreply.github.com"
+          git add releases.json
+          git diff --cached --quiet || git commit -m "releases $(date -u +%FT%TZ)"
+          git pull --rebase --quiet || true
+          git push
