@@ -4,17 +4,21 @@
 // Env:
 //   GH_READ_TOKEN   fine-grained PAT (or GitHub App token) with read-only Contents, Metadata and Actions
 //                   on every repo you want counted. It sees exactly the repos its owner can see.
+//   GH_READ_TOKEN_2 optional second token (e.g. one Samir creates on his account for SamirElevate/elevate-hub).
+//                   Fine-grained tokens only reach repos owned by their own account, so a repo owned by
+//                   someone else needs a token from that account.
 //   GH_OWNERS       optional, comma list of users/orgs to include (e.g. "Frater12-byte,SamirElevate,elevate-tech-labz")
 //   GH_EXCLUDE      optional, comma list of "owner/repo" to skip
 //   REPO_ALIASES    optional JSON {"owner/repo":"hub"} — the public name shown on the site
 //   MESSAGE_MODE    "subject" (first line, cleaned) | "first2" (first 2 words + hidden length) | "type" | "hidden"
-const TOKEN = (process.env.GH_READ_TOKEN || process.env.SECRET_GH_READ_TOKEN);
-if (!TOKEN) { console.error("GH_READ_TOKEN is not set"); process.exit(1); }
+const TOKENS = [process.env.GH_READ_TOKEN || process.env.SECRET_GH_READ_TOKEN, process.env.GH_READ_TOKEN_2 || process.env.SECRET_GH_READ_TOKEN_2].filter(Boolean);
+if (!TOKENS.length) { console.error("GH_READ_TOKEN is not set"); process.exit(1); }
 const OWNERS = (process.env.GH_OWNERS || "").split(",").map((s) => s.trim().toLowerCase()).filter(Boolean);
 const EXCLUDE = new Set((process.env.GH_EXCLUDE || "").split(",").map((s) => s.trim().toLowerCase()).filter(Boolean));
 const ALIASES = JSON.parse(process.env.REPO_ALIASES || "{}");
 const MODE = process.env.MESSAGE_MODE || "subject";
-const H = { Authorization: `Bearer ${TOKEN}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "ElevateTechLabz-Releases/1.0" };
+const hdr = (t) => ({ Authorization: `Bearer ${t}`, Accept: "application/vnd.github+json", "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "ElevateTechLabz-Releases/1.0" });
+let H = hdr(TOKENS[0]);
 
 async function gh(path) {
   const r = await fetch(`https://api.github.com${path}`, { headers: H });
@@ -42,7 +46,10 @@ function clean(msg) {
 }
 const now = Date.now(), week = new Date(now - 7 * 864e5).toISOString(), monthIso = new Date(now - 30 * 864e5).toISOString(), month = now - 30 * 864e5;
 
-const repos = (await all("/user/repos?affiliation=owner,collaborator,organization_member&sort=pushed"))
+// every token lists the repos it can read; each repo is then read with the token that found it
+const seenRepos = new Map();
+for (const t of TOKENS) { H = hdr(t); for (const r of await all("/user/repos?affiliation=owner,collaborator,organization_member&sort=pushed")) if (!seenRepos.has(r.full_name)) seenRepos.set(r.full_name, Object.assign(r, { _token: t })); }
+const repos = [...seenRepos.values()]
   .filter((r) => !r.archived && !r.fork)
   .filter((r) => !OWNERS.length || OWNERS.includes(r.owner.login.toLowerCase()))
   .filter((r) => !EXCLUDE.has(r.full_name.toLowerCase()));
@@ -51,6 +58,7 @@ const commits = [], releases = [], authors = new Set(), runsList = []; let runsO
 const day = (t) => t.slice(0, 10), perDay = {}, byRepo = {};
 for (const r of repos) {
   if (Date.parse(r.pushed_at) < month) continue;                  // quiet repos don't need a call
+  H = hdr(r._token);
   const name = ALIASES[r.full_name] || r.name;
   for (const c of await all(`/repos/${r.full_name}/commits?since=${monthIso}`, 1000)) {
     if ((c.parents || []).length > 1) continue;                   // skip merge commits
