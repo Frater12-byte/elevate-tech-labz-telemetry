@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-23T04:29:53.489Z",
+  "updatedAt": "2026-10-23T04:47:15.320Z",
   "stats": {
-    "commits7d": 122,
-    "commits30d": 814,
+    "commits7d": 133,
+    "commits30d": 825,
     "prsMerged7d": null,
     "releases30d": 0,
     "activeRepos7d": 2,
     "contributors7d": 3,
-    "ciRuns7d": 26,
-    "ciPassRate7d": 96
+    "ciRuns7d": 37,
+    "ciPassRate7d": 70
   },
   "lastRun": {
     "repo": "elevate-tech-labz-site",
-    "conclusion": "failure",
-    "at": "2026-10-23T02:49:49Z"
+    "conclusion": "success",
+    "at": "2026-10-23T04:45:16Z"
   },
   "perDay": [
     {
@@ -134,7 +134,7 @@
     },
     {
       "day": "2026-10-23",
-      "commits": 1
+      "commits": 12
     }
   ],
   "byRepo": [
@@ -144,97 +144,174 @@
     },
     {
       "repo": "elevate-tech-labz-site",
-      "commits": 8
+      "commits": 19
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-tech-labz-site",
+      "workflow": "Azure Static Web Apps CI/CD",
+      "conclusion": "success",
+      "at": "2026-10-23T04:45:16Z",
+      "secs": 72
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "workflow": "Azure Static Web Apps CI/CD",
+      "conclusion": "failure",
+      "at": "2026-10-23T04:42:04Z",
+      "secs": 34
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "workflow": "Azure Static Web Apps CI/CD",
+      "conclusion": "failure",
+      "at": "2026-10-23T04:39:29Z",
+      "secs": 37
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "workflow": ".github/workflows/azure-static-web-apps-proud-pebble-03c774510.yml",
+      "conclusion": "failure",
+      "at": "2026-10-23T04:36:21Z",
+      "secs": 0
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "workflow": ".github/workflows/azure-static-web-apps-proud-pebble-03c774510.yml",
+      "conclusion": "failure",
+      "at": "2026-10-23T04:36:03Z",
+      "secs": 0
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "workflow": ".github/workflows/azure-static-web-apps-proud-pebble-03c774510.yml",
+      "conclusion": "failure",
+      "at": "2026-10-23T04:35:52Z",
+      "secs": 0
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "workflow": ".github/workflows/azure-static-web-apps-proud-pebble-03c774510.yml",
+      "conclusion": "failure",
+      "at": "2026-10-23T04:35:40Z",
+      "secs": 0
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "workflow": ".github/workflows/azure-static-web-apps-proud-pebble-03c774510.yml",
+      "conclusion": "failure",
+      "at": "2026-10-23T04:35:29Z",
+      "secs": 0
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "workflow": ".github/workflows/azure-static-web-apps-proud-pebble-03c774510.yml",
+      "conclusion": "failure",
+      "at": "2026-10-23T04:35:01Z",
+      "secs": 0
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "workflow": ".github/workflows/azure-static-web-apps-proud-pebble-03c774510.yml",
+      "conclusion": "failure",
+      "at": "2026-10-23T04:34:44Z",
+      "secs": 0
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "workflow": ".github/workflows/azure-static-web-apps-proud-pebble-03c774510.yml",
+      "conclusion": "failure",
+      "at": "2026-10-23T04:34:26Z",
+      "secs": 0
+    },
     {
       "repo": "elevate-tech-labz-site",
       "workflow": ".github/workflows/azure-static-web-apps-proud-pebble-03c774510.yml",
       "conclusion": "failure",
       "at": "2026-10-23T02:49:49Z",
       "secs": 0
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-22T12:54:10Z",
-      "secs": 73
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-22T11:43:15Z",
-      "secs": 59
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-22T10:42:57Z",
-      "secs": 61
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-22T10:29:55Z",
-      "secs": 59
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-22T09:41:39Z",
-      "secs": 51
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-10-22T06:23:15Z",
-      "secs": 349
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-10-22T06:17:24Z",
-      "secs": 213
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-22T06:13:49Z",
-      "secs": 928
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
-      "conclusion": "success",
-      "at": "2026-10-22T06:13:34Z",
-      "secs": 913
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-22T05:58:31Z",
-      "secs": 10
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-22T05:31:35Z",
-      "secs": 644
     }
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "elevate-tech-labz-site",
+      "sha": "6c0a3ea",
+      "msg": "Config: drop",
+      "hidden": 33,
+      "at": "2026-10-23T04:44:02Z"
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "sha": "5670536",
+      "msg": "Workflow: skip",
+      "hidden": 35,
+      "at": "2026-10-23T04:41:27Z"
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "sha": "b781220",
+      "msg": "Fix workflow",
+      "hidden": 43,
+      "at": "2026-10-23T04:38:50Z"
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "sha": "04cd66a",
+      "msg": "Delete index_5.html",
+      "hidden": 0,
+      "at": "2026-10-23T04:36:19Z"
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "sha": "83defff",
+      "msg": "Update privacy.html",
+      "hidden": 0,
+      "at": "2026-10-23T04:36:01Z"
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "sha": "64eac5a",
+      "msg": "Update sitemap.xml",
+      "hidden": 0,
+      "at": "2026-10-23T04:35:50Z"
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "sha": "3d4fae9",
+      "msg": "Update staticwebapp.config.json",
+      "hidden": 0,
+      "at": "2026-10-23T04:35:38Z"
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "sha": "14da26e",
+      "msg": "Create package.json",
+      "hidden": 0,
+      "at": "2026-10-23T04:35:27Z"
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "sha": "0565c50",
+      "msg": "Create host.json",
+      "hidden": 0,
+      "at": "2026-10-23T04:34:59Z"
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "sha": "4a386d7",
+      "msg": "Create function.json",
+      "hidden": 0,
+      "at": "2026-10-23T04:34:42Z"
+    },
+    {
+      "repo": "elevate-tech-labz-site",
+      "sha": "d615dec",
+      "msg": "Create index.js",
+      "hidden": 0,
+      "at": "2026-10-23T04:34:24Z"
+    },
     {
       "repo": "elevate-tech-labz-site",
       "sha": "4391185",
@@ -437,83 +514,6 @@
       "msg": "feat(mobile): a",
       "hidden": 61,
       "at": "2026-10-21T11:05:48Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "4e22660",
-      "msg": "chore(mobile): 5.1.0",
-      "hidden": 25,
-      "at": "2026-10-21T10:31:53Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "d456519",
-      "msg": "fix(mobile): See",
-      "hidden": 60,
-      "at": "2026-10-21T10:11:44Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "2fa6c61",
-      "msg": "chore(mobile): 5.1.0",
-      "hidden": 64,
-      "at": "2026-10-21T08:59:45Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "26774ba",
-      "msg": "fix(mobile): drop",
-      "hidden": 107,
-      "at": "2026-10-21T08:54:11Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "48311cd",
-      "msg": "fix(mobile): keep",
-      "hidden": 87,
-      "at": "2026-10-21T08:31:18Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "8a3e084",
-      "msg": "feat(mobile): basket",
-      "hidden": 62,
-      "at": "2026-10-21T08:14:43Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "a16dc98",
-      "msg": "fix(infra): let",
-      "hidden": 59,
-      "at": "2026-10-21T04:32:06Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "640ce24",
-      "msg": "fix(storefront): keep",
-      "hidden": 55,
-      "at": "2026-10-21T04:32:06Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "93bafc8",
-      "msg": "fix(rayna): number",
-      "hidden": 75,
-      "at": "2026-10-21T04:32:06Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "60562e0",
-      "msg": "docs(rayna): record",
-      "hidden": 77,
-      "at": "2026-10-20T17:18:39Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "e94b7ff",
-      "msg": "feat(rayna): give",
-      "hidden": 99,
-      "at": "2026-10-20T17:14:15Z"
     }
   ]
 }
