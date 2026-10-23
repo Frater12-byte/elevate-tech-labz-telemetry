@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T12:12:31.172Z",
+  "updatedAt": "2026-10-23T12:38:06.652Z",
   "stats": {
     "commits7d": 154,
     "commits30d": 1030,
@@ -7,13 +7,13 @@
     "releases30d": 0,
     "activeRepos7d": 3,
     "contributors7d": 3,
-    "ciRuns7d": 57,
+    "ciRuns7d": 56,
     "ciPassRate7d": 82
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-23T12:10:33Z"
+    "at": "2026-10-23T12:32:29Z"
   },
   "perDay": [
     {
@@ -154,6 +154,41 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-23T12:32:29Z",
+      "secs": 13
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-23T12:29:35Z",
+      "secs": 800
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-23T12:16:26Z",
+      "secs": 11
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-10-23T12:16:14Z",
+      "secs": 1
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-23T12:12:40Z",
+      "secs": 1014
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "CI",
       "conclusion": "success",
       "at": "2026-10-23T12:10:33Z",
@@ -200,41 +235,6 @@
       "conclusion": "success",
       "at": "2026-10-23T11:05:38Z",
       "secs": 13
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-23T07:06:05Z",
-      "secs": 59
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-23T06:43:27Z",
-      "secs": 55
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-23T06:11:19Z",
-      "secs": 67
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-23T05:50:20Z",
-      "secs": 66
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-23T05:35:50Z",
-      "secs": 66
     }
   ],
   "releases": [],
