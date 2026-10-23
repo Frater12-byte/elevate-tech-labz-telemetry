@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T11:49:45.890Z",
+  "updatedAt": "2026-10-23T12:12:31.172Z",
   "stats": {
     "commits7d": 154,
     "commits30d": 1030,
@@ -7,13 +7,13 @@
     "releases30d": 0,
     "activeRepos7d": 3,
     "contributors7d": 3,
-    "ciRuns7d": 58,
-    "ciPassRate7d": 83
+    "ciRuns7d": 57,
+    "ciPassRate7d": 82
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-23T11:18:03Z"
+    "at": "2026-10-23T12:10:33Z"
   },
   "perDay": [
     {
@@ -156,6 +156,41 @@
       "repo": "yalator-v2",
       "workflow": "CI",
       "conclusion": "success",
+      "at": "2026-10-23T12:10:33Z",
+      "secs": 784
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-23T12:07:46Z",
+      "secs": 893
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-23T11:57:42Z",
+      "secs": 13
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-23T11:55:58Z",
+      "secs": 12
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-23T11:53:06Z",
+      "secs": 13
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
       "at": "2026-10-23T11:18:03Z",
       "secs": 758
     },
@@ -200,41 +235,6 @@
       "conclusion": "success",
       "at": "2026-10-23T05:35:50Z",
       "secs": 66
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-23T05:17:02Z",
-      "secs": 56
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-23T05:12:51Z",
-      "secs": 55
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-23T05:08:23Z",
-      "secs": 55
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-23T04:56:41Z",
-      "secs": 63
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-23T04:45:16Z",
-      "secs": 72
     }
   ],
   "releases": [],
