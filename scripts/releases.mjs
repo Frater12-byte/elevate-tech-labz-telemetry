@@ -48,7 +48,11 @@ const now = Date.now(), week = new Date(now - 7 * 864e5).toISOString(), monthIso
 
 // every token lists the repos it can read; each repo is then read with the token that found it
 const seenRepos = new Map();
-for (const t of TOKENS) { H = hdr(t); for (const r of await all("/user/repos?affiliation=owner,collaborator,organization_member&sort=pushed")) if (!seenRepos.has(r.full_name)) seenRepos.set(r.full_name, Object.assign(r, { _token: t })); }
+for (const [i, t] of TOKENS.entries()) {
+  H = hdr(t); const list = await all("/user/repos?affiliation=owner,collaborator,organization_member&sort=pushed");
+  console.error(`token ${i + 1}: can read ${list.length} repo(s)`);   // counts only: this log is public
+  for (const r of list) if (!seenRepos.has(r.full_name)) seenRepos.set(r.full_name, Object.assign(r, { _token: t }));
+}
 const repos = [...seenRepos.values()]
   .filter((r) => !r.archived && !r.fork)
   .filter((r) => !OWNERS.length || OWNERS.includes(r.owner.login.toLowerCase()))
