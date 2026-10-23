@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-23T14:30:07.135Z",
+  "updatedAt": "2026-10-23T14:47:53.645Z",
   "stats": {
-    "commits7d": 154,
-    "commits30d": 1030,
-    "prsMerged7d": 51,
+    "commits7d": 158,
+    "commits30d": 1034,
+    "prsMerged7d": 54,
     "releases30d": 0,
     "activeRepos7d": 3,
     "contributors7d": 3,
-    "ciRuns7d": 56,
-    "ciPassRate7d": 82
+    "ciRuns7d": 52,
+    "ciPassRate7d": 81
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-23T14:22:13Z"
+    "at": "2026-10-23T14:47:36Z"
   },
   "perDay": [
     {
@@ -134,13 +134,13 @@
     },
     {
       "day": "2026-10-23",
-      "commits": 24
+      "commits": 28
     }
   ],
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 827
+      "commits": 823
     },
     {
       "repo": "elevate-hub",
@@ -152,6 +152,27 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-23T14:47:36Z",
+      "secs": 12
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-23T14:47:01Z",
+      "secs": 13
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-23T14:46:25Z",
+      "secs": 12
+    },
     {
       "repo": "yalator-v2",
       "workflow": "Deploy Yalator Backend",
@@ -196,13 +217,6 @@
     },
     {
       "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
-      "conclusion": "success",
-      "at": "2026-10-23T14:07:09Z",
-      "secs": 1069
-    },
-    {
-      "repo": "yalator-v2",
       "workflow": "CI",
       "conclusion": "success",
       "at": "2026-10-23T14:05:09Z",
@@ -217,28 +231,28 @@
     },
     {
       "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-23T13:58:22Z",
-      "secs": 769
-    },
-    {
-      "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
       "at": "2026-10-23T13:51:57Z",
       "secs": 12
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-23T13:50:33Z",
-      "secs": 14
     }
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "yalator-v2",
+      "sha": "1380e68",
+      "msg": "fix(portal): a",
+      "hidden": 65,
+      "at": "2026-10-23T13:45:26Z"
+    },
+    {
+      "repo": "yalator-v2",
+      "sha": "31e402e",
+      "msg": "perf(portal): instant",
+      "hidden": 46,
+      "at": "2026-10-23T12:32:06Z"
+    },
     {
       "repo": "yalator-v2",
       "sha": "2591677",
@@ -255,10 +269,24 @@
     },
     {
       "repo": "yalator-v2",
+      "sha": "1ffc518",
+      "msg": "feat(portal): partners",
+      "hidden": 46,
+      "at": "2026-10-23T11:55:39Z"
+    },
+    {
+      "repo": "yalator-v2",
       "sha": "f744194",
       "msg": "feat(portal): filters",
       "hidden": 41,
       "at": "2026-10-23T11:52:46Z"
+    },
+    {
+      "repo": "yalator-v2",
+      "sha": "85c133e",
+      "msg": "fix(admin): don't",
+      "hidden": 32,
+      "at": "2026-10-23T11:05:18Z"
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -490,34 +518,6 @@
       "msg": "docs(deploy): record",
       "hidden": 66,
       "at": "2026-10-21T20:07:09Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "ba1c8ce",
-      "msg": "fix(monitoring): alert",
-      "hidden": 77,
-      "at": "2026-10-21T20:06:12Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "30edee5",
-      "msg": "chore(monitoring): roll",
-      "hidden": 70,
-      "at": "2026-10-21T18:50:06Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "47410a5",
-      "msg": "fix(reports): use",
-      "hidden": 71,
-      "at": "2026-10-21T17:25:39Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "69846e8",
-      "msg": "fix(reports): stop",
-      "hidden": 95,
-      "at": "2026-10-21T16:48:51Z"
     }
   ]
 }
