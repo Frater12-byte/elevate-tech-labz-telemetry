@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-23T02:49:06.521Z",
+  "updatedAt": "2026-10-23T03:10:34.456Z",
   "stats": {
-    "commits7d": 128,
-    "commits30d": 813,
+    "commits7d": 126,
+    "commits30d": 814,
     "prsMerged7d": null,
     "releases30d": 0,
     "activeRepos7d": 2,
     "contributors7d": 3,
-    "ciRuns7d": 25,
-    "ciPassRate7d": 100
+    "ciRuns7d": 26,
+    "ciPassRate7d": 96
   },
   "lastRun": {
     "repo": "elevate-tech-labz-site",
-    "conclusion": "success",
-    "at": "2026-10-22T12:54:10Z"
+    "conclusion": "failure",
+    "at": "2026-10-23T02:49:49Z"
   },
   "perDay": [
     {
@@ -134,7 +134,7 @@
     },
     {
       "day": "2026-10-23",
-      "commits": 0
+      "commits": 1
     }
   ],
   "byRepo": [
@@ -144,10 +144,17 @@
     },
     {
       "repo": "elevate-tech-labz-site",
-      "commits": 7
+      "commits": 8
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-tech-labz-site",
+      "workflow": ".github/workflows/azure-static-web-apps-proud-pebble-03c774510.yml",
+      "conclusion": "failure",
+      "at": "2026-10-23T02:49:49Z",
+      "secs": 0
+    },
     {
       "repo": "elevate-tech-labz-site",
       "workflow": "Azure Static Web Apps CI/CD",
@@ -224,17 +231,17 @@
       "conclusion": "success",
       "at": "2026-10-22T05:31:35Z",
       "secs": 644
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-22T05:21:02Z",
-      "secs": 11
     }
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "elevate-tech-labz-site",
+      "sha": "4391185",
+      "msg": "Enable API",
+      "hidden": 30,
+      "at": "2026-10-23T02:49:47Z"
+    },
     {
       "repo": "elevate-tech-labz-site",
       "sha": "34506a7",
@@ -507,13 +514,6 @@
       "msg": "feat(rayna): give",
       "hidden": 99,
       "at": "2026-10-20T17:14:15Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "b153a4a",
-      "msg": "feat(storefront): answer",
-      "hidden": 83,
-      "at": "2026-10-20T17:06:32Z"
     }
   ]
 }
