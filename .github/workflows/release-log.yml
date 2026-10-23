@@ -36,6 +36,7 @@ jobs:
       - name: Build releases.json
         env:
           SECRET_GH_READ_TOKEN: ${{ secrets.GH_READ_TOKEN }}
+          SECRET_GH_READ_TOKEN_2: ${{ secrets.GH_READ_TOKEN_2 }}
           GH_OWNERS: ${{ vars.GH_OWNERS }}
           GH_EXCLUDE: ${{ vars.GH_EXCLUDE }}
           REPO_ALIASES: ${{ vars.REPO_ALIASES }}
