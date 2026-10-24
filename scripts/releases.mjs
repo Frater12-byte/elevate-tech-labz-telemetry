@@ -26,6 +26,16 @@ async function gh(path) {
   if (!r.ok) throw new Error(`${r.status} ${path}\n${await r.text()}`);
   return r.json();
 }
+// weekly lines added/removed for a repo; GitHub computes these in the background and answers 202 until ready
+async function codeFreq(full) {
+  for (let i = 0; i < 4; i++) {
+    const r = await fetch(`https://api.github.com/repos/${full}/stats/code_frequency`, { headers: H });
+    if (r.status === 202) { await new Promise((ok) => setTimeout(ok, 3000)); continue; }
+    if (!r.ok) return null;
+    const j = await r.json().catch(() => null); return Array.isArray(j) ? j : null;
+  }
+  return null;
+}
 async function all(path, cap = 1000) {
   const out = [];
   for (let p = 1; out.length < cap; p++) {
@@ -58,7 +68,7 @@ const repos = [...seenRepos.values()]
   .filter((r) => !OWNERS.length || OWNERS.includes(r.owner.login.toLowerCase()))
   .filter((r) => !EXCLUDE.has(r.full_name.toLowerCase()));
 
-const commits = [], releases = [], authors = new Set(), runsList = []; let runsOk = 0, runsFail = 0, lastRun = null, prsMerged7d = 0, prAccess = true;
+const commits = [], releases = [], authors = new Set(), runsList = []; let add7 = 0, del7 = 0, add30 = 0, del30 = 0, linesPending = 0, runsOk = 0, runsFail = 0, lastRun = null, prsMerged7d = 0, prAccess = true;
 const day = (t) => t.slice(0, 10), perDay = {}, byRepo = {};
 for (const r of repos) {
   if (Date.parse(r.pushed_at) < month) continue;                  // quiet repos don't need a call
@@ -71,6 +81,9 @@ for (const r of repos) {
     authors.add((c.author && c.author.login) || c.commit.author.name);
     { const m = clean(c.commit.message); commits.push({ repo: name, sha: c.sha.slice(0, 7), msg: typeof m === "object" ? m.text : m, hidden: typeof m === "object" ? m.rest : 0, at: c.commit.author.date }); }
   }
+  { const cf = await codeFreq(r.full_name);                          // [[weekStart, additions, -deletions], ...]
+    if (!cf) linesPending++;
+    else for (const [ws, a, d] of cf) { const t = ws * 1000; if (t >= now - 30 * 864e5) { add30 += a; del30 += -d; } if (t >= now - 7 * 864e5) { add7 += a; del7 += -d; } } }
   for (const rel of await gh(`/repos/${r.full_name}/releases?per_page=10`)) {
     if (rel.draft || Date.parse(rel.published_at) < month) continue;
     releases.push({ repo: name, tag: rel.tag_name, name: (function(){ const m = MODE === "hidden" ? "" : clean(rel.name || rel.tag_name); return typeof m === "object" ? m.text : m; })(), at: rel.published_at, pre: rel.prerelease });
@@ -98,7 +111,7 @@ process.stdout.write(JSON.stringify({
     prsMerged7d: prAccess ? prsMerged7d : null,
     releases30d: releases.length,
     activeRepos7d: new Set(commits.map((c) => c.repo)).size,
-    contributors7d: authors.size,
+    linesAdded7d: add7, linesRemoved7d: del7, linesAdded30d: add30, linesRemoved30d: del30, linesPartial: linesPending > 0,
     ciRuns7d: runsOk + runsFail,
     ciPassRate7d: runsOk + runsFail ? Math.round((runsOk / (runsOk + runsFail)) * 100) : null
   },
