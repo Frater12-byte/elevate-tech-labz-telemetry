@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-24T02:17:58.655Z",
+  "updatedAt": "2026-10-24T02:42:15.295Z",
   "stats": {
-    "commits7d": 169,
-    "commits30d": 1032,
-    "prsMerged7d": 55,
+    "commits7d": 172,
+    "commits30d": 1035,
+    "prsMerged7d": 57,
     "releases30d": 0,
     "activeRepos7d": 3,
     "contributors7d": 3,
-    "ciRuns7d": 58,
+    "ciRuns7d": 53,
     "ciPassRate7d": 81
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-24T02:15:29Z"
+    "at": "2026-10-24T02:33:15Z"
   },
   "perDay": [
     {
@@ -134,17 +134,17 @@
     },
     {
       "day": "2026-10-24",
-      "commits": 1
+      "commits": 4
     }
   ],
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 823
+      "commits": 822
     },
     {
       "repo": "elevate-hub",
-      "commits": 209
+      "commits": 210
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -152,6 +152,48 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-24T02:33:15Z",
+      "secs": 12
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-24T02:32:04Z",
+      "secs": 755
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-24T02:28:44Z",
+      "secs": 1112
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-10-24T02:19:44Z",
+      "secs": 269
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-24T02:19:42Z",
+      "secs": 13
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-10-24T02:19:28Z",
+      "secs": 1
+    },
     {
       "repo": "yalator-v2",
       "workflow": "Controlled drain",
@@ -193,52 +235,31 @@
       "conclusion": "success",
       "at": "2026-10-23T15:09:33Z",
       "secs": 223
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-23T15:06:44Z",
-      "secs": 1101
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-10-23T15:06:17Z",
-      "secs": 178
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-23T15:05:48Z",
-      "secs": 1104
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
-      "conclusion": "success",
-      "at": "2026-10-23T15:04:41Z",
-      "secs": 1037
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-23T15:03:18Z",
-      "secs": 990
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-10-23T15:03:06Z",
-      "secs": 23
     }
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "yalator-v2",
+      "sha": "f553c43",
+      "msg": "fix(b2c): destination",
+      "hidden": 54,
+      "at": "2026-10-24T02:19:22Z"
+    },
+    {
+      "repo": "yalator-v2",
+      "sha": "7d583eb",
+      "msg": "fix(b2c): home",
+      "hidden": 75,
+      "at": "2026-10-24T02:14:56Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "213a92d",
+      "msg": "fix(portal): stop",
+      "hidden": 32,
+      "at": "2026-10-24T02:10:02Z"
+    },
     {
       "repo": "elevate-tech-labz-site",
       "sha": "7011128",
@@ -497,27 +518,6 @@
       "msg": "Create function.json",
       "hidden": 0,
       "at": "2026-10-23T04:34:42Z"
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "sha": "d615dec",
-      "msg": "Create index.js",
-      "hidden": 0,
-      "at": "2026-10-23T04:34:24Z"
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "sha": "4391185",
-      "msg": "Enable API",
-      "hidden": 30,
-      "at": "2026-10-23T02:49:47Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "4669c7e",
-      "msg": "fix(deploy): preserve",
-      "hidden": 38,
-      "at": "2026-10-22T19:12:59Z"
     }
   ]
 }
