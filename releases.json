@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T09:25:04.398Z",
+  "updatedAt": "2026-10-25T09:38:01.944Z",
   "stats": {
     "commits7d": 179,
     "commits30d": 1005,
@@ -11,13 +11,13 @@
     "linesAdded30d": 278778,
     "linesRemoved30d": 50261,
     "linesPartial": false,
-    "ciRuns7d": 58,
-    "ciPassRate7d": 88
+    "ciRuns7d": 54,
+    "ciPassRate7d": 87
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-25T09:23:46Z"
+    "at": "2026-10-25T09:31:21Z"
   },
   "perDay": [
     {
@@ -158,6 +158,20 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-25T09:31:21Z",
+      "secs": 13
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-25T09:28:49Z",
+      "secs": 14
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "CI",
       "conclusion": "success",
       "at": "2026-10-25T09:23:46Z",
@@ -225,20 +239,6 @@
       "conclusion": "success",
       "at": "2026-10-25T09:04:42Z",
       "secs": 12
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-25T09:04:20Z",
-      "secs": 882
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-25T08:55:05Z",
-      "secs": 56
     }
   ],
   "releases": [],
