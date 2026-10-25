@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T10:08:02.366Z",
+  "updatedAt": "2026-10-25T10:23:56.307Z",
   "stats": {
     "commits7d": 185,
     "commits30d": 1011,
@@ -11,13 +11,13 @@
     "linesAdded30d": 279364,
     "linesRemoved30d": 50385,
     "linesPartial": false,
-    "ciRuns7d": 50,
-    "ciPassRate7d": 86
+    "ciRuns7d": 58,
+    "ciPassRate7d": 88
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-25T10:00:39Z"
+    "at": "2026-10-25T10:22:47Z"
   },
   "perDay": [
     {
@@ -158,87 +158,87 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
+      "workflow": "Deploy published staging applications",
       "conclusion": "success",
-      "at": "2026-10-25T10:00:39Z",
-      "secs": 385
+      "at": "2026-10-25T10:22:47Z",
+      "secs": 490
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-10-25T10:22:19Z",
+      "secs": 577
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-10-25T10:18:35Z",
+      "secs": 361
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-10-25T10:18:10Z",
+      "secs": 377
     },
     {
       "repo": "yalator-v2",
       "workflow": "Deploy Yalator Backend",
       "conclusion": "success",
-      "at": "2026-10-25T09:58:16Z",
-      "secs": 246
+      "at": "2026-10-25T10:16:43Z",
+      "secs": 1277
     },
     {
       "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
+      "workflow": "Publish staging release candidates",
       "conclusion": "success",
-      "at": "2026-10-25T09:56:37Z",
-      "secs": 152
+      "at": "2026-10-25T10:14:36Z",
+      "secs": 186
     },
     {
       "repo": "yalator-v2",
-      "workflow": "Controlled drain",
+      "workflow": "Publish staging release candidates",
       "conclusion": "success",
-      "at": "2026-10-25T09:55:41Z",
-      "secs": 15
+      "at": "2026-10-25T10:12:40Z",
+      "secs": 197
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Publish staging release candidates",
+      "conclusion": "success",
+      "at": "2026-10-25T10:12:31Z",
+      "secs": 196
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Publish staging release candidates",
+      "conclusion": "success",
+      "at": "2026-10-25T10:11:51Z",
+      "secs": 208
     },
     {
       "repo": "yalator-v2",
       "workflow": "CI",
       "conclusion": "success",
-      "at": "2026-10-25T09:55:05Z",
-      "secs": 832
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-25T09:54:27Z",
-      "secs": 13
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-25T09:54:20Z",
-      "secs": 10
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-25T09:54:19Z",
-      "secs": 14
+      "at": "2026-10-25T10:11:28Z",
+      "secs": 1043
     },
     {
       "repo": "yalator-v2",
       "workflow": "CI",
       "conclusion": "success",
-      "at": "2026-10-25T09:45:23Z",
-      "secs": 855
+      "at": "2026-10-25T10:09:21Z",
+      "secs": 835
     },
     {
       "repo": "yalator-v2",
       "workflow": "CI",
-      "conclusion": "cancelled",
-      "at": "2026-10-25T09:41:30Z",
-      "secs": 218
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
       "conclusion": "success",
-      "at": "2026-10-25T09:41:24Z",
-      "secs": 11
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-10-25T09:41:20Z",
-      "secs": 9
+      "at": "2026-10-25T10:09:13Z",
+      "secs": 903
     }
   ],
   "releases": [],
