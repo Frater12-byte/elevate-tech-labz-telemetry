@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-25T11:48:20.809Z",
+  "updatedAt": "2026-10-25T12:11:44.802Z",
   "stats": {
-    "commits7d": 187,
-    "commits30d": 1041,
-    "prsMerged7d": 66,
+    "commits7d": 188,
+    "commits30d": 1042,
+    "prsMerged7d": 67,
     "prsMerged30d": 306,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
-    "linesAdded7d": 49269,
+    "linesAdded7d": 49386,
     "linesRemoved7d": 10838,
-    "linesAdded30d": 282496,
+    "linesAdded30d": 282613,
     "linesRemoved30d": 48943,
     "linesPartial": false,
-    "ciRuns7d": 155,
+    "ciRuns7d": 154,
     "ciPassRate7d": 92,
-    "ciRuns30d": 212,
+    "ciRuns30d": 211,
     "ciPassRate30d": 92
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-25T11:43:08Z"
+    "at": "2026-10-25T12:05:56Z"
   },
   "perDay": [
     {
@@ -194,8 +194,8 @@
     },
     {
       "day": "2026-10-24",
-      "commits": 8,
-      "added": 627,
+      "commits": 9,
+      "added": 744,
       "removed": 143
     },
     {
@@ -208,7 +208,7 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 154101,
+      "added": 154218,
       "removed": 22206
     },
     {
@@ -385,7 +385,7 @@
       0,
       14,
       6,
-      9,
+      10,
       7,
       8,
       3,
@@ -434,7 +434,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 799
+      "commits": 800
     },
     {
       "repo": "elevate-hub",
@@ -446,6 +446,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-25T12:05:56Z",
+      "secs": 13
+    },
     {
       "repo": "yalator-v2",
       "workflow": "Deploy published staging applications",
@@ -522,13 +529,6 @@
       "conclusion": "success",
       "at": "2026-10-25T10:18:35Z",
       "secs": 361
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-10-25T10:18:10Z",
-      "secs": 377
     }
   ],
   "releases": [],
@@ -616,6 +616,13 @@
       "msg": "SEO logo",
       "hidden": 78,
       "at": "2026-10-24T03:09:16Z"
+    },
+    {
+      "repo": "yalator-v2",
+      "sha": "8c536d5",
+      "msg": "fix(backend): refuse",
+      "hidden": 43,
+      "at": "2026-10-24T02:56:41Z"
     },
     {
       "repo": "elevate-hub",
@@ -805,13 +812,6 @@
       "msg": "Remove last",
       "hidden": 29,
       "at": "2026-10-23T06:10:09Z"
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "sha": "a96598c",
-      "msg": "Dice: side",
-      "hidden": 23,
-      "at": "2026-10-23T05:49:11Z"
     }
   ]
 }
