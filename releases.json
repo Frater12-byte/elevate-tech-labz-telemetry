@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-10-25T11:07:27.567Z",
+  "updatedAt": "2026-10-25T11:22:05.410Z",
   "stats": {
-    "commits7d": 185,
-    "commits30d": 1011,
-    "prsMerged7d": 65,
+    "commits7d": 186,
+    "commits30d": 1012,
+    "prsMerged7d": 66,
     "releases30d": 0,
     "activeRepos7d": 3,
-    "linesAdded7d": 1228,
-    "linesRemoved7d": 214,
-    "linesAdded30d": 279364,
-    "linesRemoved30d": 50385,
+    "linesAdded7d": 1294,
+    "linesRemoved7d": 279,
+    "linesAdded30d": 279430,
+    "linesRemoved30d": 50450,
     "linesPartial": false,
-    "ciRuns7d": 58,
+    "ciRuns7d": 56,
     "ciPassRate7d": 88
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-25T10:35:45Z"
+    "at": "2026-10-25T11:16:33Z"
   },
   "perDay": [
     {
@@ -138,13 +138,13 @@
     },
     {
       "day": "2026-10-25",
-      "commits": 9
+      "commits": 10
     }
   ],
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 798
+      "commits": 799
     },
     {
       "repo": "elevate-hub",
@@ -156,6 +156,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-25T11:16:33Z",
+      "secs": 12
+    },
     {
       "repo": "yalator-v2",
       "workflow": "CI",
@@ -232,17 +239,17 @@
       "conclusion": "success",
       "at": "2026-10-25T10:11:51Z",
       "secs": 208
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-25T10:11:28Z",
-      "secs": 1043
     }
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "yalator-v2",
+      "sha": "335a937",
+      "msg": "feat(b2c): destination-neutral",
+      "hidden": 64,
+      "at": "2026-10-25T10:24:12Z"
+    },
     {
       "repo": "yalator-v2",
       "sha": "54d3c54",
@@ -515,13 +522,6 @@
       "msg": "Mobile: shorter,",
       "hidden": 26,
       "at": "2026-10-23T05:34:42Z"
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "sha": "2a028b4",
-      "msg": "Mobile: analytics",
-      "hidden": 61,
-      "at": "2026-10-23T05:16:03Z"
     }
   ]
 }
