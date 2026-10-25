@@ -1,18 +1,22 @@
 {
-  "updatedAt": "2026-10-25T11:22:05.410Z",
+  "updatedAt": "2026-10-25T11:30:31.998Z",
   "stats": {
     "commits7d": 186,
-    "commits30d": 1012,
+    "commits30d": 1040,
     "prsMerged7d": 66,
+    "prsMerged30d": 306,
     "releases30d": 0,
     "activeRepos7d": 3,
-    "linesAdded7d": 1294,
-    "linesRemoved7d": 279,
-    "linesAdded30d": 279430,
-    "linesRemoved30d": 50450,
+    "activeRepos30d": 3,
+    "linesAdded7d": 49143,
+    "linesRemoved7d": 10808,
+    "linesAdded30d": 282370,
+    "linesRemoved30d": 48913,
     "linesPartial": false,
-    "ciRuns7d": 56,
-    "ciPassRate7d": 88
+    "ciRuns7d": 152,
+    "ciPassRate7d": 91,
+    "ciRuns30d": 209,
+    "ciPassRate30d": 92
   },
   "lastRun": {
     "repo": "yalator-v2",
@@ -22,124 +26,410 @@
   "perDay": [
     {
       "day": "2026-09-26",
-      "commits": 7
+      "commits": 7,
+      "added": 234,
+      "removed": 121
     },
     {
       "day": "2026-09-27",
-      "commits": 1
+      "commits": 1,
+      "added": 245,
+      "removed": 93
     },
     {
       "day": "2026-09-28",
-      "commits": 27
+      "commits": 27,
+      "added": 5332,
+      "removed": 1169
     },
     {
       "day": "2026-09-29",
-      "commits": 23
+      "commits": 23,
+      "added": 12623,
+      "removed": 957
     },
     {
       "day": "2026-09-30",
-      "commits": 52
+      "commits": 52,
+      "added": 15489,
+      "removed": 1192
     },
     {
       "day": "2026-10-01",
-      "commits": 23
+      "commits": 23,
+      "added": 4646,
+      "removed": 2655
     },
     {
       "day": "2026-10-02",
-      "commits": 34
+      "commits": 34,
+      "added": 11005,
+      "removed": 1771
     },
     {
       "day": "2026-10-03",
-      "commits": 38
+      "commits": 38,
+      "added": 10540,
+      "removed": 791
     },
     {
       "day": "2026-10-04",
-      "commits": 22
+      "commits": 22,
+      "added": 6182,
+      "removed": 614
     },
     {
       "day": "2026-10-05",
-      "commits": 65
+      "commits": 65,
+      "added": 15004,
+      "removed": 3020
     },
     {
       "day": "2026-10-06",
-      "commits": 73
+      "commits": 73,
+      "added": 19714,
+      "removed": 4660
     },
     {
       "day": "2026-10-07",
-      "commits": 79
+      "commits": 79,
+      "added": 14617,
+      "removed": 1777
     },
     {
       "day": "2026-10-08",
-      "commits": 33
+      "commits": 33,
+      "added": 6012,
+      "removed": 641
     },
     {
       "day": "2026-10-09",
-      "commits": 48
+      "commits": 48,
+      "added": 11595,
+      "removed": 2591
     },
     {
       "day": "2026-10-10",
-      "commits": 21
+      "commits": 21,
+      "added": 3944,
+      "removed": 523
     },
     {
       "day": "2026-10-11",
-      "commits": 12
+      "commits": 12,
+      "added": 2466,
+      "removed": 146
     },
     {
       "day": "2026-10-12",
-      "commits": 66
+      "commits": 66,
+      "added": 20756,
+      "removed": 3796
     },
     {
       "day": "2026-10-13",
-      "commits": 50
+      "commits": 50,
+      "added": 19249,
+      "removed": 3820
     },
     {
       "day": "2026-10-14",
-      "commits": 59
+      "commits": 59,
+      "added": 23460,
+      "removed": 3354
     },
     {
       "day": "2026-10-15",
-      "commits": 66
+      "commits": 66,
+      "added": 17477,
+      "removed": 2928
     },
     {
       "day": "2026-10-16",
-      "commits": 27
+      "commits": 27,
+      "added": 5969,
+      "removed": 1205
     },
     {
       "day": "2026-10-17",
-      "commits": 0
+      "commits": 0,
+      "added": 0,
+      "removed": 0
     },
     {
       "day": "2026-10-18",
-      "commits": 11
+      "commits": 11,
+      "added": 3880,
+      "removed": 374
     },
     {
       "day": "2026-10-19",
-      "commits": 34
+      "commits": 34,
+      "added": 6719,
+      "removed": 1793
     },
     {
       "day": "2026-10-20",
-      "commits": 25
+      "commits": 25,
+      "added": 3989,
+      "removed": 1162
     },
     {
       "day": "2026-10-21",
-      "commits": 51
+      "commits": 51,
+      "added": 12179,
+      "removed": 1394
     },
     {
       "day": "2026-10-22",
-      "commits": 9
+      "commits": 9,
+      "added": 7744,
+      "removed": 481
     },
     {
       "day": "2026-10-23",
-      "commits": 38
+      "commits": 38,
+      "added": 12711,
+      "removed": 5182
     },
     {
       "day": "2026-10-24",
-      "commits": 8
+      "commits": 8,
+      "added": 627,
+      "removed": 143
     },
     {
       "day": "2026-10-25",
-      "commits": 10
+      "commits": 10,
+      "added": 1294,
+      "removed": 279
     }
+  ],
+  "languages": [
+    {
+      "lang": "TypeScript",
+      "added": 154101,
+      "removed": 22206
+    },
+    {
+      "lang": "Python",
+      "added": 62280,
+      "removed": 11416
+    },
+    {
+      "lang": "Shell",
+      "added": 25152,
+      "removed": 4549
+    },
+    {
+      "lang": "HTML",
+      "added": 16066,
+      "removed": 5613
+    },
+    {
+      "lang": "Markdown",
+      "added": 14569,
+      "removed": 3732
+    },
+    {
+      "lang": "YAML",
+      "added": 3700,
+      "removed": 314
+    },
+    {
+      "lang": "JavaScript",
+      "added": 1726,
+      "removed": 668
+    },
+    {
+      "lang": "Other",
+      "added": 4776,
+      "removed": 415
+    }
+  ],
+  "heatmap": [
+    [
+      7,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      6,
+      10,
+      9,
+      8,
+      14,
+      12,
+      14,
+      5,
+      21,
+      20,
+      7,
+      16,
+      12,
+      5,
+      7,
+      13
+    ],
+    [
+      9,
+      4,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      2,
+      10,
+      7,
+      8,
+      12,
+      11,
+      16,
+      21,
+      14,
+      11,
+      3,
+      4,
+      4,
+      5,
+      1,
+      8
+    ],
+    [
+      22,
+      0,
+      0,
+      11,
+      11,
+      8,
+      6,
+      3,
+      10,
+      10,
+      2,
+      16,
+      9,
+      9,
+      14,
+      25,
+      20,
+      23,
+      12,
+      8,
+      14,
+      2,
+      6,
+      6
+    ],
+    [
+      13,
+      10,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      11,
+      4,
+      5,
+      15,
+      18,
+      18,
+      10,
+      7,
+      10,
+      5,
+      10,
+      0,
+      2,
+      1,
+      1
+    ],
+    [
+      2,
+      1,
+      0,
+      1,
+      0,
+      0,
+      8,
+      4,
+      15,
+      8,
+      11,
+      11,
+      7,
+      13,
+      8,
+      26,
+      20,
+      15,
+      11,
+      5,
+      2,
+      0,
+      1,
+      0
+    ],
+    [
+      2,
+      7,
+      1,
+      0,
+      14,
+      6,
+      9,
+      7,
+      8,
+      3,
+      1,
+      0,
+      0,
+      5,
+      1,
+      2,
+      1,
+      3,
+      0,
+      0,
+      1,
+      2,
+      2,
+      2
+    ],
+    [
+      2,
+      3,
+      2,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      2,
+      14,
+      2,
+      0,
+      2,
+      1,
+      2,
+      2,
+      0,
+      10,
+      8,
+      1
+    ]
   ],
   "byRepo": [
     {
