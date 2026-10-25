@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T12:53:30.271Z",
+  "updatedAt": "2026-10-25T13:07:28.903Z",
   "stats": {
     "commits7d": 189,
     "commits30d": 1042,
@@ -13,15 +13,15 @@
     "linesAdded30d": 282636,
     "linesRemoved30d": 48981,
     "linesPartial": false,
-    "ciRuns7d": 153,
+    "ciRuns7d": 155,
     "ciPassRate7d": 92,
-    "ciRuns30d": 210,
+    "ciRuns30d": 212,
     "ciPassRate30d": 92
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-25T12:51:18Z"
+    "at": "2026-10-25T12:57:41Z"
   },
   "perDay": [
     {
@@ -448,6 +448,27 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "Deploy Yalator Backend",
+      "conclusion": "success",
+      "at": "2026-10-25T12:57:41Z",
+      "secs": 1247
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-25T12:57:00Z",
+      "secs": 1206
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Publish staging release candidates",
+      "conclusion": "success",
+      "at": "2026-10-25T12:56:00Z",
+      "secs": 280
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "CI",
       "conclusion": "success",
       "at": "2026-10-25T12:51:18Z",
@@ -508,27 +529,6 @@
       "conclusion": "success",
       "at": "2026-10-25T11:33:56Z",
       "secs": 1055
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
-      "conclusion": "success",
-      "at": "2026-10-25T11:31:45Z",
-      "secs": 924
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "workflow": "Azure Static Web Apps CI/CD",
-      "conclusion": "success",
-      "at": "2026-10-25T11:31:35Z",
-      "secs": 60
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-25T11:16:33Z",
-      "secs": 12
     }
   ],
   "releases": [],
