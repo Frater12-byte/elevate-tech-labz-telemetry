@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-10-25T08:30:25.767Z",
+  "updatedAt": "2026-10-25T08:50:54.320Z",
   "stats": {
-    "commits7d": 176,
-    "commits30d": 1002,
-    "prsMerged7d": 59,
+    "commits7d": 178,
+    "commits30d": 1004,
+    "prsMerged7d": 61,
     "releases30d": 0,
     "activeRepos7d": 3,
-    "linesAdded7d": 0,
-    "linesRemoved7d": 0,
-    "linesAdded30d": 278136,
-    "linesRemoved30d": 50171,
+    "linesAdded7d": 634,
+    "linesRemoved7d": 86,
+    "linesAdded30d": 278770,
+    "linesRemoved30d": 50257,
     "linesPartial": false,
-    "ciRuns7d": 56,
-    "ciPassRate7d": 84
+    "ciRuns7d": 54,
+    "ciPassRate7d": 85
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-25T08:12:29Z"
+    "at": "2026-10-25T08:49:56Z"
   },
   "perDay": [
     {
@@ -138,13 +138,13 @@
     },
     {
       "day": "2026-10-25",
-      "commits": 0
+      "commits": 2
     }
   ],
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 792
+      "commits": 794
     },
     {
       "repo": "elevate-hub",
@@ -156,6 +156,20 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-25T08:49:56Z",
+      "secs": 13
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-25T08:49:49Z",
+      "secs": 11
+    },
     {
       "repo": "yalator-v2",
       "workflow": "CI",
@@ -225,24 +239,24 @@
       "conclusion": "cancelled",
       "at": "2026-10-24T03:06:00Z",
       "secs": 97
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-24T03:03:00Z",
-      "secs": 840
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-24T02:57:24Z",
-      "secs": 1124
     }
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "yalator-v2",
+      "sha": "b4ec47a",
+      "msg": "feat(b2c): search",
+      "hidden": 90,
+      "at": "2026-10-25T08:00:20Z"
+    },
+    {
+      "repo": "yalator-v2",
+      "sha": "ac1a06c",
+      "msg": "feat(mobile): planner",
+      "hidden": 70,
+      "at": "2026-10-25T05:59:50Z"
+    },
     {
       "repo": "elevate-tech-labz-site",
       "sha": "c7bc921",
@@ -508,20 +522,6 @@
       "msg": "Delete index_5.html",
       "hidden": 0,
       "at": "2026-10-23T04:36:19Z"
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "sha": "83defff",
-      "msg": "Update privacy.html",
-      "hidden": 0,
-      "at": "2026-10-23T04:36:01Z"
-    },
-    {
-      "repo": "elevate-tech-labz-site",
-      "sha": "64eac5a",
-      "msg": "Update sitemap.xml",
-      "hidden": 0,
-      "at": "2026-10-23T04:35:50Z"
     }
   ]
 }
