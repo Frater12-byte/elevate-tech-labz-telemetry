@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T12:11:44.802Z",
+  "updatedAt": "2026-10-25T12:33:39.007Z",
   "stats": {
     "commits7d": 188,
     "commits30d": 1042,
@@ -13,15 +13,15 @@
     "linesAdded30d": 282613,
     "linesRemoved30d": 48943,
     "linesPartial": false,
-    "ciRuns7d": 154,
+    "ciRuns7d": 156,
     "ciPassRate7d": 92,
-    "ciRuns30d": 211,
+    "ciRuns30d": 213,
     "ciPassRate30d": 92
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-25T12:05:56Z"
+    "at": "2026-10-25T12:32:24Z"
   },
   "perDay": [
     {
@@ -448,6 +448,34 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-10-25T12:32:24Z",
+      "secs": 383
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Publish staging release candidates",
+      "conclusion": "success",
+      "at": "2026-10-25T12:25:59Z",
+      "secs": 268
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy Yalator Backend",
+      "conclusion": "success",
+      "at": "2026-10-25T12:22:31Z",
+      "secs": 1008
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-25T12:21:29Z",
+      "secs": 946
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
       "at": "2026-10-25T12:05:56Z",
@@ -501,34 +529,6 @@
       "conclusion": "success",
       "at": "2026-10-25T10:35:45Z",
       "secs": 686
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-25T10:24:31Z",
-      "secs": 12
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-10-25T10:22:47Z",
-      "secs": 490
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-10-25T10:22:19Z",
-      "secs": 577
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-10-25T10:18:35Z",
-      "secs": 361
     }
   ],
   "releases": [],
