@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-24T23:48:22.039Z",
+  "updatedAt": "2026-10-25T00:24:15.725Z",
   "stats": {
     "commits7d": 176,
-    "commits30d": 1039,
+    "commits30d": 1002,
     "prsMerged7d": 59,
     "releases30d": 0,
     "activeRepos7d": 3,
-    "linesAdded7d": 48116,
-    "linesRemoved7d": 10530,
+    "linesAdded7d": 0,
+    "linesRemoved7d": 0,
     "linesAdded30d": 278136,
     "linesRemoved30d": 50171,
     "linesPartial": false,
@@ -20,10 +20,6 @@
     "at": "2026-10-24T03:27:03Z"
   },
   "perDay": [
-    {
-      "day": "2026-09-25",
-      "commits": 37
-    },
     {
       "day": "2026-09-26",
       "commits": 7
@@ -139,6 +135,10 @@
     {
       "day": "2026-10-24",
       "commits": 8
+    },
+    {
+      "day": "2026-10-25",
+      "commits": 0
     }
   ],
   "byRepo": [
