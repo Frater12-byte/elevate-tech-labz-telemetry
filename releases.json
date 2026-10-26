@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-10-26T17:08:39.817Z",
+  "updatedAt": "2026-10-26T17:25:59.895Z",
   "stats": {
-    "commits7d": 171,
-    "commits30d": 1057,
-    "prsMerged7d": 66,
-    "prsMerged30d": 314,
+    "commits7d": 172,
+    "commits30d": 1058,
+    "prsMerged7d": 67,
+    "prsMerged30d": 315,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
-    "linesAdded7d": 43239,
-    "linesRemoved7d": 10067,
-    "linesAdded30d": 285328,
-    "linesRemoved30d": 50131,
+    "linesAdded7d": 46522,
+    "linesRemoved7d": 10747,
+    "linesAdded30d": 288611,
+    "linesRemoved30d": 50811,
     "linesPartial": false,
     "ciRuns7d": 159,
     "ciPassRate7d": 92,
-    "ciRuns30d": 205,
+    "ciRuns30d": 204,
     "ciPassRate30d": 92
   },
   "lastRun": {
@@ -200,9 +200,9 @@
     },
     {
       "day": "2026-10-26",
-      "commits": 8,
-      "added": 983,
-      "removed": 144
+      "commits": 9,
+      "added": 4266,
+      "removed": 824
     }
   ],
   "languages": [
@@ -213,8 +213,8 @@
     },
     {
       "lang": "Python",
-      "added": 63049,
-      "removed": 11452
+      "added": 66300,
+      "removed": 12120
     },
     {
       "lang": "Shell",
@@ -223,8 +223,8 @@
     },
     {
       "lang": "HTML",
-      "added": 16192,
-      "removed": 5643
+      "added": 16224,
+      "removed": 5655
     },
     {
       "lang": "Markdown",
@@ -268,7 +268,7 @@
       21,
       23,
       8,
-      16,
+      17,
       12,
       5,
       7,
@@ -438,7 +438,7 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 214
+      "commits": 215
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -533,6 +533,13 @@
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "elevate-hub",
+      "sha": "0ee6686",
+      "msg": "fix(attachments): read",
+      "hidden": 77,
+      "at": "2026-10-26T15:57:22Z"
+    },
     {
       "repo": "elevate-hub",
       "sha": "9aa21c1",
@@ -805,13 +812,6 @@
       "msg": "fix(b2c): home",
       "hidden": 75,
       "at": "2026-10-24T02:14:56Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "213a92d",
-      "msg": "fix(portal): stop",
-      "hidden": 32,
-      "at": "2026-10-24T02:10:02Z"
     }
   ]
 }
