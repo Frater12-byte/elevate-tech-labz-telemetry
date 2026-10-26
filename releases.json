@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-26T14:15:34.783Z",
+  "updatedAt": "2026-10-26T15:17:45.935Z",
   "stats": {
     "commits7d": 170,
-    "commits30d": 1053,
-    "prsMerged7d": 71,
-    "prsMerged30d": 311,
+    "commits30d": 1056,
+    "prsMerged7d": 65,
+    "prsMerged30d": 313,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
-    "linesAdded7d": 42537,
-    "linesRemoved7d": 10025,
-    "linesAdded30d": 284517,
-    "linesRemoved30d": 50066,
+    "linesAdded7d": 42906,
+    "linesRemoved7d": 10062,
+    "linesAdded30d": 284995,
+    "linesRemoved30d": 50126,
     "linesPartial": false,
-    "ciRuns7d": 155,
+    "ciRuns7d": 156,
     "ciPassRate7d": 92,
-    "ciRuns30d": 206,
+    "ciRuns30d": 204,
     "ciPassRate30d": 92
   },
   "lastRun": {
     "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-10-26T13:43:10Z"
+    "at": "2026-10-26T15:09:29Z"
   },
   "perDay": [
     {
@@ -200,9 +200,9 @@
     },
     {
       "day": "2026-10-26",
-      "commits": 4,
-      "added": 172,
-      "removed": 79
+      "commits": 7,
+      "added": 650,
+      "removed": 139
     }
   ],
   "languages": [
@@ -213,13 +213,13 @@
     },
     {
       "lang": "Python",
-      "added": 62280,
-      "removed": 11416
+      "added": 62716,
+      "removed": 11447
     },
     {
       "lang": "Shell",
-      "added": 25214,
-      "removed": 4583
+      "added": 25222,
+      "removed": 4591
     },
     {
       "lang": "HTML",
@@ -228,13 +228,13 @@
     },
     {
       "lang": "Markdown",
-      "added": 14570,
-      "removed": 3750
+      "added": 14601,
+      "removed": 3768
     },
     {
       "lang": "YAML",
-      "added": 3716,
-      "removed": 330
+      "added": 3719,
+      "removed": 333
     },
     {
       "lang": "JavaScript",
@@ -266,7 +266,7 @@
       14,
       5,
       21,
-      20,
+      23,
       7,
       16,
       12,
@@ -438,7 +438,7 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 210
+      "commits": 213
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -446,6 +446,20 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-26T15:09:29Z",
+      "secs": 1339
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-10-26T14:47:32Z",
+      "secs": 700
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -515,24 +529,31 @@
       "conclusion": "success",
       "at": "2026-10-26T12:44:39Z",
       "secs": 990
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-26T12:28:23Z",
-      "secs": 14
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-26T12:04:09Z",
-      "secs": 785
     }
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "elevate-hub",
+      "sha": "35a01c1",
+      "msg": "fix(bookings): refresh",
+      "hidden": 66,
+      "at": "2026-10-26T13:18:55Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "ed9be61",
+      "msg": "docs: Record",
+      "hidden": 47,
+      "at": "2026-10-26T13:10:31Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "f0d1e9d",
+      "msg": "chore: Raise",
+      "hidden": 61,
+      "at": "2026-10-26T13:06:55Z"
+    },
     {
       "repo": "yalator-v2",
       "sha": "24ea194",
@@ -791,27 +812,6 @@
       "msg": "Mobile: no",
       "hidden": 46,
       "at": "2026-10-24T02:00:54Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "7829a36",
-      "msg": "feat(yara): pick",
-      "hidden": 62,
-      "at": "2026-10-23T14:33:18Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "18f8eb3",
-      "msg": "fix(yara): render",
-      "hidden": 68,
-      "at": "2026-10-23T14:33:17Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "253e009",
-      "msg": "fix(yara): refuse",
-      "hidden": 71,
-      "at": "2026-10-23T14:33:16Z"
     }
   ]
 }
