@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T07:33:52.796Z",
+  "updatedAt": "2026-10-28T07:48:38.174Z",
   "stats": {
     "commits7d": 219,
     "commits30d": 1110,
@@ -13,15 +13,15 @@
     "linesAdded30d": 305442,
     "linesRemoved30d": 54478,
     "linesPartial": false,
-    "ciRuns7d": 188,
-    "ciPassRate7d": 89,
-    "ciRuns30d": 188,
-    "ciPassRate30d": 89
+    "ciRuns7d": 187,
+    "ciPassRate7d": 86,
+    "ciRuns30d": 187,
+    "ciPassRate30d": 86
   },
   "lastRun": {
-    "repo": "yalator-v2",
-    "conclusion": "failure",
-    "at": "2026-10-28T07:32:52Z"
+    "repo": "elevate-hub",
+    "conclusion": "success",
+    "at": "2026-10-28T07:48:35Z"
   },
   "perDay": [
     {
@@ -447,88 +447,88 @@
   ],
   "recentRuns": [
     {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "failure",
-      "at": "2026-10-28T07:32:52Z",
-      "secs": 211
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-28T07:32:24Z",
-      "secs": 14
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "failure",
-      "at": "2026-10-28T07:30:34Z",
-      "secs": 182
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-28T07:29:34Z",
-      "secs": 13
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "failure",
-      "at": "2026-10-28T07:28:36Z",
-      "secs": 232
-    },
-    {
       "repo": "elevate-hub",
       "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-28T07:48:35Z",
+      "secs": 1254
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
       "conclusion": "cancelled",
-      "at": "2026-10-28T07:28:11Z",
-      "secs": 957
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "failure",
-      "at": "2026-10-28T07:27:59Z",
-      "secs": 171
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-28T07:27:44Z",
-      "secs": 12
+      "at": "2026-10-28T07:44:54Z",
+      "secs": 473
     },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
       "conclusion": "success",
-      "at": "2026-10-28T07:27:05Z",
-      "secs": 882
+      "at": "2026-10-28T07:44:07Z",
+      "secs": 994
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-10-28T07:43:29Z",
+      "secs": 1
     },
     {
       "repo": "yalator-v2",
       "workflow": "CI",
       "conclusion": "failure",
-      "at": "2026-10-28T07:26:48Z",
-      "secs": 216
+      "at": "2026-10-28T07:42:31Z",
+      "secs": 194
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "failure",
+      "at": "2026-10-28T07:42:11Z",
+      "secs": 309
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "failure",
+      "at": "2026-10-28T07:40:55Z",
+      "secs": 176
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "failure",
+      "at": "2026-10-28T07:39:29Z",
+      "secs": 187
     },
     {
       "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
-      "at": "2026-10-28T07:25:22Z",
-      "secs": 14
+      "at": "2026-10-28T07:39:28Z",
+      "secs": 11
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "failure",
+      "at": "2026-10-28T07:38:44Z",
+      "secs": 207
     },
     {
       "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
-      "at": "2026-10-28T07:24:57Z",
+      "at": "2026-10-28T07:38:12Z",
       "secs": 13
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-28T07:36:33Z",
+      "secs": 11
     }
   ],
   "releases": [],
