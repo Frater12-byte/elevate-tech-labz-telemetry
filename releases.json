@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-28T04:48:22.172Z",
+  "updatedAt": "2026-10-28T05:07:18.176Z",
   "stats": {
-    "commits7d": 203,
-    "commits30d": 1097,
-    "prsMerged7d": 88,
-    "prsMerged30d": 339,
+    "commits7d": 206,
+    "commits30d": 1100,
+    "prsMerged7d": 89,
+    "prsMerged30d": 340,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
-    "linesAdded7d": 58880,
-    "linesRemoved7d": 12219,
-    "linesAdded30d": 300176,
-    "linesRemoved30d": 53307,
+    "linesAdded7d": 59654,
+    "linesRemoved7d": 12325,
+    "linesAdded30d": 300950,
+    "linesRemoved30d": 53413,
     "linesPartial": false,
-    "ciRuns7d": 183,
+    "ciRuns7d": 185,
     "ciPassRate7d": 91,
     "ciRuns30d": 190,
     "ciPassRate30d": 92
   },
   "lastRun": {
     "repo": "elevate-hub",
-    "conclusion": "cancelled",
-    "at": "2026-10-28T04:40:50Z"
+    "conclusion": "success",
+    "at": "2026-10-28T05:02:00Z"
   },
   "perDay": [
     {
@@ -194,9 +194,9 @@
     },
     {
       "day": "2026-10-27",
-      "commits": 22,
-      "added": 5080,
-      "removed": 767
+      "commits": 25,
+      "added": 5854,
+      "removed": 873
     },
     {
       "day": "2026-10-28",
@@ -213,8 +213,8 @@
     },
     {
       "lang": "Python",
-      "added": 75949,
-      "removed": 13151
+      "added": 76473,
+      "removed": 13222
     },
     {
       "lang": "Shell",
@@ -223,8 +223,8 @@
     },
     {
       "lang": "HTML",
-      "added": 20006,
-      "removed": 6961
+      "added": 20256,
+      "removed": 6996
     },
     {
       "lang": "Markdown",
@@ -284,9 +284,9 @@
       0,
       0,
       5,
-      10,
-      10,
-      12,
+      11,
+      11,
+      13,
       13,
       15,
       17,
@@ -438,7 +438,7 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 263
+      "commits": 266
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -446,6 +446,20 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-28T05:02:00Z",
+      "secs": 1340
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-28T04:55:21Z",
+      "secs": 952
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -515,20 +529,6 @@
       "conclusion": "success",
       "at": "2026-10-27T14:47:39Z",
       "secs": 934
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-27T14:46:36Z",
-      "secs": 871
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Terraform CI",
-      "conclusion": "success",
-      "at": "2026-10-27T14:35:02Z",
-      "secs": 177
     }
   ],
   "releases": [],
@@ -626,6 +626,13 @@
     },
     {
       "repo": "elevate-hub",
+      "sha": "8401b65",
+      "msg": "fix(reps): contact-only",
+      "hidden": 50,
+      "at": "2026-10-27T07:41:05Z"
+    },
+    {
+      "repo": "elevate-hub",
       "sha": "10a9fd1",
       "msg": "fix(reps): a",
       "hidden": 56,
@@ -647,6 +654,13 @@
     },
     {
       "repo": "elevate-hub",
+      "sha": "b7824a9",
+      "msg": "fix(reps): no",
+      "hidden": 61,
+      "at": "2026-10-27T06:51:49Z"
+    },
+    {
+      "repo": "elevate-hub",
       "sha": "407323a",
       "msg": "fix(reps): list",
       "hidden": 57,
@@ -665,6 +679,13 @@
       "msg": "feat(refunds): refund",
       "hidden": 57,
       "at": "2026-10-27T06:42:09Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "0a89f12",
+      "msg": "feat(reps): guest",
+      "hidden": 64,
+      "at": "2026-10-27T05:24:21Z"
     },
     {
       "repo": "elevate-hub",
@@ -791,27 +812,6 @@
       "msg": "chore: Raise",
       "hidden": 61,
       "at": "2026-10-26T13:06:55Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "eb7edaa",
-      "msg": "Fold Reps",
-      "hidden": 58,
-      "at": "2026-10-26T13:03:24Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "367284f",
-      "msg": "feat(pricing): markup",
-      "hidden": 50,
-      "at": "2026-10-26T12:28:01Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "4699629",
-      "msg": "feat(reps): welcome",
-      "hidden": 16,
-      "at": "2026-10-26T12:01:10Z"
     }
   ]
 }
