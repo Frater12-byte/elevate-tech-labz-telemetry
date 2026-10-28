@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-28T11:34:05.111Z",
+  "updatedAt": "2026-10-28T11:48:39.016Z",
   "stats": {
-    "commits7d": 243,
+    "commits7d": 240,
     "commits30d": 1137,
     "prsMerged7d": 105,
     "prsMerged30d": 356,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
-    "linesAdded7d": 70426,
-    "linesRemoved7d": 14672,
+    "linesAdded7d": 69161,
+    "linesRemoved7d": 14524,
     "linesAdded30d": 313498,
     "linesRemoved30d": 55147,
     "linesPartial": false,
@@ -20,8 +20,8 @@
   },
   "lastRun": {
     "repo": "yalator-v2",
-    "conclusion": "success",
-    "at": "2026-10-28T11:32:30Z"
+    "conclusion": "failure",
+    "at": "2026-10-28T11:38:49Z"
   },
   "perDay": [
     {
@@ -448,6 +448,27 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "failure",
+      "at": "2026-10-28T11:38:49Z",
+      "secs": 23
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Publish staging release candidates",
+      "conclusion": "failure",
+      "at": "2026-10-28T11:38:24Z",
+      "secs": 141
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-28T11:36:00Z",
+      "secs": 1081
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "Deploy Yalator Backend",
       "conclusion": "success",
       "at": "2026-10-28T11:32:30Z",
@@ -508,27 +529,6 @@
       "conclusion": "failure",
       "at": "2026-10-28T10:55:43Z",
       "secs": 78
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-10-28T10:55:09Z",
-      "secs": 164
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-10-28T10:54:27Z",
-      "secs": 198
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-10-28T10:54:22Z",
-      "secs": 271
     }
   ],
   "releases": [],
