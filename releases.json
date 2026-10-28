@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-28T06:32:13.131Z",
+  "updatedAt": "2026-10-28T06:51:00.000Z",
   "stats": {
     "commits7d": 211,
-    "commits30d": 1105,
+    "commits30d": 1102,
     "prsMerged7d": 92,
-    "prsMerged30d": 343,
+    "prsMerged30d": 342,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
     "linesAdded7d": 60802,
     "linesRemoved7d": 12687,
-    "linesAdded30d": 302098,
-    "linesRemoved30d": 53775,
+    "linesAdded30d": 301708,
+    "linesRemoved30d": 53699,
     "linesPartial": false,
-    "ciRuns7d": 191,
+    "ciRuns7d": 190,
     "ciPassRate7d": 92,
-    "ciRuns30d": 191,
+    "ciRuns30d": 190,
     "ciPassRate30d": 92
   },
   "lastRun": {
     "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-10-28T06:31:02Z"
+    "at": "2026-10-28T06:48:00Z"
   },
   "perDay": [
     {
@@ -213,7 +213,7 @@
     },
     {
       "lang": "Python",
-      "added": 77049,
+      "added": 76915,
       "removed": 13345
     },
     {
@@ -228,8 +228,8 @@
     },
     {
       "lang": "Markdown",
-      "added": 14242,
-      "removed": 3718
+      "added": 13995,
+      "removed": 3642
     },
     {
       "lang": "YAML",
@@ -243,7 +243,7 @@
     },
     {
       "lang": "Other",
-      "added": 5680,
+      "added": 5671,
       "removed": 484
     }
   ],
@@ -370,12 +370,12 @@
       7,
       18,
       15,
-      14,
+      12,
       11,
       5,
       2,
       0,
-      1,
+      0,
       0
     ],
     [
@@ -438,7 +438,7 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 271
+      "commits": 268
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -446,6 +446,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-28T06:48:00Z",
+      "secs": 1014
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -522,13 +529,6 @@
       "conclusion": "success",
       "at": "2026-10-27T15:40:45Z",
       "secs": 1849
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-27T15:09:50Z",
-      "secs": 1198
     }
   ],
   "releases": [],
