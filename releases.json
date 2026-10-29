@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-29T08:36:56.989Z",
+  "updatedAt": "2026-10-29T08:48:33.200Z",
   "stats": {
-    "commits7d": 251,
-    "commits30d": 1164,
-    "prsMerged7d": 99,
-    "prsMerged30d": 369,
+    "commits7d": 252,
+    "commits30d": 1165,
+    "prsMerged7d": 100,
+    "prsMerged30d": 370,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
-    "linesAdded7d": 74687,
+    "linesAdded7d": 74732,
     "linesRemoved7d": 15659,
-    "linesAdded30d": 322218,
+    "linesAdded30d": 322263,
     "linesRemoved30d": 56828,
     "linesPartial": false,
-    "ciRuns7d": 197,
+    "ciRuns7d": 195,
     "ciPassRate7d": 88,
-    "ciRuns30d": 197,
+    "ciRuns30d": 195,
     "ciPassRate30d": 88
   },
   "lastRun": {
-    "repo": "yalator-v2",
-    "conclusion": "skipped",
-    "at": "2026-10-29T08:34:18Z"
+    "repo": "elevate-hub",
+    "conclusion": "failure",
+    "at": "2026-10-29T08:38:29Z"
   },
   "perDay": [
     {
@@ -200,8 +200,8 @@
     },
     {
       "day": "2026-10-29",
-      "commits": 8,
-      "added": 1829,
+      "commits": 9,
+      "added": 1874,
       "removed": 85
     }
   ],
@@ -228,7 +228,7 @@
     },
     {
       "lang": "Markdown",
-      "added": 13008,
+      "added": 13053,
       "removed": 2784
     },
     {
@@ -338,7 +338,7 @@
       11,
       16,
       6,
-      5,
+      6,
       15,
       18,
       18,
@@ -438,7 +438,7 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 324
+      "commits": 325
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -446,6 +446,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "failure",
+      "at": "2026-10-29T08:38:29Z",
+      "secs": 1404
+    },
     {
       "repo": "yalator-v2",
       "workflow": "Claude Mention",
@@ -522,17 +529,17 @@
       "conclusion": "success",
       "at": "2026-10-29T08:17:32Z",
       "secs": 1224
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-10-29T08:13:18Z",
-      "secs": 21
     }
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "elevate-hub",
+      "sha": "f5f0353",
+      "msg": "docs: explain",
+      "hidden": 30,
+      "at": "2026-10-29T07:35:52Z"
+    },
     {
       "repo": "elevate-hub",
       "sha": "5e4b409",
@@ -805,13 +812,6 @@
       "msg": "feat(alerts): header",
       "hidden": 60,
       "at": "2026-10-28T11:30:06Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "913ec48",
-      "msg": "feat(alerts): Booking",
-      "hidden": 49,
-      "at": "2026-10-28T11:12:35Z"
     }
   ]
 }
