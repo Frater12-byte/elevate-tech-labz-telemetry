@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-29T16:34:47.985Z",
+  "updatedAt": "2026-10-29T16:48:24.078Z",
   "stats": {
     "commits7d": 276,
-    "commits30d": 1181,
+    "commits30d": 1180,
     "prsMerged7d": 115,
     "prsMerged30d": 380,
     "releases30d": 0,
@@ -10,18 +10,18 @@
     "activeRepos30d": 3,
     "linesAdded7d": 86335,
     "linesRemoved7d": 16664,
-    "linesAdded30d": 329405,
+    "linesAdded30d": 329376,
     "linesRemoved30d": 57575,
     "linesPartial": false,
-    "ciRuns7d": 183,
-    "ciPassRate7d": 87,
-    "ciRuns30d": 188,
+    "ciRuns7d": 184,
+    "ciPassRate7d": 88,
+    "ciRuns30d": 189,
     "ciPassRate30d": 88
   },
   "lastRun": {
     "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-10-29T16:12:57Z"
+    "at": "2026-10-29T16:39:33Z"
   },
   "perDay": [
     {
@@ -208,7 +208,7 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 150078,
+      "added": 150049,
       "removed": 23941
     },
     {
@@ -290,7 +290,7 @@
       11,
       4,
       4,
-      4,
+      3,
       5,
       1,
       8
@@ -429,7 +429,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 804
+      "commits": 803
     },
     {
       "repo": "elevate-hub",
@@ -441,6 +441,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-29T16:39:33Z",
+      "secs": 1505
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -516,13 +523,6 @@
       "workflow": "Claude Mention",
       "conclusion": "skipped",
       "at": "2026-10-29T15:41:25Z",
-      "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-10-29T15:41:23Z",
       "secs": 1
     }
   ],
