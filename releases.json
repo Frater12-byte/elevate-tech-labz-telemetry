@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-29T16:07:51.138Z",
+  "updatedAt": "2026-10-29T16:23:00.581Z",
   "stats": {
-    "commits7d": 275,
-    "commits30d": 1180,
-    "prsMerged7d": 114,
-    "prsMerged30d": 379,
+    "commits7d": 276,
+    "commits30d": 1181,
+    "prsMerged7d": 115,
+    "prsMerged30d": 380,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
-    "linesAdded7d": 86103,
-    "linesRemoved7d": 16646,
-    "linesAdded30d": 329173,
-    "linesRemoved30d": 57557,
+    "linesAdded7d": 86335,
+    "linesRemoved7d": 16664,
+    "linesAdded30d": 329405,
+    "linesRemoved30d": 57575,
     "linesPartial": false,
-    "ciRuns7d": 182,
+    "ciRuns7d": 183,
     "ciPassRate7d": 87,
-    "ciRuns30d": 187,
+    "ciRuns30d": 188,
     "ciPassRate30d": 88
   },
   "lastRun": {
     "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-10-29T16:07:13Z"
+    "at": "2026-10-29T16:12:57Z"
   },
   "perDay": [
     {
@@ -200,9 +200,9 @@
     },
     {
       "day": "2026-10-29",
-      "commits": 39,
-      "added": 20435,
-      "removed": 1448
+      "commits": 40,
+      "added": 20667,
+      "removed": 1466
     }
   ],
   "languages": [
@@ -213,8 +213,8 @@
     },
     {
       "lang": "Python",
-      "added": 91424,
-      "removed": 15286
+      "added": 91656,
+      "removed": 15304
     },
     {
       "lang": "Shell",
@@ -341,7 +341,7 @@
       8,
       10,
       5,
-      10,
+      11,
       0,
       2,
       1,
@@ -433,7 +433,7 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 344
+      "commits": 345
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -441,6 +441,20 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-29T16:12:57Z",
+      "secs": 1388
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-29T16:08:39Z",
+      "secs": 1113
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -510,24 +524,17 @@
       "conclusion": "skipped",
       "at": "2026-10-29T15:41:23Z",
       "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-10-29T15:41:23Z",
-      "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-10-29T15:41:22Z",
-      "secs": 7
     }
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "elevate-hub",
+      "sha": "0c60721",
+      "msg": "feat(juniper): hotel-code",
+      "hidden": 71,
+      "at": "2026-10-29T15:36:50Z"
+    },
     {
       "repo": "elevate-hub",
       "sha": "0cd147e",
@@ -800,13 +807,6 @@
       "msg": "feat(alerts): Booking",
       "hidden": 32,
       "at": "2026-10-29T04:25:28Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "3434e12",
-      "msg": "test(catalogue): both",
-      "hidden": 44,
-      "at": "2026-10-28T18:43:56Z"
     }
   ]
 }
