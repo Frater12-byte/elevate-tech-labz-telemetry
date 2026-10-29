@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-29T10:34:06.862Z",
+  "updatedAt": "2026-10-29T10:48:30.721Z",
   "stats": {
-    "commits7d": 254,
+    "commits7d": 253,
     "commits30d": 1171,
     "prsMerged7d": 102,
     "prsMerged30d": 372,
@@ -9,19 +9,19 @@
     "activeRepos7d": 3,
     "activeRepos30d": 3,
     "linesAdded7d": 71778,
-    "linesRemoved7d": 15649,
+    "linesRemoved7d": 15518,
     "linesAdded30d": 323040,
     "linesRemoved30d": 56843,
     "linesPartial": false,
-    "ciRuns7d": 191,
+    "ciRuns7d": 192,
     "ciPassRate7d": 86,
-    "ciRuns30d": 193,
+    "ciRuns30d": 195,
     "ciPassRate30d": 86
   },
   "lastRun": {
-    "repo": "elevate-hub",
+    "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-29T10:31:59Z"
+    "at": "2026-10-29T10:42:13Z"
   },
   "perDay": [
     {
@@ -447,6 +447,27 @@
   ],
   "recentRuns": [
     {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-29T10:42:13Z",
+      "secs": 1270
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-29T10:38:33Z",
+      "secs": 939
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-10-29T10:36:59Z",
+      "secs": 97
+    },
+    {
       "repo": "elevate-hub",
       "workflow": "CI",
       "conclusion": "success",
@@ -508,27 +529,6 @@
       "conclusion": "success",
       "at": "2026-10-29T09:47:21Z",
       "secs": 997
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
-      "conclusion": "success",
-      "at": "2026-10-29T09:45:22Z",
-      "secs": 878
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-29T09:38:52Z",
-      "secs": 1509
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-29T09:36:31Z",
-      "secs": 1370
     }
   ],
   "releases": [],
