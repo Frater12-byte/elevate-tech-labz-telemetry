@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-29T11:48:22.797Z",
+  "updatedAt": "2026-10-29T12:10:26.585Z",
   "stats": {
     "commits7d": 256,
-    "commits30d": 1169,
+    "commits30d": 1164,
     "prsMerged7d": 105,
-    "prsMerged30d": 373,
+    "prsMerged30d": 372,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
     "linesAdded7d": 83783,
     "linesRemoved7d": 15548,
-    "linesAdded30d": 333267,
-    "linesRemoved30d": 56478,
+    "linesAdded30d": 327749,
+    "linesRemoved30d": 56303,
     "linesPartial": false,
-    "ciRuns7d": 189,
+    "ciRuns7d": 192,
     "ciPassRate7d": 86,
-    "ciRuns30d": 193,
+    "ciRuns30d": 196,
     "ciPassRate30d": 87
   },
   "lastRun": {
-    "repo": "elevate-hub",
+    "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-29T11:43:49Z"
+    "at": "2026-10-29T12:04:44Z"
   },
   "perDay": [
     {
@@ -208,8 +208,8 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 155839,
-      "removed": 24152
+      "added": 150346,
+      "removed": 23979
     },
     {
       "lang": "Python",
@@ -233,8 +233,8 @@
     },
     {
       "lang": "Markdown",
-      "added": 12757,
-      "removed": 2743
+      "added": 12732,
+      "removed": 2741
     },
     {
       "lang": "YAML",
@@ -285,7 +285,7 @@
       13,
       11,
       16,
-      25,
+      20,
       15,
       12,
       5,
@@ -429,7 +429,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 812
+      "commits": 807
     },
     {
       "repo": "elevate-hub",
@@ -441,6 +441,55 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-10-29T12:04:44Z",
+      "secs": 359
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-29T12:00:35Z",
+      "secs": 1363
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Publish staging release candidates",
+      "conclusion": "success",
+      "at": "2026-10-29T11:58:42Z",
+      "secs": 216
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-29T11:55:04Z",
+      "secs": 1037
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-10-29T11:53:26Z",
+      "secs": 21
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Publish staging release candidates",
+      "conclusion": "success",
+      "at": "2026-10-29T11:53:03Z",
+      "secs": 27
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy Yalator Backend",
+      "conclusion": "success",
+      "at": "2026-10-29T11:52:53Z",
+      "secs": 906
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -475,55 +524,6 @@
       "conclusion": "cancelled",
       "at": "2026-10-29T11:38:09Z",
       "secs": 488
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-29T11:38:00Z",
-      "secs": 13
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "cancelled",
-      "at": "2026-10-29T11:37:58Z",
-      "secs": 477
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-29T11:37:26Z",
-      "secs": 1511
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-29T11:37:18Z",
-      "secs": 921
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Terraform CI",
-      "conclusion": "success",
-      "at": "2026-10-29T11:33:02Z",
-      "secs": 181
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-10-29T11:30:34Z",
-      "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "cancelled",
-      "at": "2026-10-29T11:22:15Z",
-      "secs": 52
     }
   ],
   "releases": [],
