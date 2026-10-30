@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T09:48:18.255Z",
+  "updatedAt": "2026-10-30T10:07:24.562Z",
   "stats": {
     "commits7d": 304,
     "commits30d": 1213,
@@ -13,15 +13,15 @@
     "linesAdded30d": 337091,
     "linesRemoved30d": 60365,
     "linesPartial": false,
-    "ciRuns7d": 166,
-    "ciPassRate7d": 95,
-    "ciRuns30d": 192,
-    "ciPassRate30d": 90
+    "ciRuns7d": 163,
+    "ciPassRate7d": 94,
+    "ciRuns30d": 189,
+    "ciPassRate30d": 89
   },
   "lastRun": {
-    "repo": "yalator-v2",
-    "conclusion": "success",
-    "at": "2026-10-30T08:58:09Z"
+    "repo": "elevate-hub",
+    "conclusion": "cancelled",
+    "at": "2026-10-30T10:04:15Z"
   },
   "perDay": [
     {
@@ -442,6 +442,34 @@
   ],
   "recentRuns": [
     {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-10-30T10:04:15Z",
+      "secs": 622
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-30T09:57:56Z",
+      "secs": 11
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-10-30T09:57:49Z",
+      "secs": 409
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-30T09:51:13Z",
+      "secs": 12
+    },
+    {
       "repo": "yalator-v2",
       "workflow": "Deploy published staging applications",
       "conclusion": "success",
@@ -496,34 +524,6 @@
       "conclusion": "success",
       "at": "2026-10-30T08:29:57Z",
       "secs": 1178
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-30T08:28:41Z",
-      "secs": 1119
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-30T08:28:10Z",
-      "secs": 1071
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-10-30T08:23:44Z",
-      "secs": 350
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-30T08:18:43Z",
-      "secs": 772
     }
   ],
   "releases": [],
