@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-30T04:34:27.624Z",
+  "updatedAt": "2026-10-30T04:48:05.805Z",
   "stats": {
-    "commits7d": 278,
+    "commits7d": 267,
     "commits30d": 1180,
     "prsMerged7d": 116,
     "prsMerged30d": 382,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
-    "linesAdded7d": 88330,
-    "linesRemoved7d": 18703,
+    "linesAdded7d": 88181,
+    "linesRemoved7d": 15391,
     "linesAdded30d": 331641,
     "linesRemoved30d": 59707,
     "linesPartial": false,
-    "ciRuns7d": 180,
-    "ciPassRate7d": 88,
-    "ciRuns30d": 186,
+    "ciRuns7d": 172,
+    "ciPassRate7d": 93,
+    "ciRuns30d": 189,
     "ciPassRate30d": 88
   },
   "lastRun": {
-    "repo": "elevate-hub",
+    "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-10-30T04:34:06Z"
+    "at": "2026-10-30T04:45:07Z"
   },
   "perDay": [
     {
@@ -442,6 +442,27 @@
   ],
   "recentRuns": [
     {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-30T04:45:07Z",
+      "secs": 10
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-30T04:43:16Z",
+      "secs": 1385
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-30T04:41:31Z",
+      "secs": 1130
+    },
+    {
       "repo": "elevate-hub",
       "workflow": "CI",
       "conclusion": "success",
@@ -503,27 +524,6 @@
       "conclusion": "skipped",
       "at": "2026-10-29T15:41:58Z",
       "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-10-29T15:41:56Z",
-      "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-10-29T15:41:30Z",
-      "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-10-29T15:41:30Z",
-      "secs": 11
     }
   ],
   "releases": [],
