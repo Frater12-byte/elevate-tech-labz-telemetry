@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-30T10:48:16.112Z",
+  "updatedAt": "2026-10-30T11:06:07.441Z",
   "stats": {
-    "commits7d": 306,
+    "commits7d": 305,
     "commits30d": 1206,
     "prsMerged7d": 140,
     "prsMerged30d": 403,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
-    "linesAdded7d": 92227,
-    "linesRemoved7d": 16458,
+    "linesAdded7d": 92224,
+    "linesRemoved7d": 16457,
     "linesAdded30d": 334108,
     "linesRemoved30d": 60141,
     "linesPartial": false,
-    "ciRuns7d": 165,
-    "ciPassRate7d": 95,
-    "ciRuns30d": 191,
-    "ciPassRate30d": 90
+    "ciRuns7d": 164,
+    "ciPassRate7d": 96,
+    "ciRuns30d": 190,
+    "ciPassRate30d": 91
   },
   "lastRun": {
-    "repo": "yalator-v2",
+    "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-10-30T10:47:54Z"
+    "at": "2026-10-30T11:05:31Z"
   },
   "perDay": [
     {
@@ -442,6 +442,27 @@
   ],
   "recentRuns": [
     {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-30T11:05:31Z",
+      "secs": 1436
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-30T11:03:01Z",
+      "secs": 920
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-30T10:49:29Z",
+      "secs": 1385
+    },
+    {
       "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
@@ -503,27 +524,6 @@
       "conclusion": "success",
       "at": "2026-10-30T10:32:33Z",
       "secs": 1366
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-30T10:30:52Z",
-      "secs": 1129
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-30T10:30:00Z",
-      "secs": 988
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
-      "conclusion": "success",
-      "at": "2026-10-30T10:28:43Z",
-      "secs": 911
     }
   ],
   "releases": [],
