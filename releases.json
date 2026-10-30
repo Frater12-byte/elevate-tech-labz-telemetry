@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-10-30T05:34:17.953Z",
+  "updatedAt": "2026-10-30T05:48:18.995Z",
   "stats": {
-    "commits7d": 284,
+    "commits7d": 283,
     "commits30d": 1201,
     "prsMerged7d": 125,
     "prsMerged30d": 391,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
-    "linesAdded7d": 87217,
-    "linesRemoved7d": 15788,
+    "linesAdded7d": 87201,
+    "linesRemoved7d": 15778,
     "linesAdded30d": 334483,
     "linesRemoved30d": 60158,
     "linesPartial": false,
-    "ciRuns7d": 168,
+    "ciRuns7d": 163,
     "ciPassRate7d": 93,
-    "ciRuns30d": 189,
+    "ciRuns30d": 185,
     "ciPassRate30d": 88
   },
   "lastRun": {
-    "repo": "yalator-v2",
+    "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-10-30T05:27:02Z"
+    "at": "2026-10-30T05:42:46Z"
   },
   "perDay": [
     {
@@ -442,6 +442,27 @@
   ],
   "recentRuns": [
     {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-30T05:42:46Z",
+      "secs": 1518
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-10-30T05:39:59Z",
+      "secs": 788
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-10-30T05:35:58Z",
+      "secs": 11
+    },
+    {
       "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
@@ -503,27 +524,6 @@
       "conclusion": "success",
       "at": "2026-10-30T04:48:09Z",
       "secs": 1082
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-10-30T04:45:07Z",
-      "secs": 10
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-30T04:43:16Z",
-      "secs": 1385
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-10-30T04:41:31Z",
-      "secs": 1130
     }
   ],
   "releases": [],
