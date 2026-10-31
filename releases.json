@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-10-31T09:48:23.059Z",
+  "updatedAt": "2026-10-31T10:05:55.802Z",
   "stats": {
-    "commits7d": 316,
-    "commits30d": 1201,
-    "prsMerged7d": 146,
-    "prsMerged30d": 406,
+    "commits7d": 318,
+    "commits30d": 1202,
+    "prsMerged7d": 147,
+    "prsMerged30d": 407,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
-    "linesAdded7d": 89925,
-    "linesRemoved7d": 16011,
-    "linesAdded30d": 330157,
-    "linesRemoved30d": 60796,
+    "linesAdded7d": 90076,
+    "linesRemoved7d": 16121,
+    "linesAdded30d": 330226,
+    "linesRemoved30d": 60881,
     "linesPartial": false,
-    "ciRuns7d": 174,
+    "ciRuns7d": 172,
     "ciPassRate7d": 98,
-    "ciRuns30d": 202,
+    "ciRuns30d": 200,
     "ciPassRate30d": 93
   },
   "lastRun": {
@@ -200,26 +200,26 @@
     },
     {
       "day": "2026-10-31",
-      "commits": 2,
-      "added": 493,
-      "removed": 322
+      "commits": 4,
+      "added": 644,
+      "removed": 432
     }
   ],
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 142300,
-      "removed": 23437
+      "added": 142218,
+      "removed": 23412
     },
     {
       "lang": "Python",
-      "added": 97738,
-      "removed": 15923
+      "added": 97857,
+      "removed": 15986
     },
     {
       "lang": "HTML",
-      "added": 27008,
-      "removed": 12418
+      "added": 27028,
+      "removed": 12463
     },
     {
       "lang": "Shell",
@@ -228,8 +228,8 @@
     },
     {
       "lang": "Other",
-      "added": 23227,
-      "removed": 1595
+      "added": 23239,
+      "removed": 1597
     },
     {
       "lang": "Markdown",
@@ -335,7 +335,7 @@
       9,
       6,
       20,
-      34,
+      33,
       29,
       17,
       12,
@@ -382,9 +382,9 @@
       6,
       13,
       7,
-      8,
+      9,
       3,
-      1,
+      2,
       0,
       0,
       5,
@@ -429,11 +429,11 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 759
+      "commits": 758
     },
     {
       "repo": "elevate-hub",
-      "commits": 410
+      "commits": 412
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -528,6 +528,20 @@
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "elevate-hub",
+      "sha": "c818c5b",
+      "msg": "fix(alerts): review",
+      "hidden": 56,
+      "at": "2026-10-31T06:35:24Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "bb40369",
+      "msg": "fix: Fra's",
+      "hidden": 101,
+      "at": "2026-10-31T04:46:28Z"
+    },
     {
       "repo": "yalator-v2",
       "sha": "223419f",
@@ -793,20 +807,6 @@
       "msg": "fix(b2c): stop",
       "hidden": 40,
       "at": "2026-10-30T09:50:53Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "d2f7402",
-      "msg": "feat(bookings): add",
-      "hidden": 57,
-      "at": "2026-10-30T09:48:21Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "727202b",
-      "msg": "style(b2b): drop",
-      "hidden": 45,
-      "at": "2026-10-30T08:05:43Z"
     }
   ]
 }
