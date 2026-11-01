@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-01T03:33:59.332Z",
+  "updatedAt": "2026-11-01T03:47:53.990Z",
   "stats": {
-    "commits7d": 335,
-    "commits30d": 1207,
-    "prsMerged7d": 154,
-    "prsMerged30d": 409,
+    "commits7d": 341,
+    "commits30d": 1213,
+    "prsMerged7d": 156,
+    "prsMerged30d": 411,
     "releases30d": 0,
     "activeRepos7d": 3,
     "activeRepos30d": 3,
-    "linesAdded7d": 93352,
-    "linesRemoved7d": 17543,
-    "linesAdded30d": 329386,
-    "linesRemoved30d": 59778,
+    "linesAdded7d": 93763,
+    "linesRemoved7d": 17846,
+    "linesAdded30d": 329797,
+    "linesRemoved30d": 60081,
     "linesPartial": false,
-    "ciRuns7d": 169,
+    "ciRuns7d": 164,
     "ciPassRate7d": 98,
-    "ciRuns30d": 197,
+    "ciRuns30d": 192,
     "ciPassRate30d": 93
   },
   "lastRun": {
     "repo": "elevate-hub",
-    "conclusion": "success",
-    "at": "2026-11-01T03:33:41Z"
+    "conclusion": "cancelled",
+    "at": "2026-11-01T03:47:07Z"
   },
   "perDay": [
     {
@@ -200,9 +200,9 @@
     },
     {
       "day": "2026-11-01",
-      "commits": 8,
-      "added": 1376,
-      "removed": 773
+      "commits": 14,
+      "added": 1787,
+      "removed": 1076
     }
   ],
   "languages": [
@@ -213,13 +213,13 @@
     },
     {
       "lang": "Python",
-      "added": 98501,
-      "removed": 16098
+      "added": 98740,
+      "removed": 16223
     },
     {
       "lang": "HTML",
-      "added": 27886,
-      "removed": 13026
+      "added": 28058,
+      "removed": 13204
     },
     {
       "lang": "Shell",
@@ -405,8 +405,8 @@
       2,
       0,
       0,
+      9,
       5,
-      3,
       0,
       0,
       1,
@@ -433,7 +433,7 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 422
+      "commits": 428
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -441,6 +441,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-11-01T03:47:07Z",
+      "secs": 96
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -517,17 +524,24 @@
       "conclusion": "success",
       "at": "2026-11-01T02:35:40Z",
       "secs": 11
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-01T02:34:18Z",
-      "secs": 899
     }
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "elevate-hub",
+      "sha": "9e07973",
+      "msg": "Alerts: link",
+      "hidden": 54,
+      "at": "2026-11-01T02:48:19Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "97204d7",
+      "msg": "Alert settings:",
+      "hidden": 56,
+      "at": "2026-11-01T02:31:35Z"
+    },
     {
       "repo": "yalator-v2",
       "sha": "5ca6956",
@@ -557,11 +571,25 @@
       "at": "2026-11-01T01:58:14Z"
     },
     {
+      "repo": "elevate-hub",
+      "sha": "c59bbfa",
+      "msg": "Alert settings:",
+      "hidden": 67,
+      "at": "2026-11-01T01:57:03Z"
+    },
+    {
       "repo": "yalator-v2",
       "sha": "cc6debe",
       "msg": "b2c: planner",
       "hidden": 34,
       "at": "2026-11-01T01:54:58Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "ad2bb7f",
+      "msg": "Alerts: Low",
+      "hidden": 42,
+      "at": "2026-11-01T01:40:32Z"
     },
     {
       "repo": "yalator-v2",
@@ -576,6 +604,20 @@
       "msg": "App Hub:",
       "hidden": 43,
       "at": "2026-11-01T01:29:14Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "a968669",
+      "msg": "Alert settings:",
+      "hidden": 43,
+      "at": "2026-11-01T01:29:14Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "8d299a0",
+      "msg": "Alert settings:",
+      "hidden": 43,
+      "at": "2026-11-01T01:17:13Z"
     },
     {
       "repo": "elevate-hub",
@@ -765,48 +807,6 @@
       "msg": "feat(alerts): Supplier",
       "hidden": 62,
       "at": "2026-10-30T11:36:54Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "88b1517",
-      "msg": "fix(alerts): review",
-      "hidden": 76,
-      "at": "2026-10-30T11:30:39Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "6c2ed1c",
-      "msg": "ui: full-height",
-      "hidden": 35,
-      "at": "2026-10-30T11:22:13Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "86a0ad8",
-      "msg": "ui(alerts): one",
-      "hidden": 62,
-      "at": "2026-10-30T11:19:41Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "35f75b6",
-      "msg": "ui(profile): one",
-      "hidden": 67,
-      "at": "2026-10-30T11:16:51Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "3f70372",
-      "msg": "ui(rebooking): full",
-      "hidden": 48,
-      "at": "2026-10-30T11:04:52Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "d0c33dd",
-      "msg": "ui(login): soft",
-      "hidden": 45,
-      "at": "2026-10-30T11:01:20Z"
     }
   ]
 }
