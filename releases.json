@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-01T11:18:13.733Z",
+  "updatedAt": "2026-11-01T11:33:56.573Z",
   "stats": {
-    "commits7d": 343,
-    "commits30d": 1214,
+    "commits7d": 342,
+    "commits30d": 1213,
     "prsMerged7d": 155,
     "prsMerged30d": 412,
     "releases30d": 0,
-    "activeRepos7d": 3,
+    "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 95117,
-    "linesRemoved7d": 18396,
-    "linesAdded30d": 327588,
-    "linesRemoved30d": 60164,
+    "linesAdded7d": 94991,
+    "linesRemoved7d": 18366,
+    "linesAdded30d": 327304,
+    "linesRemoved30d": 60036,
     "linesPartial": false,
-    "ciRuns7d": 164,
+    "ciRuns7d": 163,
     "ciPassRate7d": 98,
     "ciRuns30d": 193,
     "ciPassRate30d": 93
@@ -208,8 +208,8 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 136114,
-      "removed": 21153
+      "added": 135830,
+      "removed": 21025
     },
     {
       "lang": "Python",
@@ -363,7 +363,7 @@
       7,
       8,
       17,
-      31,
+      30,
       22,
       12,
       11,
@@ -429,7 +429,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 746
+      "commits": 745
     },
     {
       "repo": "elevate-hub",
