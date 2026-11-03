@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T08:34:12.027Z",
+  "updatedAt": "2026-11-03T08:48:35.114Z",
   "stats": {
     "commits7d": 282,
     "commits30d": 1196,
@@ -19,9 +19,9 @@
     "ciPassRate30d": 90
   },
   "lastRun": {
-    "repo": "elevate-hub",
+    "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-03T08:33:49Z"
+    "at": "2026-11-03T08:38:18Z"
   },
   "perDay": [
     {
@@ -442,6 +442,34 @@
   ],
   "recentRuns": [
     {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-03T08:38:18Z",
+      "secs": 1064
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-03T08:37:27Z",
+      "secs": 24
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-03T08:37:16Z",
+      "secs": 11
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-03T08:34:28Z",
+      "secs": 1142
+    },
+    {
       "repo": "elevate-hub",
       "workflow": "CI",
       "conclusion": "success",
@@ -496,34 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-03T08:11:30Z",
       "secs": 268
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "failure",
-      "at": "2026-11-03T07:05:06Z",
-      "secs": 1181
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-03T06:59:03Z",
-      "secs": 727
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-03T06:57:18Z",
-      "secs": 862
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-03T06:54:35Z",
-      "secs": 781
     }
   ],
   "releases": [],
