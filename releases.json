@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-04T09:07:01.059Z",
+  "updatedAt": "2026-11-04T09:19:52.638Z",
   "stats": {
     "commits7d": 315,
-    "commits30d": 1276,
+    "commits30d": 1275,
     "prsMerged7d": 138,
     "prsMerged30d": 427,
     "releases30d": 0,
@@ -10,18 +10,18 @@
     "activeRepos30d": 3,
     "linesAdded7d": 71787,
     "linesRemoved7d": 14088,
-    "linesAdded30d": 334715,
-    "linesRemoved30d": 61843,
+    "linesAdded30d": 334686,
+    "linesRemoved30d": 61842,
     "linesPartial": false,
-    "ciRuns7d": 157,
+    "ciRuns7d": 156,
     "ciPassRate7d": 92,
-    "ciRuns30d": 187,
+    "ciRuns30d": 186,
     "ciPassRate30d": 87
   },
   "lastRun": {
-    "repo": "yalator-v2",
+    "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-11-04T09:05:18Z"
+    "at": "2026-11-04T09:08:30Z"
   },
   "perDay": [
     {
@@ -213,7 +213,7 @@
     },
     {
       "lang": "Python",
-      "added": 104118,
+      "added": 104090,
       "removed": 17158
     },
     {
@@ -228,8 +228,8 @@
     },
     {
       "lang": "Other",
-      "added": 23201,
-      "removed": 1583
+      "added": 23200,
+      "removed": 1582
     },
     {
       "lang": "Markdown",
@@ -254,7 +254,7 @@
       0,
       8,
       12,
-      15,
+      14,
       7,
       17,
       12,
@@ -433,7 +433,7 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 482
+      "commits": 481
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -441,6 +441,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-04T09:08:30Z",
+      "secs": 1382
+    },
     {
       "repo": "yalator-v2",
       "workflow": "Controlled drain",
@@ -517,13 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-04T08:43:59Z",
       "secs": 1471
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "failure",
-      "at": "2026-11-04T08:42:13Z",
-      "secs": 115
     }
   ],
   "releases": [],
