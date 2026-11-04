@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-04T12:35:19.522Z",
+  "updatedAt": "2026-11-04T12:48:35.414Z",
   "stats": {
-    "commits7d": 311,
-    "commits30d": 1284,
+    "commits7d": 310,
+    "commits30d": 1283,
     "prsMerged7d": 131,
-    "prsMerged30d": 428,
+    "prsMerged30d": 427,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 69912,
-    "linesRemoved7d": 13492,
-    "linesAdded30d": 334265,
-    "linesRemoved30d": 61821,
+    "linesAdded7d": 69600,
+    "linesRemoved7d": 13467,
+    "linesAdded30d": 334251,
+    "linesRemoved30d": 61817,
     "linesPartial": false,
-    "ciRuns7d": 152,
-    "ciPassRate7d": 93,
-    "ciRuns30d": 182,
-    "ciPassRate30d": 88
+    "ciRuns7d": 154,
+    "ciPassRate7d": 94,
+    "ciRuns30d": 184,
+    "ciPassRate30d": 89
   },
   "lastRun": {
-    "repo": "yalator-v2",
+    "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-11-04T12:33:39Z"
+    "at": "2026-11-04T12:40:27Z"
   },
   "perDay": [
     {
@@ -208,8 +208,8 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 136915,
-      "removed": 21414
+      "added": 136901,
+      "removed": 21410
     },
     {
       "lang": "Python",
@@ -260,7 +260,7 @@
       12,
       24,
       22,
-      13,
+      12,
       29,
       13,
       17,
@@ -429,7 +429,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 768
+      "commits": 767
     },
     {
       "repo": "elevate-hub",
@@ -441,6 +441,20 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-04T12:40:27Z",
+      "secs": 1375
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy Yalator Backend",
+      "conclusion": "success",
+      "at": "2026-11-04T12:35:53Z",
+      "secs": 277
+    },
     {
       "repo": "yalator-v2",
       "workflow": "Deploy Yalator Backend",
@@ -510,20 +524,6 @@
       "conclusion": "failure",
       "at": "2026-11-04T11:08:27Z",
       "secs": 165
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-11-04T11:05:40Z",
-      "secs": 202
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-04T11:02:15Z",
-      "secs": 965
     }
   ],
   "releases": [],
