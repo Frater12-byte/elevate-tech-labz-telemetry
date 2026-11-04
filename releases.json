@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-04T10:07:43.460Z",
+  "updatedAt": "2026-11-04T10:19:56.648Z",
   "stats": {
     "commits7d": 312,
     "commits30d": 1276,
-    "prsMerged7d": 138,
+    "prsMerged7d": 130,
     "prsMerged30d": 427,
     "releases30d": 0,
     "activeRepos7d": 2,
@@ -13,15 +13,15 @@
     "linesAdded30d": 334698,
     "linesRemoved30d": 61842,
     "linesPartial": false,
-    "ciRuns7d": 156,
+    "ciRuns7d": 159,
     "ciPassRate7d": 93,
-    "ciRuns30d": 186,
+    "ciRuns30d": 189,
     "ciPassRate30d": 88
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-04T10:05:13Z"
+    "at": "2026-11-04T10:15:57Z"
   },
   "perDay": [
     {
@@ -443,6 +443,27 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-11-04T10:15:57Z",
+      "secs": 641
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-04T10:13:16Z",
+      "secs": 1594
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-04T10:11:27Z",
+      "secs": 1560
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "Publish staging release candidates",
       "conclusion": "success",
       "at": "2026-11-04T10:05:13Z",
@@ -503,27 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-04T09:46:26Z",
       "secs": 10
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-04T09:40:57Z",
-      "secs": 1546
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-04T09:38:58Z",
-      "secs": 149
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-04T09:31:43Z",
-      "secs": 367
     }
   ],
   "releases": [],
