@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-05T14:19:56.823Z",
+  "updatedAt": "2026-11-05T14:35:18.922Z",
   "stats": {
-    "commits7d": 305,
-    "commits30d": 1288,
-    "prsMerged7d": 135,
-    "prsMerged30d": 434,
+    "commits7d": 309,
+    "commits30d": 1292,
+    "prsMerged7d": 136,
+    "prsMerged30d": 435,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 57773,
-    "linesRemoved7d": 14375,
-    "linesAdded30d": 341553,
-    "linesRemoved30d": 64833,
+    "linesAdded7d": 57955,
+    "linesRemoved7d": 14383,
+    "linesAdded30d": 341735,
+    "linesRemoved30d": 64841,
     "linesPartial": false,
-    "ciRuns7d": 161,
+    "ciRuns7d": 160,
     "ciPassRate7d": 94,
-    "ciRuns30d": 191,
-    "ciPassRate30d": 90
+    "ciRuns30d": 190,
+    "ciPassRate30d": 89
   },
   "lastRun": {
-    "repo": "elevate-hub",
-    "conclusion": "success",
-    "at": "2026-11-05T14:19:07Z"
+    "repo": "yalator-v2",
+    "conclusion": "failure",
+    "at": "2026-11-05T14:25:43Z"
   },
   "perDay": [
     {
@@ -200,9 +200,9 @@
     },
     {
       "day": "2026-11-05",
-      "commits": 76,
-      "added": 19071,
-      "removed": 5581
+      "commits": 80,
+      "added": 19253,
+      "removed": 5589
     }
   ],
   "languages": [
@@ -213,8 +213,8 @@
     },
     {
       "lang": "Python",
-      "added": 105348,
-      "removed": 16908
+      "added": 105530,
+      "removed": 16916
     },
     {
       "lang": "HTML",
@@ -337,9 +337,9 @@
       28,
       37,
       30,
-      15,
+      17,
       10,
-      10,
+      12,
       5,
       10,
       0,
@@ -433,7 +433,7 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 491
+      "commits": 495
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -441,6 +441,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "failure",
+      "at": "2026-11-05T14:25:43Z",
+      "secs": 701
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -517,17 +524,24 @@
       "conclusion": "success",
       "at": "2026-11-05T14:03:44Z",
       "secs": 841
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
-      "conclusion": "success",
-      "at": "2026-11-05T13:53:04Z",
-      "secs": 124
     }
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "elevate-hub",
+      "sha": "91b3c0c",
+      "msg": "Partner switch:",
+      "hidden": 84,
+      "at": "2026-11-05T13:49:02Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "cec354a",
+      "msg": "Partner switch:",
+      "hidden": 113,
+      "at": "2026-11-05T13:46:37Z"
+    },
     {
       "repo": "yalator-v2",
       "sha": "3c2e9f2",
@@ -536,11 +550,25 @@
       "at": "2026-11-05T11:29:37Z"
     },
     {
+      "repo": "elevate-hub",
+      "sha": "8abbfcc",
+      "msg": "Partner switch:",
+      "hidden": 186,
+      "at": "2026-11-05T11:28:41Z"
+    },
+    {
       "repo": "yalator-v2",
       "sha": "0704ccc",
       "msg": "fix(catalog): null",
       "hidden": 80,
       "at": "2026-11-05T11:11:47Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "e48414a",
+      "msg": "Content Module",
+      "hidden": 76,
+      "at": "2026-11-05T11:03:28Z"
     },
     {
       "repo": "yalator-v2",
@@ -779,34 +807,6 @@
       "msg": "planner demo:",
       "hidden": 58,
       "at": "2026-11-05T06:04:08Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "471c56d",
-      "msg": "Company Assets:",
-      "hidden": 129,
-      "at": "2026-11-05T05:57:42Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "f81ebc3",
-      "msg": "Content Module",
-      "hidden": 83,
-      "at": "2026-11-05T05:52:06Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "54be96a",
-      "msg": "fix(b2c): server-render",
-      "hidden": 54,
-      "at": "2026-11-05T05:50:27Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "2a56b85",
-      "msg": "storefront: the",
-      "hidden": 41,
-      "at": "2026-11-05T05:50:03Z"
     }
   ]
 }
