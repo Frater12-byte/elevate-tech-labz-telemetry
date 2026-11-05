@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-05T04:07:25.516Z",
+  "updatedAt": "2026-11-05T04:20:42.963Z",
   "stats": {
     "commits7d": 296,
     "commits30d": 1250,
-    "prsMerged7d": 129,
+    "prsMerged7d": 127,
     "prsMerged30d": 425,
     "releases30d": 0,
     "activeRepos7d": 2,
@@ -13,15 +13,15 @@
     "linesAdded30d": 330062,
     "linesRemoved30d": 60224,
     "linesPartial": false,
-    "ciRuns7d": 157,
+    "ciRuns7d": 156,
     "ciPassRate7d": 92,
-    "ciRuns30d": 187,
+    "ciRuns30d": 186,
     "ciPassRate30d": 88
   },
   "lastRun": {
     "repo": "elevate-hub",
     "conclusion": "cancelled",
-    "at": "2026-11-05T04:02:20Z"
+    "at": "2026-11-05T04:16:57Z"
   },
   "perDay": [
     {
@@ -445,6 +445,27 @@
       "repo": "elevate-hub",
       "workflow": "CI",
       "conclusion": "cancelled",
+      "at": "2026-11-05T04:16:57Z",
+      "secs": 194
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-11-05T04:14:05Z",
+      "secs": 321
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-05T04:13:48Z",
+      "secs": 1232
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "cancelled",
       "at": "2026-11-05T04:02:20Z",
       "secs": 563
     },
@@ -503,27 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-04T12:51:04Z",
       "secs": 1182
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-04T12:49:27Z",
-      "secs": 22
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-04T12:49:13Z",
-      "secs": 1077
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-11-04T12:49:01Z",
-      "secs": 25
     }
   ],
   "releases": [],
