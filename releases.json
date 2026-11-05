@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T13:34:28.424Z",
+  "updatedAt": "2026-11-05T13:48:19.725Z",
   "stats": {
     "commits7d": 301,
     "commits30d": 1284,
@@ -13,9 +13,9 @@
     "linesAdded30d": 340096,
     "linesRemoved30d": 64631,
     "linesPartial": false,
-    "ciRuns7d": 156,
+    "ciRuns7d": 155,
     "ciPassRate7d": 94,
-    "ciRuns30d": 186,
+    "ciRuns30d": 185,
     "ciPassRate30d": 89
   },
   "lastRun": {
