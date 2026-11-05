@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-05T06:27:16.327Z",
+  "updatedAt": "2026-11-05T06:41:01.775Z",
   "stats": {
     "commits7d": 294,
-    "commits30d": 1252,
+    "commits30d": 1251,
     "prsMerged7d": 134,
     "prsMerged30d": 429,
     "releases30d": 0,
@@ -10,18 +10,18 @@
     "activeRepos30d": 3,
     "linesAdded7d": 63968,
     "linesRemoved7d": 12467,
-    "linesAdded30d": 330696,
-    "linesRemoved30d": 60651,
+    "linesAdded30d": 330564,
+    "linesRemoved30d": 60631,
     "linesPartial": false,
-    "ciRuns7d": 161,
+    "ciRuns7d": 165,
     "ciPassRate7d": 96,
-    "ciRuns30d": 191,
+    "ciRuns30d": 195,
     "ciPassRate30d": 91
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-05T06:26:28Z"
+    "at": "2026-11-05T06:32:52Z"
   },
   "perDay": [
     {
@@ -208,8 +208,8 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 135818,
-      "removed": 20347
+      "added": 135686,
+      "removed": 20327
     },
     {
       "lang": "Python",
@@ -280,7 +280,7 @@
       0,
       4,
       10,
-      14,
+      13,
       16,
       24,
       22,
@@ -429,7 +429,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 749
+      "commits": 748
     },
     {
       "repo": "elevate-hub",
@@ -441,6 +441,34 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-11-05T06:32:52Z",
+      "secs": 480
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-11-05T06:32:28Z",
+      "secs": 461
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-11-05T06:28:56Z",
+      "secs": 354
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy Yalator Backend",
+      "conclusion": "success",
+      "at": "2026-11-05T06:28:48Z",
+      "secs": 1432
+    },
     {
       "repo": "yalator-v2",
       "workflow": "CI",
@@ -496,34 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-05T06:22:38Z",
       "secs": 917
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-05T06:21:30Z",
-      "secs": 994
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-05T06:21:29Z",
-      "secs": 1000
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-05T06:20:31Z",
-      "secs": 830
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-05T06:19:47Z",
-      "secs": 904
     }
   ],
   "releases": [],
