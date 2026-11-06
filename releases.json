@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-06T19:05:01.259Z",
+  "updatedAt": "2026-11-06T19:17:57.627Z",
   "stats": {
     "commits7d": 361,
-    "commits30d": 1261,
+    "commits30d": 1247,
     "prsMerged7d": 140,
-    "prsMerged30d": 469,
+    "prsMerged30d": 468,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
     "linesAdded7d": 68980,
     "linesRemoved7d": 15870,
-    "linesAdded30d": 323599,
-    "linesRemoved30d": 61462,
+    "linesAdded30d": 320039,
+    "linesRemoved30d": 61322,
     "linesPartial": false,
     "ciRuns7d": 164,
     "ciPassRate7d": 97,
@@ -208,8 +208,8 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 147961,
-      "removed": 22689
+      "added": 146111,
+      "removed": 22607
     },
     {
       "lang": "Python",
@@ -223,23 +223,23 @@
     },
     {
       "lang": "Other",
-      "added": 21020,
-      "removed": 1445
+      "added": 20769,
+      "removed": 1175
     },
     {
       "lang": "Markdown",
-      "added": 8055,
+      "added": 7930,
       "removed": 1597
     },
     {
       "lang": "Shell",
-      "added": 4342,
-      "removed": 547
+      "added": 3306,
+      "removed": 489
     },
     {
-      "lang": "YAML",
-      "added": 2336,
-      "removed": 170
+      "lang": "CSS",
+      "added": 2038,
+      "removed": 440
     }
   ],
   "heatmap": [
@@ -316,9 +316,9 @@
       10,
       7,
       9,
-      16,
+      6,
       3,
-      9,
+      5,
       5
     ],
     [
@@ -429,7 +429,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 724
+      "commits": 710
     },
     {
       "repo": "elevate-hub",
