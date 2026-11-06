@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-11-06T01:06:41.561Z",
+  "updatedAt": "2026-11-06T01:19:21.140Z",
   "stats": {
-    "commits7d": 360,
+    "commits7d": 361,
     "commits30d": 1326,
-    "prsMerged7d": 150,
-    "prsMerged30d": 452,
+    "prsMerged7d": 151,
+    "prsMerged30d": 453,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 69433,
-    "linesRemoved7d": 15461,
-    "linesAdded30d": 351492,
-    "linesRemoved30d": 65356,
+    "linesAdded7d": 69455,
+    "linesRemoved7d": 15462,
+    "linesAdded30d": 351482,
+    "linesRemoved30d": 65348,
     "linesPartial": false,
-    "ciRuns7d": 158,
+    "ciRuns7d": 155,
     "ciPassRate7d": 94,
-    "ciRuns30d": 188,
+    "ciRuns30d": 185,
     "ciPassRate30d": 89
   },
   "lastRun": {
@@ -194,9 +194,9 @@
     },
     {
       "day": "2026-11-05",
-      "commits": 132,
-      "added": 30963,
-      "removed": 6685
+      "commits": 133,
+      "added": 30985,
+      "removed": 6686
     },
     {
       "day": "2026-11-06",
@@ -208,8 +208,8 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 149103,
-      "removed": 21501
+      "added": 149071,
+      "removed": 21492
     },
     {
       "lang": "Python",
@@ -223,12 +223,12 @@
     },
     {
       "lang": "Shell",
-      "added": 25252,
-      "removed": 4631
+      "added": 25254,
+      "removed": 4632
     },
     {
       "lang": "Other",
-      "added": 23053,
+      "added": 23067,
       "removed": 1461
     },
     {
@@ -238,7 +238,7 @@
     },
     {
       "lang": "YAML",
-      "added": 4222,
+      "added": 4228,
       "removed": 327
     }
   ],
@@ -301,7 +301,7 @@
       0,
       0,
       1,
-      5,
+      4,
       2,
       2,
       22,
@@ -343,7 +343,7 @@
       5,
       17,
       3,
-      4,
+      5,
       3,
       1
     ],
@@ -541,6 +541,13 @@
       "msg": "Confirmations queue:",
       "hidden": 46,
       "at": "2026-11-05T18:16:57Z"
+    },
+    {
+      "repo": "yalator-v2",
+      "sha": "2965b03",
+      "msg": "chore(deals): switch",
+      "hidden": 46,
+      "at": "2026-11-05T17:59:47Z"
     },
     {
       "repo": "elevate-hub",
@@ -800,13 +807,6 @@
       "msg": "fix(deals): review",
       "hidden": 34,
       "at": "2026-11-05T10:29:05Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "a6d50e3",
-      "msg": "fix(admin): refresh",
-      "hidden": 53,
-      "at": "2026-11-05T10:19:36Z"
     }
   ]
 }
