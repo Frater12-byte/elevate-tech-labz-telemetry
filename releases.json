@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-06T11:18:15.863Z",
+  "updatedAt": "2026-11-06T11:33:49.307Z",
   "stats": {
-    "commits7d": 346,
+    "commits7d": 343,
     "commits30d": 1248,
     "prsMerged7d": 143,
     "prsMerged30d": 463,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 66933,
-    "linesRemoved7d": 14429,
+    "linesAdded7d": 66876,
+    "linesRemoved7d": 14404,
     "linesAdded30d": 323612,
     "linesRemoved30d": 60642,
     "linesPartial": false,
-    "ciRuns7d": 168,
+    "ciRuns7d": 169,
     "ciPassRate7d": 95,
-    "ciRuns30d": 198,
+    "ciRuns30d": 199,
     "ciPassRate30d": 90
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-06T11:17:59Z"
+    "at": "2026-11-06T11:32:00Z"
   },
   "perDay": [
     {
@@ -443,6 +443,27 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-06T11:32:00Z",
+      "secs": 856
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-11-06T11:20:19Z",
+      "secs": 953
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-06T11:18:55Z",
+      "secs": 13
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
       "at": "2026-11-06T11:17:59Z",
@@ -503,27 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-06T11:01:08Z",
       "secs": 256
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-06T10:59:57Z",
-      "secs": 998
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-06T10:58:36Z",
-      "secs": 955
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-06T10:56:49Z",
-      "secs": 832
     }
   ],
   "releases": [],
