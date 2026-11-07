@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-07T08:20:06.893Z",
+  "updatedAt": "2026-11-07T08:33:55.550Z",
   "stats": {
-    "commits7d": 468,
-    "commits30d": 1343,
-    "prsMerged7d": 143,
-    "prsMerged30d": 465,
+    "commits7d": 470,
+    "commits30d": 1346,
+    "prsMerged7d": 144,
+    "prsMerged30d": 466,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 87714,
-    "linesRemoved7d": 23027,
-    "linesAdded30d": 336583,
-    "linesRemoved30d": 68954,
+    "linesAdded7d": 87820,
+    "linesRemoved7d": 23053,
+    "linesAdded30d": 336697,
+    "linesRemoved30d": 68985,
     "linesPartial": false,
-    "ciRuns7d": 166,
-    "ciPassRate7d": 95,
-    "ciRuns30d": 196,
+    "ciRuns7d": 163,
+    "ciPassRate7d": 94,
+    "ciRuns30d": 193,
     "ciPassRate30d": 90
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-07T08:17:23Z"
+    "at": "2026-11-07T08:28:46Z"
   },
   "perDay": [
     {
@@ -200,16 +200,16 @@
     },
     {
       "day": "2026-11-07",
-      "commits": 58,
-      "added": 9358,
-      "removed": 3691
+      "commits": 61,
+      "added": 9472,
+      "removed": 3722
     }
   ],
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 164196,
-      "removed": 30355
+      "added": 164310,
+      "removed": 30386
     },
     {
       "lang": "Python",
@@ -383,10 +383,10 @@
       19,
       15,
       21,
-      8,
+      10,
       4,
       2,
-      2,
+      3,
       2,
       2,
       2,
@@ -429,7 +429,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 810
+      "commits": 813
     },
     {
       "repo": "elevate-hub",
@@ -441,6 +441,20 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-07T08:28:46Z",
+      "secs": 13
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-07T08:22:08Z",
+      "secs": 13
+    },
     {
       "repo": "yalator-v2",
       "workflow": "CI",
@@ -510,24 +524,17 @@
       "conclusion": "success",
       "at": "2026-11-07T08:02:32Z",
       "secs": 12
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
-      "conclusion": "success",
-      "at": "2026-11-07T07:56:16Z",
-      "secs": 124
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-07T07:55:54Z",
-      "secs": 12
     }
   ],
   "releases": [],
   "commits": [
+    {
+      "repo": "yalator-v2",
+      "sha": "5eb47c7",
+      "msg": "fix(b2c): a",
+      "hidden": 54,
+      "at": "2026-11-07T08:02:13Z"
+    },
     {
       "repo": "yalator-v2",
       "sha": "6a8341e",
@@ -541,6 +548,13 @@
       "msg": "fix(b2c): the",
       "hidden": 70,
       "at": "2026-11-07T07:19:46Z"
+    },
+    {
+      "repo": "yalator-v2",
+      "sha": "b930ec2",
+      "msg": "feat(b2c): no",
+      "hidden": 74,
+      "at": "2026-11-07T05:15:17Z"
     },
     {
       "repo": "yalator-v2",
@@ -576,6 +590,13 @@
       "msg": "fix(mobile): no",
       "hidden": 66,
       "at": "2026-11-07T05:12:17Z"
+    },
+    {
+      "repo": "yalator-v2",
+      "sha": "c084a14",
+      "msg": "feat(b2c): homepage",
+      "hidden": 59,
+      "at": "2026-11-07T05:07:35Z"
     },
     {
       "repo": "yalator-v2",
@@ -786,27 +807,6 @@
       "msg": "feat(b2c): two",
       "hidden": 44,
       "at": "2026-11-07T02:55:06Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "5177ece",
-      "msg": "feat(b2c): sign-in",
-      "hidden": 41,
-      "at": "2026-11-07T02:52:13Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "27477ba",
-      "msg": "feat(b2c): under-price",
-      "hidden": 45,
-      "at": "2026-11-07T02:38:34Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "bf97ce9",
-      "msg": "fix(mobile): pink",
-      "hidden": 60,
-      "at": "2026-11-07T02:37:20Z"
     }
   ]
 }
