@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-09T10:34:06.725Z",
+  "updatedAt": "2026-11-09T10:48:45.880Z",
   "stats": {
-    "commits7d": 450,
+    "commits7d": 449,
     "commits30d": 1283,
     "prsMerged7d": 134,
     "prsMerged30d": 448,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 83467,
-    "linesRemoved7d": 21217,
+    "linesAdded7d": 83158,
+    "linesRemoved7d": 21180,
     "linesAdded30d": 319850,
     "linesRemoved30d": 66093,
     "linesPartial": false,
-    "ciRuns7d": 165,
+    "ciRuns7d": 168,
     "ciPassRate7d": 85,
-    "ciRuns30d": 195,
-    "ciPassRate30d": 82
+    "ciRuns30d": 198,
+    "ciPassRate30d": 81
   },
   "lastRun": {
-    "repo": "yalator-v2",
+    "repo": "elevate-hub",
     "conclusion": "failure",
-    "at": "2026-11-09T10:28:04Z"
+    "at": "2026-11-09T10:43:08Z"
   },
   "perDay": [
     {
@@ -442,6 +442,27 @@
   ],
   "recentRuns": [
     {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "failure",
+      "at": "2026-11-09T10:43:08Z",
+      "secs": 1513
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-09T10:39:59Z",
+      "secs": 1661
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "failure",
+      "at": "2026-11-09T10:35:33Z",
+      "secs": 1498
+    },
+    {
       "repo": "yalator-v2",
       "workflow": "Deploy published staging applications",
       "conclusion": "failure",
@@ -503,27 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-09T10:11:45Z",
       "secs": 169
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Terraform CI",
-      "conclusion": "success",
-      "at": "2026-11-09T10:10:27Z",
-      "secs": 167
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-09T09:39:38Z",
-      "secs": 1493
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-09T09:24:40Z",
-      "secs": 595
     }
   ],
   "releases": [],
