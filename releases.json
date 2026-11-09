@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-09T10:18:23.639Z",
+  "updatedAt": "2026-11-09T10:34:06.725Z",
   "stats": {
-    "commits7d": 451,
+    "commits7d": 450,
     "commits30d": 1283,
     "prsMerged7d": 134,
     "prsMerged30d": 448,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 83482,
+    "linesAdded7d": 83467,
     "linesRemoved7d": 21217,
     "linesAdded30d": 319850,
     "linesRemoved30d": 66093,
     "linesPartial": false,
-    "ciRuns7d": 162,
-    "ciPassRate7d": 86,
-    "ciRuns30d": 192,
-    "ciPassRate30d": 83
+    "ciRuns7d": 165,
+    "ciPassRate7d": 85,
+    "ciRuns30d": 195,
+    "ciPassRate30d": 82
   },
   "lastRun": {
-    "repo": "elevate-hub",
+    "repo": "yalator-v2",
     "conclusion": "failure",
-    "at": "2026-11-09T10:15:07Z"
+    "at": "2026-11-09T10:28:04Z"
   },
   "perDay": [
     {
@@ -442,6 +442,41 @@
   ],
   "recentRuns": [
     {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "failure",
+      "at": "2026-11-09T10:28:04Z",
+      "secs": 21
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Publish staging release candidates",
+      "conclusion": "failure",
+      "at": "2026-11-09T10:27:40Z",
+      "secs": 259
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-09T10:25:01Z",
+      "secs": 1041
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-09T10:23:19Z",
+      "secs": 939
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy Yalator Backend",
+      "conclusion": "success",
+      "at": "2026-11-09T10:22:54Z",
+      "secs": 914
+    },
+    {
       "repo": "elevate-hub",
       "workflow": "CI",
       "conclusion": "failure",
@@ -489,41 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-09T09:24:40Z",
       "secs": 595
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Terraform CI",
-      "conclusion": "success",
-      "at": "2026-11-09T09:17:28Z",
-      "secs": 163
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-09T08:39:44Z",
-      "secs": 908
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-09T08:28:49Z",
-      "secs": 23
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-11-09T08:28:24Z",
-      "secs": 26
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "failure",
-      "at": "2026-11-09T08:27:55Z",
-      "secs": 941
     }
   ],
   "releases": [],
