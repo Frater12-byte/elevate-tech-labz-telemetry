@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T16:48:34.592Z",
+  "updatedAt": "2026-11-10T17:06:04.112Z",
   "stats": {
     "commits7d": 458,
     "commits30d": 1344,
@@ -13,15 +13,15 @@
     "linesAdded30d": 332758,
     "linesRemoved30d": 67972,
     "linesPartial": false,
-    "ciRuns7d": 165,
+    "ciRuns7d": 163,
     "ciPassRate7d": 91,
-    "ciRuns30d": 195,
+    "ciRuns30d": 193,
     "ciPassRate30d": 87
   },
   "lastRun": {
-    "repo": "elevate-hub",
+    "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-10T16:46:08Z"
+    "at": "2026-11-10T16:56:19Z"
   },
   "perDay": [
     {
@@ -442,6 +442,13 @@
   ],
   "recentRuns": [
     {
+      "repo": "yalator-v2",
+      "workflow": "Terraform CI",
+      "conclusion": "success",
+      "at": "2026-11-10T16:56:19Z",
+      "secs": 121
+    },
+    {
       "repo": "elevate-hub",
       "workflow": "CI",
       "conclusion": "success",
@@ -517,13 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-10T15:50:04Z",
       "secs": 972
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
-      "conclusion": "success",
-      "at": "2026-11-10T15:49:10Z",
-      "secs": 918
     }
   ],
   "releases": [],
