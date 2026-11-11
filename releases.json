@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-11T12:09:19.688Z",
+  "updatedAt": "2026-11-11T12:24:13.896Z",
   "stats": {
     "commits7d": 405,
     "commits30d": 1305,
-    "prsMerged7d": 125,
+    "prsMerged7d": 124,
     "prsMerged30d": 457,
     "releases30d": 0,
     "activeRepos7d": 2,
@@ -13,9 +13,9 @@
     "linesAdded30d": 323710,
     "linesRemoved30d": 66737,
     "linesPartial": false,
-    "ciRuns7d": 169,
+    "ciRuns7d": 168,
     "ciPassRate7d": 91,
-    "ciRuns30d": 199,
+    "ciRuns30d": 198,
     "ciPassRate30d": 87
   },
   "lastRun": {
