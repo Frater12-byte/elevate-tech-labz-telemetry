@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-11T10:34:00.990Z",
+  "updatedAt": "2026-11-11T10:48:16.837Z",
   "stats": {
-    "commits7d": 410,
-    "commits30d": 1312,
-    "prsMerged7d": 126,
+    "commits7d": 409,
+    "commits30d": 1311,
+    "prsMerged7d": 125,
     "prsMerged30d": 461,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 79148,
-    "linesRemoved7d": 19646,
-    "linesAdded30d": 325358,
-    "linesRemoved30d": 66911,
+    "linesAdded7d": 78930,
+    "linesRemoved7d": 19565,
+    "linesAdded30d": 325297,
+    "linesRemoved30d": 66900,
     "linesPartial": false,
-    "ciRuns7d": 167,
+    "ciRuns7d": 168,
     "ciPassRate7d": 91,
-    "ciRuns30d": 197,
+    "ciRuns30d": 198,
     "ciPassRate30d": 87
   },
   "lastRun": {
     "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-11-11T10:11:48Z"
+    "at": "2026-11-11T10:34:41Z"
   },
   "perDay": [
     {
@@ -213,13 +213,13 @@
     },
     {
       "lang": "Python",
-      "added": 99238,
-      "removed": 15871
+      "added": 99178,
+      "removed": 15861
     },
     {
       "lang": "HTML",
-      "added": 32473,
-      "removed": 17651
+      "added": 32472,
+      "removed": 17650
     },
     {
       "lang": "Other",
@@ -258,7 +258,7 @@
       7,
       10,
       8,
-      17,
+      16,
       32,
       14,
       26,
@@ -433,7 +433,7 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 484
+      "commits": 483
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -441,6 +441,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-11T10:34:41Z",
+      "secs": 1366
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -517,13 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-10T17:15:06Z",
       "secs": 1248
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-10T17:10:41Z",
-      "secs": 22
     }
   ],
   "releases": [],
