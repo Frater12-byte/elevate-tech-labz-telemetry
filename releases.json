@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-11T11:33:58.613Z",
+  "updatedAt": "2026-11-11T11:48:25.126Z",
   "stats": {
     "commits7d": 406,
-    "commits30d": 1310,
+    "commits30d": 1309,
     "prsMerged7d": 125,
-    "prsMerged30d": 459,
+    "prsMerged30d": 458,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
     "linesAdded7d": 78664,
     "linesRemoved7d": 19451,
-    "linesAdded30d": 325238,
+    "linesAdded30d": 325009,
     "linesRemoved30d": 66885,
     "linesPartial": false,
-    "ciRuns7d": 168,
+    "ciRuns7d": 169,
     "ciPassRate7d": 91,
-    "ciRuns30d": 198,
+    "ciRuns30d": 199,
     "ciPassRate30d": 87
   },
   "lastRun": {
     "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-11-11T10:34:41Z"
+    "at": "2026-11-11T11:40:19Z"
   },
   "perDay": [
     {
@@ -208,7 +208,7 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 162096,
+      "added": 161882,
       "removed": 30164
     },
     {
@@ -223,12 +223,12 @@
     },
     {
       "lang": "Other",
-      "added": 20616,
+      "added": 20615,
       "removed": 1350
     },
     {
       "lang": "Markdown",
-      "added": 5554,
+      "added": 5540,
       "removed": 1003
     },
     {
@@ -259,7 +259,7 @@
       10,
       8,
       16,
-      31,
+      30,
       14,
       26,
       16,
@@ -429,7 +429,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 795
+      "commits": 794
     },
     {
       "repo": "elevate-hub",
@@ -441,6 +441,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-11T11:40:19Z",
+      "secs": 1620
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -517,13 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-10T18:19:16Z",
       "secs": 164
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-10T17:15:06Z",
-      "secs": 1248
     }
   ],
   "releases": [],
