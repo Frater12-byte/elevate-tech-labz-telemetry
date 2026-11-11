@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-11T05:34:04.576Z",
+  "updatedAt": "2026-11-11T05:48:19.544Z",
   "stats": {
-    "commits7d": 444,
-    "commits30d": 1332,
+    "commits7d": 441,
+    "commits30d": 1331,
     "prsMerged7d": 134,
     "prsMerged30d": 466,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 84343,
-    "linesRemoved7d": 20630,
-    "linesAdded30d": 330320,
-    "linesRemoved30d": 67854,
+    "linesAdded7d": 84161,
+    "linesRemoved7d": 20573,
+    "linesAdded30d": 330058,
+    "linesRemoved30d": 67829,
     "linesPartial": false,
-    "ciRuns7d": 168,
+    "ciRuns7d": 166,
     "ciPassRate7d": 91,
-    "ciRuns30d": 198,
+    "ciRuns30d": 196,
     "ciPassRate30d": 87
   },
   "lastRun": {
-    "repo": "yalator-v2",
-    "conclusion": "success",
-    "at": "2026-11-10T19:20:08Z"
+    "repo": "elevate-hub",
+    "conclusion": "cancelled",
+    "at": "2026-11-11T05:46:40Z"
   },
   "perDay": [
     {
@@ -208,8 +208,8 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 165855,
-      "removed": 30443
+      "added": 165593,
+      "removed": 30418
     },
     {
       "lang": "Python",
@@ -253,7 +253,7 @@
       0,
       0,
       14,
-      12,
+      11,
       15,
       8,
       14,
@@ -429,7 +429,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 812
+      "commits": 811
     },
     {
       "repo": "elevate-hub",
@@ -441,6 +441,20 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-11-11T05:46:40Z",
+      "secs": 294
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-11-11T05:42:05Z",
+      "secs": 29
+    },
     {
       "repo": "yalator-v2",
       "workflow": "Deploy production release",
@@ -510,20 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-10T16:56:19Z",
       "secs": 121
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-10T16:46:08Z",
-      "secs": 1741
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-10T16:12:31Z",
-      "secs": 1564
     }
   ],
   "releases": [],
