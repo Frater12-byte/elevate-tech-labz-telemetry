@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-12T11:06:06.874Z",
+  "updatedAt": "2026-11-12T11:18:38.188Z",
   "stats": {
-    "commits7d": 317,
-    "commits30d": 1277,
+    "commits7d": 331,
+    "commits30d": 1294,
     "prsMerged7d": 101,
-    "prsMerged30d": 460,
+    "prsMerged30d": 461,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 57964,
-    "linesRemoved7d": 13453,
-    "linesAdded30d": 312895,
-    "linesRemoved30d": 64173,
+    "linesAdded7d": 63267,
+    "linesRemoved7d": 14548,
+    "linesAdded30d": 319486,
+    "linesRemoved30d": 65268,
     "linesPartial": false,
-    "ciRuns7d": 161,
+    "ciRuns7d": 160,
     "ciPassRate7d": 90,
-    "ciRuns30d": 191,
+    "ciRuns30d": 190,
     "ciPassRate30d": 86
   },
   "lastRun": {
     "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-11-12T10:27:55Z"
+    "at": "2026-11-12T11:08:37Z"
   },
   "perDay": [
     {
@@ -194,37 +194,37 @@
     },
     {
       "day": "2026-11-11",
-      "commits": 12,
-      "added": 3921,
-      "removed": 156
+      "commits": 15,
+      "added": 5965,
+      "removed": 189
     },
     {
       "day": "2026-11-12",
-      "commits": 1,
-      "added": 1,
-      "removed": 0
+      "commits": 17,
+      "added": 4717,
+      "removed": 1113
     }
   ],
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 151864,
-      "removed": 29567
+      "added": 151695,
+      "removed": 29516
     },
     {
       "lang": "Python",
-      "added": 97525,
-      "removed": 14125
+      "added": 100943,
+      "removed": 14301
     },
     {
       "lang": "HTML",
-      "added": 32762,
-      "removed": 17538
+      "added": 36045,
+      "removed": 18481
     },
     {
       "lang": "Other",
-      "added": 20417,
-      "removed": 1206
+      "added": 20456,
+      "removed": 1232
     },
     {
       "lang": "Markdown",
@@ -238,8 +238,8 @@
     },
     {
       "lang": "CSS",
-      "added": 2047,
-      "removed": 443
+      "added": 2067,
+      "removed": 444
     }
   ],
   "heatmap": [
@@ -285,7 +285,7 @@
       22,
       21,
       20,
-      24,
+      22,
       17,
       12,
       5,
@@ -311,9 +311,9 @@
       15,
       13,
       15,
-      31,
-      17,
-      11,
+      32,
+      18,
+      12,
       7,
       9,
       6,
@@ -330,13 +330,13 @@
       0,
       0,
       1,
-      28,
+      30,
+      40,
+      24,
+      10,
+      33,
+      41,
       36,
-      20,
-      9,
-      32,
-      38,
-      35,
       24,
       10,
       9,
@@ -429,11 +429,11 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 756
+      "commits": 754
     },
     {
       "repo": "elevate-hub",
-      "commits": 489
+      "commits": 508
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -441,6 +441,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-12T11:08:37Z",
+      "secs": 1642
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -517,23 +524,128 @@
       "conclusion": "cancelled",
       "at": "2026-11-12T05:51:45Z",
       "secs": 130
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "cancelled",
-      "at": "2026-11-12T05:49:52Z",
-      "secs": 165
     }
   ],
   "releases": [],
   "commits": [
     {
       "repo": "elevate-hub",
+      "sha": "8b52c55",
+      "msg": "Finance: offer",
+      "hidden": 49,
+      "at": "2026-11-12T10:41:06Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "6203cb9",
+      "msg": "Finance: fix",
+      "hidden": 75,
+      "at": "2026-11-12T09:07:43Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "9fa53cc",
+      "msg": "Finance: edit",
+      "hidden": 40,
+      "at": "2026-11-12T09:04:41Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "c4761a1",
+      "msg": "Finance: a",
+      "hidden": 63,
+      "at": "2026-11-12T09:01:35Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "f46ce9b",
+      "msg": "Finance: drop",
+      "hidden": 80,
+      "at": "2026-11-12T08:26:33Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "ca08fe4",
+      "msg": "Finance: act",
+      "hidden": 91,
+      "at": "2026-11-12T07:02:34Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "6502c24",
+      "msg": "Finance: missing",
+      "hidden": 59,
+      "at": "2026-11-12T06:15:55Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "deb03a2",
+      "msg": "Finance: every",
+      "hidden": 54,
+      "at": "2026-11-12T06:11:45Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "c73cc94",
+      "msg": "Finance: act",
+      "hidden": 67,
+      "at": "2026-11-12T06:10:48Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "c21c8a1",
+      "msg": "Finance: Match",
+      "hidden": 69,
+      "at": "2026-11-12T06:04:10Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "26db906",
+      "msg": "Finance: the",
+      "hidden": 77,
+      "at": "2026-11-12T05:51:18Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "3d7b472",
+      "msg": "Finance: fixed",
+      "hidden": 65,
+      "at": "2026-11-12T05:49:26Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "afed22b",
+      "msg": "Finance: line",
+      "hidden": 70,
+      "at": "2026-11-12T05:46:59Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "3003797",
+      "msg": "Finance: follow",
+      "hidden": 61,
+      "at": "2026-11-12T05:41:40Z"
+    },
+    {
+      "repo": "elevate-hub",
       "sha": "ca7091f",
       "msg": "Conf pipeline:",
       "hidden": 61,
       "at": "2026-11-12T04:44:31Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "09a0ef9",
+      "msg": "Finance test:",
+      "hidden": 42,
+      "at": "2026-11-12T04:28:08Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "e4b40d3",
+      "msg": "Finance: zero",
+      "hidden": 45,
+      "at": "2026-11-12T04:27:47Z"
     },
     {
       "repo": "elevate-hub",
@@ -572,10 +684,31 @@
     },
     {
       "repo": "elevate-hub",
+      "sha": "a6e631b",
+      "msg": "Finance: full",
+      "hidden": 62,
+      "at": "2026-11-11T13:20:51Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "a788067",
+      "msg": "Finance: staging's",
+      "hidden": 68,
+      "at": "2026-11-11T12:17:09Z"
+    },
+    {
+      "repo": "elevate-hub",
       "sha": "280a302",
       "msg": "HIP: read",
       "hidden": 59,
       "at": "2026-11-11T11:28:46Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "c67b58b",
+      "msg": "Finance: AP",
+      "hidden": 77,
+      "at": "2026-11-11T11:12:54Z"
     },
     {
       "repo": "elevate-hub",
@@ -674,139 +807,6 @@
       "msg": "chore(infra): retire",
       "hidden": 1,
       "at": "2026-11-10T13:16:07Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "433b23e",
-      "msg": "feat(admin): add",
-      "hidden": 29,
-      "at": "2026-11-10T12:58:45Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "5c64b87",
-      "msg": "fix(notifications): type",
-      "hidden": 64,
-      "at": "2026-11-10T12:57:48Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "376950a",
-      "msg": "feat(notifications): manage",
-      "hidden": 54,
-      "at": "2026-11-10T12:54:18Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "8226d5e",
-      "msg": "feat(bookings): announce",
-      "hidden": 51,
-      "at": "2026-11-10T12:50:01Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "59ba08a",
-      "msg": "feat(notifications): route",
-      "hidden": 49,
-      "at": "2026-11-10T12:42:00Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "f74a4e8",
-      "msg": "feat(database): add",
-      "hidden": 57,
-      "at": "2026-11-10T12:35:25Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "61ee1f4",
-      "msg": "fix(b2c,mobile): a",
-      "hidden": 36,
-      "at": "2026-11-10T11:55:43Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "0a86758",
-      "msg": "fix(basket): claim",
-      "hidden": 68,
-      "at": "2026-11-10T11:24:04Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "56d1cb6",
-      "msg": "feat(admin): count",
-      "hidden": 59,
-      "at": "2026-11-10T10:22:13Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "e1670ef",
-      "msg": "Reps pairing:",
-      "hidden": 58,
-      "at": "2026-11-10T10:18:16Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "5cddcf8",
-      "msg": "Tests: the",
-      "hidden": 74,
-      "at": "2026-11-10T10:01:27Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "6736abd",
-      "msg": "Reps pairing:",
-      "hidden": 61,
-      "at": "2026-11-10T10:00:46Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "ce892d7",
-      "msg": "Reps meet-ups:",
-      "hidden": 66,
-      "at": "2026-11-10T09:28:50Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "7e1aff3",
-      "msg": "Reps: pair",
-      "hidden": 68,
-      "at": "2026-11-10T09:07:22Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "ea86c46",
-      "msg": "fix(basket): a",
-      "hidden": 61,
-      "at": "2026-11-10T09:01:48Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "c334f97",
-      "msg": "Reps sheets:",
-      "hidden": 50,
-      "at": "2026-11-10T08:29:38Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "43041f1",
-      "msg": "Reps meet-ups:",
-      "hidden": 66,
-      "at": "2026-11-10T08:26:10Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "195af8c",
-      "msg": "fix(basket): settle",
-      "hidden": 94,
-      "at": "2026-11-10T08:12:13Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "1014056",
-      "msg": "Reps meet-ups:",
-      "hidden": 49,
-      "at": "2026-11-10T07:48:35Z"
     }
   ]
 }
