@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-12T12:48:22.867Z",
+  "updatedAt": "2026-11-12T13:06:24.565Z",
   "stats": {
     "commits7d": 326,
-    "commits30d": 1294,
+    "commits30d": 1281,
     "prsMerged7d": 101,
-    "prsMerged30d": 461,
+    "prsMerged30d": 458,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
     "linesAdded7d": 63003,
     "linesRemoved7d": 14512,
-    "linesAdded30d": 319513,
-    "linesRemoved30d": 65262,
+    "linesAdded30d": 317680,
+    "linesRemoved30d": 65020,
     "linesPartial": false,
     "ciRuns7d": 161,
     "ciPassRate7d": 89,
@@ -19,9 +19,9 @@
     "ciPassRate30d": 85
   },
   "lastRun": {
-    "repo": "yalator-v2",
+    "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-11-12T12:28:37Z"
+    "at": "2026-11-12T13:02:27Z"
   },
   "perDay": [
     {
@@ -208,18 +208,18 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 151695,
-      "removed": 29516
+      "added": 151633,
+      "removed": 29476
     },
     {
       "lang": "Python",
-      "added": 100955,
-      "removed": 14302
+      "added": 99726,
+      "removed": 14240
     },
     {
       "lang": "HTML",
-      "added": 36081,
-      "removed": 18482
+      "added": 35996,
+      "removed": 18478
     },
     {
       "lang": "Other",
@@ -228,8 +228,8 @@
     },
     {
       "lang": "Markdown",
-      "added": 5016,
-      "removed": 880
+      "added": 4559,
+      "removed": 744
     },
     {
       "lang": "Shell",
@@ -282,11 +282,11 @@
       9,
       11,
       13,
-      22,
-      21,
-      19,
-      22,
       17,
+      21,
+      16,
+      18,
+      16,
       12,
       5,
       6,
@@ -429,11 +429,11 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 754
+      "commits": 742
     },
     {
       "repo": "elevate-hub",
-      "commits": 508
+      "commits": 507
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -441,6 +441,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-12T13:02:27Z",
+      "secs": 1592
+    },
     {
       "repo": "yalator-v2",
       "workflow": "CI",
@@ -517,13 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-12T09:35:57Z",
       "secs": 1686
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "cancelled",
-      "at": "2026-11-12T09:08:09Z",
-      "secs": 386
     }
   ],
   "releases": [],
