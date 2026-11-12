@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T04:20:14.073Z",
+  "updatedAt": "2026-11-12T04:34:02.426Z",
   "stats": {
     "commits7d": 410,
     "commits30d": 1305,
@@ -13,15 +13,15 @@
     "linesAdded30d": 322448,
     "linesRemoved30d": 66705,
     "linesPartial": false,
-    "ciRuns7d": 166,
+    "ciRuns7d": 165,
     "ciPassRate7d": 90,
-    "ciRuns30d": 196,
+    "ciRuns30d": 195,
     "ciPassRate30d": 86
   },
   "lastRun": {
     "repo": "elevate-hub",
-    "conclusion": "failure",
-    "at": "2026-11-11T21:19:08Z"
+    "conclusion": "cancelled",
+    "at": "2026-11-12T04:28:33Z"
   },
   "perDay": [
     {
@@ -444,6 +444,13 @@
     {
       "repo": "elevate-hub",
       "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-11-12T04:28:33Z",
+      "secs": 38
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
       "conclusion": "failure",
       "at": "2026-11-11T21:19:08Z",
       "secs": 1515
@@ -517,13 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-11T12:38:59Z",
       "secs": 1302
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-11T11:40:19Z",
-      "secs": 1620
     }
   ],
   "releases": [],
