@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-13T05:18:28.214Z",
+  "updatedAt": "2026-11-13T05:34:15.119Z",
   "stats": {
-    "commits7d": 312,
-    "commits30d": 1272,
-    "prsMerged7d": 82,
-    "prsMerged30d": 453,
+    "commits7d": 313,
+    "commits30d": 1270,
+    "prsMerged7d": 83,
+    "prsMerged30d": 454,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 61929,
-    "linesRemoved7d": 14113,
-    "linesAdded30d": 309860,
-    "linesRemoved30d": 63056,
+    "linesAdded7d": 62266,
+    "linesRemoved7d": 14116,
+    "linesAdded30d": 310042,
+    "linesRemoved30d": 63035,
     "linesPartial": false,
-    "ciRuns7d": 157,
+    "ciRuns7d": 154,
     "ciPassRate7d": 92,
-    "ciRuns30d": 187,
+    "ciRuns30d": 184,
     "ciPassRate30d": 88
   },
   "lastRun": {
     "repo": "elevate-hub",
-    "conclusion": "success",
-    "at": "2026-11-13T05:13:19Z"
+    "conclusion": "cancelled",
+    "at": "2026-11-13T05:24:44Z"
   },
   "perDay": [
     {
@@ -194,9 +194,9 @@
     },
     {
       "day": "2026-11-12",
-      "commits": 29,
-      "added": 8013,
-      "removed": 1197
+      "commits": 30,
+      "added": 8350,
+      "removed": 1200
     },
     {
       "day": "2026-11-13",
@@ -208,17 +208,17 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 146192,
-      "removed": 29057
+      "added": 146037,
+      "removed": 29033
     },
     {
       "lang": "Python",
-      "added": 95282,
-      "removed": 12950
+      "added": 95541,
+      "removed": 12953
     },
     {
       "lang": "HTML",
-      "added": 35818,
+      "added": 35896,
       "removed": 18341
     },
     {
@@ -305,7 +305,7 @@
       0,
       0,
       17,
-      28,
+      25,
       12,
       39,
       15,
@@ -339,7 +339,7 @@
       36,
       26,
       17,
-      11,
+      12,
       4,
       17,
       3,
@@ -429,11 +429,11 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 736
+      "commits": 733
     },
     {
       "repo": "elevate-hub",
-      "commits": 504
+      "commits": 505
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -441,6 +441,20 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-11-13T05:24:44Z",
+      "secs": 1523
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-13T05:23:26Z",
+      "secs": 1385
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -510,20 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-12T20:15:41Z",
       "secs": 849
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Terraform CI",
-      "conclusion": "success",
-      "at": "2026-11-12T20:04:17Z",
-      "secs": 165
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-12T19:47:38Z",
-      "secs": 1312
     }
   ],
   "releases": [],
@@ -534,6 +534,13 @@
       "msg": "fix(infra): track",
       "hidden": 61,
       "at": "2026-11-12T19:06:54Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "e8ab440",
+      "msg": "Finance: upload",
+      "hidden": 34,
+      "at": "2026-11-12T13:48:19Z"
     },
     {
       "repo": "elevate-hub",
@@ -800,13 +807,6 @@
       "msg": "Conf pipeline:",
       "hidden": 97,
       "at": "2026-11-11T10:18:50Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "130e8c8",
-      "msg": "Yara: a",
-      "hidden": 81,
-      "at": "2026-11-11T09:45:02Z"
     }
   ]
 }
