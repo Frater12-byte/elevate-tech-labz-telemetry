@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-13T09:48:18.755Z",
+  "updatedAt": "2026-11-13T10:06:18.270Z",
   "stats": {
-    "commits7d": 308,
+    "commits7d": 306,
     "commits30d": 1271,
-    "prsMerged7d": 91,
-    "prsMerged30d": 458,
+    "prsMerged7d": 80,
+    "prsMerged30d": 456,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 58134,
-    "linesRemoved7d": 13790,
+    "linesAdded7d": 58007,
+    "linesRemoved7d": 13747,
     "linesAdded30d": 304781,
     "linesRemoved30d": 61873,
     "linesPartial": false,
-    "ciRuns7d": 152,
+    "ciRuns7d": 156,
     "ciPassRate7d": 97,
-    "ciRuns30d": 182,
+    "ciRuns30d": 186,
     "ciPassRate30d": 92
   },
   "lastRun": {
-    "repo": "yalator-v2",
+    "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-11-13T09:47:55Z"
+    "at": "2026-11-13T10:02:52Z"
   },
   "perDay": [
     {
@@ -442,6 +442,34 @@
   ],
   "recentRuns": [
     {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-13T10:02:52Z",
+      "secs": 1132
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-11-13T09:59:21Z",
+      "secs": 683
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-11-13T09:59:09Z",
+      "secs": 744
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-13T09:52:19Z",
+      "secs": 1724
+    },
+    {
       "repo": "yalator-v2",
       "workflow": "Publish staging release candidates",
       "conclusion": "success",
@@ -496,34 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-13T09:25:55Z",
       "secs": 12
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-13T09:23:50Z",
-      "secs": 6
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-13T09:20:20Z",
-      "secs": 505
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-13T09:20:13Z",
-      "secs": 979
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-13T09:19:55Z",
-      "secs": 2
     }
   ],
   "releases": [],
