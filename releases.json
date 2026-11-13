@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-11-13T10:48:39.733Z",
+  "updatedAt": "2026-11-13T11:05:47.143Z",
   "stats": {
-    "commits7d": 321,
+    "commits7d": 319,
     "commits30d": 1283,
     "prsMerged7d": 80,
     "prsMerged30d": 459,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 64813,
-    "linesRemoved7d": 13960,
+    "linesAdded7d": 64429,
+    "linesRemoved7d": 13906,
     "linesAdded30d": 310578,
     "linesRemoved30d": 62078,
     "linesPartial": false,
-    "ciRuns7d": 153,
+    "ciRuns7d": 152,
     "ciPassRate7d": 97,
-    "ciRuns30d": 183,
+    "ciRuns30d": 182,
     "ciPassRate30d": 92
   },
   "lastRun": {
