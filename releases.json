@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-14T11:05:15.749Z",
+  "updatedAt": "2026-11-14T11:17:37.378Z",
   "stats": {
     "commits7d": 219,
-    "commits30d": 1265,
+    "commits30d": 1262,
     "prsMerged7d": 81,
-    "prsMerged30d": 466,
+    "prsMerged30d": 465,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
     "linesAdded7d": 75774,
     "linesRemoved7d": 6663,
-    "linesAdded30d": 325368,
-    "linesRemoved30d": 60056,
+    "linesAdded30d": 323843,
+    "linesRemoved30d": 60018,
     "linesPartial": false,
-    "ciRuns7d": 162,
+    "ciRuns7d": 160,
     "ciPassRate7d": 98,
-    "ciRuns30d": 192,
+    "ciRuns30d": 190,
     "ciPassRate30d": 93
   },
   "lastRun": {
     "repo": "yalator-v2",
-    "conclusion": "skipped",
-    "at": "2026-11-14T10:40:59Z"
+    "conclusion": "success",
+    "at": "2026-11-14T11:15:42Z"
   },
   "perDay": [
     {
@@ -208,8 +208,8 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 139644,
-      "removed": 28388
+      "added": 138119,
+      "removed": 28350
     },
     {
       "lang": "Python",
@@ -309,10 +309,10 @@
       12,
       34,
       13,
-      9,
+      8,
       9,
       27,
-      15,
+      14,
       12,
       7,
       9,
@@ -334,7 +334,7 @@
       36,
       23,
       10,
-      26,
+      25,
       37,
       29,
       25,
@@ -429,7 +429,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 710
+      "commits": 707
     },
     {
       "repo": "elevate-hub",
@@ -441,6 +441,20 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-14T11:15:42Z",
+      "secs": 12
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-14T11:15:38Z",
+      "secs": 11
+    },
     {
       "repo": "yalator-v2",
       "workflow": "Claude Mention",
@@ -510,20 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-14T09:48:49Z",
       "secs": 14
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-14T08:56:38Z",
-      "secs": 720
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-11-14T08:44:35Z",
-      "secs": 280
     }
   ],
   "releases": [],
