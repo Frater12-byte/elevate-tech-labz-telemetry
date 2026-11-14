@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-14T14:05:27.616Z",
+  "updatedAt": "2026-11-14T14:18:17.668Z",
   "stats": {
-    "commits7d": 221,
-    "commits30d": 1248,
+    "commits7d": 220,
+    "commits30d": 1245,
     "prsMerged7d": 84,
     "prsMerged30d": 462,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 76267,
-    "linesRemoved7d": 9641,
-    "linesAdded30d": 318601,
-    "linesRemoved30d": 62730,
+    "linesAdded7d": 76118,
+    "linesRemoved7d": 9601,
+    "linesAdded30d": 318580,
+    "linesRemoved30d": 62727,
     "linesPartial": false,
-    "ciRuns7d": 160,
+    "ciRuns7d": 158,
     "ciPassRate7d": 97,
-    "ciRuns30d": 190,
-    "ciPassRate30d": 92
+    "ciRuns30d": 188,
+    "ciPassRate30d": 91
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-14T13:54:16Z"
+    "at": "2026-11-14T14:09:42Z"
   },
   "perDay": [
     {
@@ -223,8 +223,8 @@
     },
     {
       "lang": "Other",
-      "added": 41642,
-      "removed": 1479
+      "added": 41621,
+      "removed": 1476
     },
     {
       "lang": "Shell",
@@ -340,7 +340,7 @@
       25,
       18,
       10,
-      4,
+      1,
       17,
       3,
       5,
@@ -429,7 +429,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 693
+      "commits": 690
     },
     {
       "repo": "elevate-hub",
@@ -441,6 +441,20 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Terraform CI",
+      "conclusion": "success",
+      "at": "2026-11-14T14:09:42Z",
+      "secs": 194
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "cancelled",
+      "at": "2026-11-14T14:06:45Z",
+      "secs": 1226
+    },
     {
       "repo": "yalator-v2",
       "workflow": "CI",
@@ -510,20 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-14T12:23:14Z",
       "secs": 26
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-14T12:22:46Z",
-      "secs": 890
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Terraform CI",
-      "conclusion": "success",
-      "at": "2026-11-14T12:11:10Z",
-      "secs": 194
     }
   ],
   "releases": [],
