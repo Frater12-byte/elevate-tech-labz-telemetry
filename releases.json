@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T10:24:33.407Z",
+  "updatedAt": "2026-11-16T10:35:40.233Z",
   "stats": {
     "commits7d": 206,
     "commits30d": 1209,
@@ -13,15 +13,15 @@
     "linesAdded30d": 305445,
     "linesRemoved30d": 59915,
     "linesPartial": false,
-    "ciRuns7d": 155,
+    "ciRuns7d": 151,
     "ciPassRate7d": 99,
-    "ciRuns30d": 185,
+    "ciRuns30d": 181,
     "ciPassRate30d": 93
   },
   "lastRun": {
     "repo": "yalator-v2",
-    "conclusion": "success",
-    "at": "2026-11-16T09:55:33Z"
+    "conclusion": "skipped",
+    "at": "2026-11-16T10:34:37Z"
   },
   "perDay": [
     {
@@ -443,6 +443,20 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-16T10:34:37Z",
+      "secs": 1
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-16T10:34:36Z",
+      "secs": 14
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "CI",
       "conclusion": "success",
       "at": "2026-11-16T09:55:33Z",
@@ -510,20 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-16T09:15:46Z",
       "secs": 11
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-16T08:59:39Z",
-      "secs": 809
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-16T08:51:27Z",
-      "secs": 1033
     }
   ],
   "releases": [],
