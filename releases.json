@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-17T11:48:25.027Z",
+  "updatedAt": "2026-11-17T12:08:56.314Z",
   "stats": {
-    "commits7d": 201,
+    "commits7d": 200,
     "commits30d": 1255,
     "prsMerged7d": 88,
     "prsMerged30d": 453,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 76148,
-    "linesRemoved7d": 8392,
+    "linesAdded7d": 76135,
+    "linesRemoved7d": 8386,
     "linesAdded30d": 314507,
     "linesRemoved30d": 60683,
     "linesPartial": false,
-    "ciRuns7d": 149,
+    "ciRuns7d": 148,
     "ciPassRate7d": 95,
-    "ciRuns30d": 179,
+    "ciRuns30d": 178,
     "ciPassRate30d": 89
   },
   "lastRun": {
-    "repo": "yalator-v2",
+    "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-11-17T11:15:07Z"
+    "at": "2026-11-17T12:01:36Z"
   },
   "perDay": [
     {
@@ -442,6 +442,27 @@
   ],
   "recentRuns": [
     {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-17T12:01:36Z",
+      "secs": 1817
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-17T11:59:20Z",
+      "secs": 1
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-17T11:51:24Z",
+      "secs": 10
+    },
+    {
       "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
@@ -503,27 +524,6 @@
       "conclusion": "skipped",
       "at": "2026-11-17T10:27:17Z",
       "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-17T10:21:18Z",
-      "secs": 13
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-17T09:40:10Z",
-      "secs": 1363
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "failure",
-      "at": "2026-11-17T09:36:08Z",
-      "secs": 1120
     }
   ],
   "releases": [],
