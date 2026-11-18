@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-11-18T13:18:38.194Z",
+  "updatedAt": "2026-11-18T13:34:08.125Z",
   "stats": {
-    "commits7d": 200,
-    "commits30d": 1263,
+    "commits7d": 205,
+    "commits30d": 1268,
     "prsMerged7d": 75,
-    "prsMerged30d": 453,
+    "prsMerged30d": 454,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 71765,
-    "linesRemoved7d": 8107,
-    "linesAdded30d": 316331,
-    "linesRemoved30d": 60393,
+    "linesAdded7d": 74467,
+    "linesRemoved7d": 9281,
+    "linesAdded30d": 318821,
+    "linesRemoved30d": 61229,
     "linesPartial": false,
-    "ciRuns7d": 146,
+    "ciRuns7d": 144,
     "ciPassRate7d": 95,
-    "ciRuns30d": 182,
+    "ciRuns30d": 181,
     "ciPassRate30d": 90
   },
   "lastRun": {
@@ -194,37 +194,37 @@
     },
     {
       "day": "2026-11-17",
-      "commits": 10,
-      "added": 4049,
-      "removed": 99
+      "commits": 13,
+      "added": 4503,
+      "removed": 227
     },
     {
       "day": "2026-11-18",
-      "commits": 14,
-      "added": 1582,
-      "removed": 247
+      "commits": 18,
+      "added": 4026,
+      "removed": 1297
     }
   ],
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 128408,
-      "removed": 29092
+      "added": 128000,
+      "removed": 28750
     },
     {
       "lang": "Python",
-      "added": 94744,
-      "removed": 9926
+      "added": 97046,
+      "removed": 10841
     },
     {
       "lang": "HTML",
-      "added": 37023,
-      "removed": 18742
+      "added": 37318,
+      "removed": 18923
     },
     {
       "lang": "Other",
-      "added": 41209,
-      "removed": 1385
+      "added": 41510,
+      "removed": 1467
     },
     {
       "lang": "Shell",
@@ -261,7 +261,7 @@
       23,
       36,
       12,
-      27,
+      25,
       19,
       1,
       1,
@@ -281,8 +281,8 @@
       5,
       9,
       11,
-      13,
-      19,
+      15,
+      20,
       21,
       19,
       18,
@@ -307,13 +307,13 @@
       17,
       20,
       14,
-      35,
+      36,
       19,
       8,
       12,
-      28,
-      13,
-      9,
+      29,
+      14,
+      10,
       7,
       9,
       6,
@@ -429,11 +429,11 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 680
+      "commits": 678
     },
     {
       "repo": "elevate-hub",
-      "commits": 551
+      "commits": 558
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -530,6 +530,27 @@
   "commits": [
     {
       "repo": "elevate-hub",
+      "sha": "520d11d",
+      "msg": "Held-email release:",
+      "hidden": 51,
+      "at": "2026-11-18T13:13:14Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "223a77a",
+      "msg": "Address second",
+      "hidden": 60,
+      "at": "2026-11-18T12:19:11Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "3beaac3",
+      "msg": "Shared internal",
+      "hidden": 56,
+      "at": "2026-11-18T11:50:57Z"
+    },
+    {
+      "repo": "elevate-hub",
       "sha": "0489992",
       "msg": "Contracting: leave",
       "hidden": 80,
@@ -604,6 +625,13 @@
       "msg": "Contracting: give",
       "hidden": 49,
       "at": "2026-11-18T08:23:53Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "d34b7d4",
+      "msg": "Colleague CC:",
+      "hidden": 51,
+      "at": "2026-11-18T07:48:48Z"
     },
     {
       "repo": "yalator-v2",
@@ -683,6 +711,13 @@
       "at": "2026-11-17T10:07:26Z"
     },
     {
+      "repo": "elevate-hub",
+      "sha": "09f1fd1",
+      "msg": "Add the",
+      "hidden": 57,
+      "at": "2026-11-17T08:32:18Z"
+    },
+    {
       "repo": "yalator-v2",
       "sha": "21ea196",
       "msg": "feat(trips): show",
@@ -695,6 +730,20 @@
       "msg": "feat(bundles): carry",
       "hidden": 65,
       "at": "2026-11-17T08:26:13Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "9a4b575",
+      "msg": "Queue: date",
+      "hidden": 68,
+      "at": "2026-11-17T07:42:35Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "9893628",
+      "msg": "Manual hotel",
+      "hidden": 46,
+      "at": "2026-11-17T07:33:17Z"
     },
     {
       "repo": "elevate-hub",
@@ -758,55 +807,6 @@
       "msg": "Trip card",
       "hidden": 64,
       "at": "2026-11-16T11:25:02Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "d786436",
-      "msg": "Migration declaration",
-      "hidden": 26,
-      "at": "2026-11-16T11:23:13Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "65f5d0c",
-      "msg": "Migration declaration",
-      "hidden": 26,
-      "at": "2026-11-16T11:23:10Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "361b1bd",
-      "msg": "Migration: own",
-      "hidden": 60,
-      "at": "2026-11-16T11:22:58Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "11614b5",
-      "msg": "Migration: own",
-      "hidden": 60,
-      "at": "2026-11-16T11:22:56Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "40a106d",
-      "msg": "feat(bookings): confirm",
-      "hidden": 56,
-      "at": "2026-11-16T11:21:55Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "692334e",
-      "msg": "Bookings ops:",
-      "hidden": 50,
-      "at": "2026-11-16T10:49:47Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "3fea008",
-      "msg": "Admin: \"Waiting",
-      "hidden": 57,
-      "at": "2026-11-16T10:37:07Z"
     }
   ]
 }
