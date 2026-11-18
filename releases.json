@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T00:55:42.064Z",
+  "updatedAt": "2026-11-18T01:07:44.189Z",
   "stats": {
     "commits7d": 195,
     "commits30d": 1264,
@@ -13,10 +13,10 @@
     "linesAdded30d": 318144,
     "linesRemoved30d": 60780,
     "linesPartial": false,
-    "ciRuns7d": 147,
+    "ciRuns7d": 146,
     "ciPassRate7d": 96,
-    "ciRuns30d": 179,
-    "ciPassRate30d": 91
+    "ciRuns30d": 178,
+    "ciPassRate30d": 90
   },
   "lastRun": {
     "repo": "yalator-v2",
