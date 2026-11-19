@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-19T04:20:31.165Z",
+  "updatedAt": "2026-11-19T04:33:56.429Z",
   "stats": {
-    "commits7d": 209,
+    "commits7d": 207,
     "commits30d": 1262,
     "prsMerged7d": 73,
     "prsMerged30d": 449,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 73501,
-    "linesRemoved7d": 9460,
+    "linesAdded7d": 73456,
+    "linesRemoved7d": 9454,
     "linesAdded30d": 315608,
     "linesRemoved30d": 60581,
     "linesPartial": false,
-    "ciRuns7d": 147,
+    "ciRuns7d": 148,
     "ciPassRate7d": 97,
-    "ciRuns30d": 185,
+    "ciRuns30d": 187,
     "ciPassRate30d": 91
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-19T04:17:19Z"
+    "at": "2026-11-19T04:28:46Z"
   },
   "perDay": [
     {
@@ -443,6 +443,27 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "Publish staging release candidates",
+      "conclusion": "success",
+      "at": "2026-11-19T04:28:46Z",
+      "secs": 269
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-19T04:24:15Z",
+      "secs": 963
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy Yalator Backend",
+      "conclusion": "success",
+      "at": "2026-11-19T04:23:13Z",
+      "secs": 901
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "Deploy published staging applications",
       "conclusion": "success",
       "at": "2026-11-19T04:17:19Z",
@@ -503,27 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-19T03:56:52Z",
       "secs": 210
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-19T03:54:14Z",
-      "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "cancelled",
-      "at": "2026-11-19T03:47:48Z",
-      "secs": 54
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-19T03:47:47Z",
-      "secs": 16
     }
   ],
   "releases": [],
