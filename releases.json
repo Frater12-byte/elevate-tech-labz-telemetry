@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T06:27:57.028Z",
+  "updatedAt": "2026-11-19T06:43:37.777Z",
   "stats": {
     "commits7d": 212,
     "commits30d": 1272,
@@ -13,15 +13,15 @@
     "linesAdded30d": 318082,
     "linesRemoved30d": 60324,
     "linesPartial": false,
-    "ciRuns7d": 140,
+    "ciRuns7d": 137,
     "ciPassRate7d": 97,
-    "ciRuns30d": 179,
+    "ciRuns30d": 176,
     "ciPassRate30d": 91
   },
   "lastRun": {
     "repo": "yalator-v2",
-    "conclusion": "skipped",
-    "at": "2026-11-19T06:27:25Z"
+    "conclusion": "success",
+    "at": "2026-11-19T06:43:21Z"
   },
   "perDay": [
     {
@@ -443,6 +443,48 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-19T06:43:21Z",
+      "secs": 990
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy Yalator Backend",
+      "conclusion": "success",
+      "at": "2026-11-19T06:42:32Z",
+      "secs": 985
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Terraform CI",
+      "conclusion": "success",
+      "at": "2026-11-19T06:37:48Z",
+      "secs": 262
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-19T06:34:27Z",
+      "secs": 1
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-19T06:28:13Z",
+      "secs": 1
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-19T06:28:02Z",
+      "secs": 14
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "Claude Mention",
       "conclusion": "skipped",
       "at": "2026-11-19T06:27:25Z",
@@ -482,48 +524,6 @@
       "conclusion": "skipped",
       "at": "2026-11-19T05:48:35Z",
       "secs": 0
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-19T05:48:00Z",
-      "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-19T05:45:45Z",
-      "secs": 2
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-19T05:42:07Z",
-      "secs": 22
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-11-19T05:41:41Z",
-      "secs": 26
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
-      "conclusion": "success",
-      "at": "2026-11-19T05:41:16Z",
-      "secs": 889
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "failure",
-      "at": "2026-11-19T05:41:12Z",
-      "secs": 885
     }
   ],
   "releases": [],
