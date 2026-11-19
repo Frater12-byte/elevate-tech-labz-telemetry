@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-19T04:33:56.429Z",
+  "updatedAt": "2026-11-19T04:48:22.526Z",
   "stats": {
-    "commits7d": 207,
+    "commits7d": 206,
     "commits30d": 1262,
     "prsMerged7d": 73,
     "prsMerged30d": 449,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 73456,
+    "linesAdded7d": 73455,
     "linesRemoved7d": 9454,
     "linesAdded30d": 315608,
     "linesRemoved30d": 60581,
     "linesPartial": false,
     "ciRuns7d": 148,
     "ciPassRate7d": 97,
-    "ciRuns30d": 187,
+    "ciRuns30d": 188,
     "ciPassRate30d": 91
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-19T04:28:46Z"
+    "at": "2026-11-19T04:40:21Z"
   },
   "perDay": [
     {
@@ -443,6 +443,13 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-11-19T04:40:21Z",
+      "secs": 691
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "Publish staging release candidates",
       "conclusion": "success",
       "at": "2026-11-19T04:28:46Z",
@@ -517,13 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-19T04:00:54Z",
       "secs": 867
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Terraform CI",
-      "conclusion": "success",
-      "at": "2026-11-19T03:56:52Z",
-      "secs": 210
     }
   ],
   "releases": [],
