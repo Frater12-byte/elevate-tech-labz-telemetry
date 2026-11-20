@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-20T15:06:21.783Z",
+  "updatedAt": "2026-11-20T15:18:27.610Z",
   "stats": {
     "commits7d": 237,
-    "commits30d": 1333,
+    "commits30d": 1332,
     "prsMerged7d": 86,
-    "prsMerged30d": 466,
+    "prsMerged30d": 465,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
     "linesAdded7d": 93381,
     "linesRemoved7d": 14439,
-    "linesAdded30d": 353318,
-    "linesRemoved30d": 66665,
+    "linesAdded30d": 353312,
+    "linesRemoved30d": 66659,
     "linesPartial": false,
-    "ciRuns7d": 125,
+    "ciRuns7d": 126,
     "ciPassRate7d": 81,
-    "ciRuns30d": 188,
+    "ciRuns30d": 189,
     "ciPassRate30d": 81
   },
   "lastRun": {
-    "repo": "elevate-hub",
+    "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-20T14:59:46Z"
+    "at": "2026-11-20T15:09:12Z"
   },
   "perDay": [
     {
@@ -223,8 +223,8 @@
     },
     {
       "lang": "Other",
-      "added": 41894,
-      "removed": 1507
+      "added": 41891,
+      "removed": 1504
     },
     {
       "lang": "Shell",
@@ -238,8 +238,8 @@
     },
     {
       "lang": "Markdown",
-      "added": 4127,
-      "removed": 544
+      "added": 4124,
+      "removed": 541
     }
   ],
   "heatmap": [
@@ -315,7 +315,7 @@
       9,
       8,
       4,
-      10,
+      9,
       6,
       3,
       7,
@@ -429,7 +429,7 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 694
+      "commits": 693
     },
     {
       "repo": "elevate-hub",
@@ -441,6 +441,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy production release",
+      "conclusion": "success",
+      "at": "2026-11-20T15:09:12Z",
+      "secs": 1597
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -517,13 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-20T13:50:35Z",
       "secs": 17
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-20T13:50:31Z",
-      "secs": 2121
     }
   ],
   "releases": [],
