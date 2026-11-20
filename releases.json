@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-20T12:08:34.474Z",
+  "updatedAt": "2026-11-20T12:24:17.016Z",
   "stats": {
-    "commits7d": 198,
+    "commits7d": 197,
     "commits30d": 1298,
-    "prsMerged7d": 82,
-    "prsMerged30d": 468,
+    "prsMerged7d": 81,
+    "prsMerged30d": 466,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 84928,
-    "linesRemoved7d": 10750,
+    "linesAdded7d": 84094,
+    "linesRemoved7d": 10523,
     "linesAdded30d": 344891,
     "linesRemoved30d": 63102,
     "linesPartial": false,
-    "ciRuns7d": 119,
+    "ciRuns7d": 120,
     "ciPassRate7d": 80,
-    "ciRuns30d": 190,
+    "ciRuns30d": 192,
     "ciPassRate30d": 82
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-20T12:06:18Z"
+    "at": "2026-11-20T12:21:13Z"
   },
   "perDay": [
     {
@@ -443,6 +443,34 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-20T12:21:13Z",
+      "secs": 906
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-20T12:16:51Z",
+      "secs": 9
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-20T12:16:48Z",
+      "secs": 12
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-20T12:11:24Z",
+      "secs": 909
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
       "at": "2026-11-20T12:06:18Z",
@@ -496,34 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-20T09:46:19Z",
       "secs": 976
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-20T09:45:45Z",
-      "secs": 942
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-20T09:27:25Z",
-      "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "failure",
-      "at": "2026-11-20T09:04:48Z",
-      "secs": 20
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "failure",
-      "at": "2026-11-20T09:04:24Z",
-      "secs": 267
     }
   ],
   "releases": [],
