@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-20T11:18:21.233Z",
+  "updatedAt": "2026-11-20T11:34:22.094Z",
   "stats": {
-    "commits7d": 213,
-    "commits30d": 1310,
-    "prsMerged7d": 84,
+    "commits7d": 209,
+    "commits30d": 1305,
+    "prsMerged7d": 83,
     "prsMerged30d": 471,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 88593,
-    "linesRemoved7d": 11205,
-    "linesAdded30d": 348362,
-    "linesRemoved30d": 63454,
+    "linesAdded7d": 86155,
+    "linesRemoved7d": 10879,
+    "linesAdded30d": 346830,
+    "linesRemoved30d": 63287,
     "linesPartial": false,
-    "ciRuns7d": 122,
+    "ciRuns7d": 120,
     "ciPassRate7d": 78,
     "ciRuns30d": 190,
     "ciPassRate30d": 80
@@ -208,23 +208,23 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 154554,
-      "removed": 30751
+      "added": 154467,
+      "removed": 30716
     },
     {
       "lang": "Python",
-      "added": 100182,
-      "removed": 11081
+      "added": 99021,
+      "removed": 11054
     },
     {
       "lang": "HTML",
-      "added": 37726,
-      "removed": 19042
+      "added": 37444,
+      "removed": 18939
     },
     {
       "lang": "Other",
-      "added": 41891,
-      "removed": 1475
+      "added": 41889,
+      "removed": 1473
     },
     {
       "lang": "Shell",
@@ -311,7 +311,7 @@
       15,
       8,
       9,
-      27,
+      22,
       14,
       10,
       11,
@@ -429,11 +429,11 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 706
+      "commits": 705
     },
     {
       "repo": "elevate-hub",
-      "commits": 572
+      "commits": 568
     },
     {
       "repo": "elevate-tech-labz-site",
