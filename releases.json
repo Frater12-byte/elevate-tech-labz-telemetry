@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T17:18:13.359Z",
+  "updatedAt": "2026-11-20T17:33:57.163Z",
   "stats": {
     "commits7d": 246,
     "commits30d": 1342,
@@ -13,15 +13,15 @@
     "linesAdded30d": 354829,
     "linesRemoved30d": 66791,
     "linesPartial": false,
-    "ciRuns7d": 129,
-    "ciPassRate7d": 88,
-    "ciRuns30d": 188,
+    "ciRuns7d": 132,
+    "ciPassRate7d": 89,
+    "ciRuns30d": 191,
     "ciPassRate30d": 86
   },
   "lastRun": {
     "repo": "elevate-hub",
     "conclusion": "success",
-    "at": "2026-11-20T17:14:58Z"
+    "at": "2026-11-20T17:32:34Z"
   },
   "perDay": [
     {
@@ -445,6 +445,34 @@
       "repo": "elevate-hub",
       "workflow": "CI",
       "conclusion": "success",
+      "at": "2026-11-20T17:32:34Z",
+      "secs": 2204
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy published staging applications",
+      "conclusion": "success",
+      "at": "2026-11-20T17:32:03Z",
+      "secs": 371
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Publish staging release candidates",
+      "conclusion": "success",
+      "at": "2026-11-20T17:25:49Z",
+      "secs": 291
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-20T17:20:53Z",
+      "secs": 190
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
       "at": "2026-11-20T17:14:58Z",
       "secs": 1976
     },
@@ -496,34 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-20T16:52:59Z",
       "secs": 13
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-20T16:40:49Z",
-      "secs": 703
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-20T16:31:23Z",
-      "secs": 1016
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-20T16:30:01Z",
-      "secs": 1506
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-11-20T16:29:02Z",
-      "secs": 283
     }
   ],
   "releases": [],
