@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-20T11:34:22.094Z",
+  "updatedAt": "2026-11-20T11:48:10.146Z",
   "stats": {
-    "commits7d": 209,
-    "commits30d": 1305,
+    "commits7d": 206,
+    "commits30d": 1302,
     "prsMerged7d": 83,
     "prsMerged30d": 471,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 86155,
-    "linesRemoved7d": 10879,
-    "linesAdded30d": 346830,
-    "linesRemoved30d": 63287,
+    "linesAdded7d": 85803,
+    "linesRemoved7d": 10845,
+    "linesAdded30d": 345565,
+    "linesRemoved30d": 63139,
     "linesPartial": false,
-    "ciRuns7d": 120,
+    "ciRuns7d": 119,
     "ciPassRate7d": 78,
-    "ciRuns30d": 190,
+    "ciRuns30d": 189,
     "ciPassRate30d": 80
   },
   "lastRun": {
-    "repo": "elevate-hub",
+    "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-20T10:13:55Z"
+    "at": "2026-11-20T11:44:39Z"
   },
   "perDay": [
     {
@@ -208,23 +208,23 @@
   "languages": [
     {
       "lang": "TypeScript",
-      "added": 154467,
-      "removed": 30716
+      "added": 153759,
+      "removed": 30617
     },
     {
       "lang": "Python",
-      "added": 99021,
-      "removed": 11054
+      "added": 98488,
+      "removed": 11023
     },
     {
       "lang": "HTML",
-      "added": 37444,
-      "removed": 18939
+      "added": 37421,
+      "removed": 18922
     },
     {
       "lang": "Other",
-      "added": 41889,
-      "removed": 1473
+      "added": 41888,
+      "removed": 1472
     },
     {
       "lang": "Shell",
@@ -311,7 +311,7 @@
       15,
       8,
       9,
-      22,
+      19,
       14,
       10,
       11,
@@ -429,11 +429,11 @@
   "byRepo": [
     {
       "repo": "yalator-v2",
-      "commits": 705
+      "commits": 703
     },
     {
       "repo": "elevate-hub",
-      "commits": 568
+      "commits": 567
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -441,6 +441,13 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Publish matching db-tools candidate",
+      "conclusion": "success",
+      "at": "2026-11-20T11:44:39Z",
+      "secs": 135
+    },
     {
       "repo": "elevate-hub",
       "workflow": "CI",
@@ -454,13 +461,6 @@
       "conclusion": "success",
       "at": "2026-11-20T09:54:54Z",
       "secs": 1491
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "failure",
-      "at": "2026-11-20T09:51:28Z",
-      "secs": 62
     },
     {
       "repo": "yalator-v2",
