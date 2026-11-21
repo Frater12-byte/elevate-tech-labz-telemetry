@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-21T10:33:45.374Z",
+  "updatedAt": "2026-11-21T10:48:14.942Z",
   "stats": {
     "commits7d": 237,
-    "commits30d": 1325,
+    "commits30d": 1324,
     "prsMerged7d": 78,
     "prsMerged30d": 460,
     "releases30d": 0,
@@ -11,7 +11,7 @@
     "linesAdded7d": 71602,
     "linesRemoved7d": 14378,
     "linesAdded30d": 347161,
-    "linesRemoved30d": 66653,
+    "linesRemoved30d": 66522,
     "linesPartial": false,
     "ciRuns7d": 133,
     "ciPassRate7d": 89,
@@ -224,7 +224,7 @@
     {
       "lang": "Other",
       "added": 41509,
-      "removed": 1526
+      "removed": 1395
     },
     {
       "lang": "Shell",
@@ -336,7 +336,7 @@
       15,
       27,
       43,
-      28,
+      27,
       25,
       26,
       10,
@@ -437,7 +437,7 @@
     },
     {
       "repo": "elevate-tech-labz-site",
-      "commits": 28
+      "commits": 27
     }
   ],
   "recentRuns": [
