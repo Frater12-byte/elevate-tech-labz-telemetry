@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-11-21T17:48:17.684Z",
+  "updatedAt": "2026-11-21T18:06:20.507Z",
   "stats": {
     "commits7d": 236,
     "commits30d": 1327,
-    "prsMerged7d": 76,
+    "prsMerged7d": 75,
     "prsMerged30d": 463,
     "releases30d": 0,
     "activeRepos7d": 2,
@@ -13,15 +13,15 @@
     "linesAdded30d": 343953,
     "linesRemoved30d": 66359,
     "linesPartial": false,
-    "ciRuns7d": 133,
-    "ciPassRate7d": 94,
-    "ciRuns30d": 191,
+    "ciRuns7d": 131,
+    "ciPassRate7d": 95,
+    "ciRuns30d": 189,
     "ciPassRate30d": 90
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-21T15:57:39Z"
+    "at": "2026-11-21T18:04:48Z"
   },
   "perDay": [
     {
@@ -443,6 +443,27 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-21T18:04:48Z",
+      "secs": 723
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Terraform CI",
+      "conclusion": "success",
+      "at": "2026-11-21T17:56:00Z",
+      "secs": 194
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-21T17:53:16Z",
+      "secs": 1
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "Deploy published staging applications",
       "conclusion": "success",
       "at": "2026-11-21T15:57:39Z",
@@ -503,27 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-21T15:29:41Z",
       "secs": 148
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-21T15:27:32Z",
-      "secs": 13
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-21T15:27:24Z",
-      "secs": 11
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-21T15:08:43Z",
-      "secs": 692
     }
   ],
   "releases": [],
