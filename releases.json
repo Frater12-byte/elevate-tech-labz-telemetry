@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-21T22:33:58.878Z",
+  "updatedAt": "2026-11-21T22:48:03.023Z",
   "stats": {
-    "commits7d": 235,
+    "commits7d": 234,
     "commits30d": 1328,
     "prsMerged7d": 75,
     "prsMerged30d": 464,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 71256,
-    "linesRemoved7d": 11427,
+    "linesAdded7d": 71246,
+    "linesRemoved7d": 11421,
     "linesAdded30d": 344250,
     "linesRemoved30d": 66297,
     "linesPartial": false,
-    "ciRuns7d": 131,
+    "ciRuns7d": 133,
     "ciPassRate7d": 97,
-    "ciRuns30d": 189,
+    "ciRuns30d": 191,
     "ciPassRate30d": 92
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-21T22:20:43Z"
+    "at": "2026-11-21T22:45:53Z"
   },
   "perDay": [
     {
@@ -445,6 +445,34 @@
       "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
+      "at": "2026-11-21T22:45:53Z",
+      "secs": 1472
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Publish staging release candidates",
+      "conclusion": "success",
+      "at": "2026-11-21T22:44:05Z",
+      "secs": 266
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-21T22:39:34Z",
+      "secs": 1093
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Deploy Yalator Backend",
+      "conclusion": "success",
+      "at": "2026-11-21T22:37:14Z",
+      "secs": 953
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
       "at": "2026-11-21T22:20:43Z",
       "secs": 1286
     },
@@ -496,34 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-21T19:09:57Z",
       "secs": 230
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-21T18:08:13Z",
-      "secs": 927
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-21T18:04:48Z",
-      "secs": 723
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Terraform CI",
-      "conclusion": "success",
-      "at": "2026-11-21T17:56:00Z",
-      "secs": 194
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-21T17:53:16Z",
-      "secs": 1
     }
   ],
   "releases": [],
