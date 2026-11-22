@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-22T10:33:44.365Z",
+  "updatedAt": "2026-11-22T10:47:56.357Z",
   "stats": {
-    "commits7d": 238,
-    "commits30d": 1313,
-    "prsMerged7d": 79,
-    "prsMerged30d": 469,
+    "commits7d": 241,
+    "commits30d": 1316,
+    "prsMerged7d": 81,
+    "prsMerged30d": 471,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 71026,
-    "linesRemoved7d": 11440,
-    "linesAdded30d": 340541,
-    "linesRemoved30d": 62885,
+    "linesAdded7d": 71082,
+    "linesRemoved7d": 11450,
+    "linesAdded30d": 340597,
+    "linesRemoved30d": 62895,
     "linesPartial": false,
     "ciRuns7d": 140,
     "ciPassRate7d": 97,
-    "ciRuns30d": 193,
+    "ciRuns30d": 191,
     "ciPassRate30d": 92
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-22T10:30:57Z"
+    "at": "2026-11-22T10:38:16Z"
   },
   "perDay": [
     {
@@ -188,9 +188,9 @@
     },
     {
       "day": "2026-11-20",
-      "commits": 59,
-      "added": 14184,
-      "removed": 3079
+      "commits": 62,
+      "added": 14240,
+      "removed": 3089
     },
     {
       "day": "2026-11-21",
@@ -213,8 +213,8 @@
     },
     {
       "lang": "Python",
-      "added": 101901,
-      "removed": 13490
+      "added": 101927,
+      "removed": 13491
     },
     {
       "lang": "Other",
@@ -223,8 +223,8 @@
     },
     {
       "lang": "HTML",
-      "added": 29776,
-      "removed": 16709
+      "added": 29806,
+      "removed": 16718
     },
     {
       "lang": "Shell",
@@ -368,9 +368,9 @@
       20,
       17,
       2,
-      4,
-      32,
-      15,
+      5,
+      33,
+      16,
       6
     ],
     [
@@ -433,7 +433,7 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 600
+      "commits": 603
     },
     {
       "repo": "elevate-tech-labz-site",
@@ -441,6 +441,27 @@
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-22T10:38:16Z",
+      "secs": 927
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-11-22T10:34:50Z",
+      "secs": 9
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-22T10:34:10Z",
+      "secs": 14
+    },
     {
       "repo": "yalator-v2",
       "workflow": "CI",
@@ -503,27 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-22T09:56:13Z",
       "secs": 10
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-22T09:48:26Z",
-      "secs": 12
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy production release",
-      "conclusion": "success",
-      "at": "2026-11-22T09:23:10Z",
-      "secs": 1486
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-22T09:00:53Z",
-      "secs": 1518
     }
   ],
   "releases": [],
@@ -607,6 +607,20 @@
     },
     {
       "repo": "elevate-hub",
+      "sha": "06dbdeb",
+      "msg": "Booking alerts",
+      "hidden": 80,
+      "at": "2026-11-20T18:17:34Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "bde9e6a",
+      "msg": "Alerts band:",
+      "hidden": 48,
+      "at": "2026-11-20T17:58:19Z"
+    },
+    {
+      "repo": "elevate-hub",
       "sha": "1c92a6e",
       "msg": "Contracting: keep",
       "hidden": 76,
@@ -618,6 +632,13 @@
       "msg": "Contracting: confirm",
       "hidden": 53,
       "at": "2026-11-20T17:09:07Z"
+    },
+    {
+      "repo": "elevate-hub",
+      "sha": "f15e5b9",
+      "msg": "Access dialogs:",
+      "hidden": 54,
+      "at": "2026-11-20T16:41:52Z"
     },
     {
       "repo": "yalator-v2",
@@ -786,27 +807,6 @@
       "msg": "Contracting: join",
       "hidden": 119,
       "at": "2026-11-20T11:50:30Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "e6deabd",
-      "msg": "fix(docker): require",
-      "hidden": 42,
-      "at": "2026-11-20T11:40:55Z"
-    },
-    {
-      "repo": "elevate-hub",
-      "sha": "317f26e",
-      "msg": "Access: keep",
-      "hidden": 67,
-      "at": "2026-11-20T09:49:34Z"
-    },
-    {
-      "repo": "yalator-v2",
-      "sha": "b117b24",
-      "msg": "fix(yara-eval): credit",
-      "hidden": 52,
-      "at": "2026-11-20T08:43:21Z"
     }
   ]
 }
