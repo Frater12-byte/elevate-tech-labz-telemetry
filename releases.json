@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-23T11:18:03.289Z",
+  "updatedAt": "2026-11-23T11:34:11.330Z",
   "stats": {
-    "commits7d": 232,
+    "commits7d": 224,
     "commits30d": 1306,
-    "prsMerged7d": 86,
+    "prsMerged7d": 84,
     "prsMerged30d": 469,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 66611,
-    "linesRemoved7d": 10768,
+    "linesAdded7d": 65636,
+    "linesRemoved7d": 10605,
     "linesAdded30d": 334073,
     "linesRemoved30d": 61157,
     "linesPartial": false,
-    "ciRuns7d": 128,
-    "ciPassRate7d": 97,
-    "ciRuns30d": 154,
-    "ciPassRate30d": 97
+    "ciRuns7d": 123,
+    "ciPassRate7d": 98,
+    "ciRuns30d": 149,
+    "ciPassRate30d": 98
   },
   "lastRun": {
     "repo": "yalator-v2",
-    "conclusion": "cancelled",
-    "at": "2026-11-23T11:12:12Z"
+    "conclusion": "skipped",
+    "at": "2026-11-23T11:33:50Z"
   },
   "perDay": [
     {
@@ -443,6 +443,62 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-23T11:33:50Z",
+      "secs": 9
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-23T11:33:26Z",
+      "secs": 0
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-23T11:33:12Z",
+      "secs": 1
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-23T11:31:46Z",
+      "secs": 1
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-23T11:30:22Z",
+      "secs": 1110
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-23T11:29:40Z",
+      "secs": 1265
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-23T11:26:57Z",
+      "secs": 1
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-23T11:25:20Z",
+      "secs": 0
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "CI",
       "conclusion": "cancelled",
       "at": "2026-11-23T11:12:12Z",
@@ -468,62 +524,6 @@
       "conclusion": "success",
       "at": "2026-11-23T11:11:33Z",
       "secs": 909
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "cancelled",
-      "at": "2026-11-23T11:07:32Z",
-      "secs": 833
-    },
-    {
-      "repo": "elevate-hub",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-23T11:01:38Z",
-      "secs": 1499
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-23T10:59:56Z",
-      "secs": 290
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "cancelled",
-      "at": "2026-11-23T10:56:41Z",
-      "secs": 97
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-23T10:56:38Z",
-      "secs": 14
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-23T10:56:35Z",
-      "secs": 13
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-23T10:56:32Z",
-      "secs": 9
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-23T10:56:30Z",
-      "secs": 1
     }
   ],
   "releases": [],
