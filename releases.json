@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-23T11:34:11.330Z",
+  "updatedAt": "2026-11-23T11:48:23.346Z",
   "stats": {
-    "commits7d": 224,
+    "commits7d": 223,
     "commits30d": 1306,
     "prsMerged7d": 84,
     "prsMerged30d": 469,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 3,
-    "linesAdded7d": 65636,
-    "linesRemoved7d": 10605,
+    "linesAdded7d": 65509,
+    "linesRemoved7d": 10537,
     "linesAdded30d": 334073,
     "linesRemoved30d": 61157,
     "linesPartial": false,
-    "ciRuns7d": 123,
+    "ciRuns7d": 124,
     "ciPassRate7d": 98,
-    "ciRuns30d": 149,
+    "ciRuns30d": 150,
     "ciPassRate30d": 98
   },
   "lastRun": {
-    "repo": "yalator-v2",
-    "conclusion": "skipped",
-    "at": "2026-11-23T11:33:50Z"
+    "repo": "elevate-hub",
+    "conclusion": "success",
+    "at": "2026-11-23T11:41:41Z"
   },
   "perDay": [
     {
@@ -442,6 +442,13 @@
   ],
   "recentRuns": [
     {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-23T11:41:41Z",
+      "secs": 2065
+    },
+    {
       "repo": "yalator-v2",
       "workflow": "Claude Mention",
       "conclusion": "skipped",
@@ -517,13 +524,6 @@
       "conclusion": "skipped",
       "at": "2026-11-23T11:12:03Z",
       "secs": 2
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-23T11:11:33Z",
-      "secs": 909
     }
   ],
   "releases": [],
