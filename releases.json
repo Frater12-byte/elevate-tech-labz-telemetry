@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-24T12:25:36.957Z",
+  "updatedAt": "2026-11-24T12:38:00.770Z",
   "stats": {
     "commits7d": 293,
     "commits30d": 1410,
-    "prsMerged7d": 89,
-    "prsMerged30d": 475,
+    "prsMerged7d": 87,
+    "prsMerged30d": 474,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 2,
@@ -13,15 +13,15 @@
     "linesAdded30d": 361029,
     "linesRemoved30d": 67919,
     "linesPartial": false,
-    "ciRuns7d": 117,
+    "ciRuns7d": 119,
     "ciPassRate7d": 99,
-    "ciRuns30d": 137,
+    "ciRuns30d": 139,
     "ciPassRate30d": 99
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-24T12:24:58Z"
+    "at": "2026-11-24T12:37:44Z"
   },
   "perDay": [
     {
@@ -439,87 +439,87 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-24T12:37:44Z",
+      "secs": 1080
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
-      "at": "2026-11-24T12:24:58Z",
-      "secs": 17
+      "at": "2026-11-24T12:36:53Z",
+      "secs": 13
     },
     {
       "repo": "yalator-v2",
       "workflow": "Claude Mention",
       "conclusion": "skipped",
-      "at": "2026-11-24T12:23:24Z",
-      "secs": 4
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-24T12:23:22Z",
-      "secs": 11
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
-      "conclusion": "success",
-      "at": "2026-11-24T12:22:58Z",
-      "secs": 194
+      "at": "2026-11-24T12:36:50Z",
+      "secs": 1
     },
     {
       "repo": "yalator-v2",
       "workflow": "CI",
       "conclusion": "cancelled",
-      "at": "2026-11-24T12:20:39Z",
-      "secs": 647
+      "at": "2026-11-24T12:36:46Z",
+      "secs": 593
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-24T12:36:44Z",
+      "secs": 1011
     },
     {
       "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
-      "at": "2026-11-24T12:20:37Z",
-      "secs": 15
+      "at": "2026-11-24T12:36:28Z",
+      "secs": 14
     },
     {
       "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
+      "workflow": "CI",
       "conclusion": "success",
-      "at": "2026-11-24T12:20:14Z",
-      "secs": 135
+      "at": "2026-11-24T12:36:27Z",
+      "secs": 1007
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-11-24T12:36:25Z",
+      "secs": 704
     },
     {
       "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
-      "at": "2026-11-24T12:20:04Z",
-      "secs": 11
+      "at": "2026-11-24T12:35:57Z",
+      "secs": 14
     },
     {
       "repo": "yalator-v2",
-      "workflow": "Controlled drain",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-11-24T12:35:52Z",
+      "secs": 761
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-11-24T12:35:06Z",
+      "secs": 67
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
       "conclusion": "success",
-      "at": "2026-11-24T12:19:55Z",
-      "secs": 11
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-24T12:19:52Z",
-      "secs": 12
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-24T12:19:49Z",
-      "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-24T12:18:11Z",
-      "secs": 12
+      "at": "2026-11-24T12:35:06Z",
+      "secs": 1027
     }
   ],
   "releases": [],
