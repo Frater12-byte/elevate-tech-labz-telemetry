@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:48:03.724Z",
+  "updatedAt": "2026-11-24T00:14:25.103Z",
   "stats": {
     "commits7d": 206,
     "commits30d": 1309,
@@ -15,7 +15,7 @@
     "linesPartial": false,
     "ciRuns7d": 130,
     "ciPassRate7d": 98,
-    "ciRuns30d": 149,
+    "ciRuns30d": 147,
     "ciPassRate30d": 98
   },
   "lastRun": {
@@ -24,12 +24,6 @@
     "at": "2026-11-23T14:08:34Z"
   },
   "perDay": [
-    {
-      "day": "2026-10-25",
-      "commits": 23,
-      "added": 3275,
-      "removed": 1307
-    },
     {
       "day": "2026-10-26",
       "commits": 52,
@@ -203,6 +197,12 @@
       "commits": 7,
       "added": 722,
       "removed": 284
+    },
+    {
+      "day": "2026-11-24",
+      "commits": 0,
+      "added": 0,
+      "removed": 0
     }
   ],
   "languages": [
