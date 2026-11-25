@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T18:33:50.265Z",
+  "updatedAt": "2026-11-25T18:48:10.308Z",
   "stats": {
     "commits7d": 386,
     "commits30d": 1474,
@@ -13,15 +13,15 @@
     "linesAdded30d": 375871,
     "linesRemoved30d": 70087,
     "linesPartial": false,
-    "ciRuns7d": 128,
+    "ciRuns7d": 127,
     "ciPassRate7d": 96,
-    "ciRuns30d": 138,
+    "ciRuns30d": 137,
     "ciPassRate30d": 96
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "skipped",
-    "at": "2026-11-25T18:02:03Z"
+    "at": "2026-11-25T18:44:06Z"
   },
   "perDay": [
     {
@@ -441,6 +441,13 @@
       "repo": "yalator-v2",
       "workflow": "Claude Mention",
       "conclusion": "skipped",
+      "at": "2026-11-25T18:44:06Z",
+      "secs": 1
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
       "at": "2026-11-25T18:02:03Z",
       "secs": 2
     },
@@ -512,13 +519,6 @@
       "workflow": "Claude Mention",
       "conclusion": "skipped",
       "at": "2026-11-25T15:53:40Z",
-      "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-25T15:30:30Z",
       "secs": 1
     }
   ],
