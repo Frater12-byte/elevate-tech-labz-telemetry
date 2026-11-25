@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T16:23:43.369Z",
+  "updatedAt": "2026-11-25T16:34:17.085Z",
   "stats": {
     "commits7d": 389,
     "commits30d": 1475,
@@ -13,15 +13,15 @@
     "linesAdded30d": 379154,
     "linesRemoved30d": 70767,
     "linesPartial": false,
-    "ciRuns7d": 125,
+    "ciRuns7d": 127,
     "ciPassRate7d": 96,
-    "ciRuns30d": 135,
+    "ciRuns30d": 137,
     "ciPassRate30d": 96
   },
   "lastRun": {
-    "repo": "yalator-v2",
-    "conclusion": "skipped",
-    "at": "2026-11-25T16:06:29Z"
+    "repo": "elevate-hub",
+    "conclusion": "success",
+    "at": "2026-11-25T16:31:28Z"
   },
   "perDay": [
     {
@@ -438,6 +438,20 @@
   ],
   "recentRuns": [
     {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-25T16:31:28Z",
+      "secs": 1564
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-25T16:25:25Z",
+      "secs": 1579
+    },
+    {
       "repo": "yalator-v2",
       "workflow": "Claude Mention",
       "conclusion": "skipped",
@@ -506,20 +520,6 @@
       "conclusion": "success",
       "at": "2026-11-25T14:26:21Z",
       "secs": 1636
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-25T14:21:12Z",
-      "secs": 2
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-25T14:02:08Z",
-      "secs": 548
     }
   ],
   "releases": [],
