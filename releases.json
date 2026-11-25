@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-25T10:19:44.078Z",
+  "updatedAt": "2026-11-25T10:34:02.777Z",
   "stats": {
-    "commits7d": 362,
+    "commits7d": 359,
     "commits30d": 1468,
     "prsMerged7d": 101,
     "prsMerged30d": 483,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 2,
-    "linesAdded7d": 95892,
-    "linesRemoved7d": 19620,
+    "linesAdded7d": 95688,
+    "linesRemoved7d": 19585,
     "linesAdded30d": 375241,
     "linesRemoved30d": 71924,
     "linesPartial": false,
-    "ciRuns7d": 141,
+    "ciRuns7d": 138,
     "ciPassRate7d": 97,
-    "ciRuns30d": 154,
+    "ciRuns30d": 151,
     "ciPassRate30d": 97
   },
   "lastRun": {
-    "repo": "elevate-hub",
-    "conclusion": "success",
-    "at": "2026-11-25T10:16:33Z"
+    "repo": "yalator-v2",
+    "conclusion": "skipped",
+    "at": "2026-11-25T10:33:27Z"
   },
   "perDay": [
     {
@@ -438,6 +438,27 @@
   ],
   "recentRuns": [
     {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-25T10:33:27Z",
+      "secs": 1
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-25T10:33:07Z",
+      "secs": 8
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-25T10:33:07Z",
+      "secs": 8
+    },
+    {
       "repo": "elevate-hub",
       "workflow": "CI",
       "conclusion": "success",
@@ -499,27 +520,6 @@
       "conclusion": "skipped",
       "at": "2026-11-25T09:17:15Z",
       "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-25T09:17:14Z",
-      "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-25T09:17:09Z",
-      "secs": 11
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-25T09:16:18Z",
-      "secs": 12
     }
   ],
   "releases": [],
