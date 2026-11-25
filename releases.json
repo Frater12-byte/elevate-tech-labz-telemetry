@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-25T10:34:02.777Z",
+  "updatedAt": "2026-11-25T10:48:13.284Z",
   "stats": {
     "commits7d": 359,
-    "commits30d": 1468,
+    "commits30d": 1466,
     "prsMerged7d": 101,
     "prsMerged30d": 483,
     "releases30d": 0,
@@ -10,18 +10,18 @@
     "activeRepos30d": 2,
     "linesAdded7d": 95688,
     "linesRemoved7d": 19585,
-    "linesAdded30d": 375241,
-    "linesRemoved30d": 71924,
+    "linesAdded30d": 374337,
+    "linesRemoved30d": 71698,
     "linesPartial": false,
-    "ciRuns7d": 138,
+    "ciRuns7d": 137,
     "ciPassRate7d": 97,
-    "ciRuns30d": 151,
+    "ciRuns30d": 150,
     "ciPassRate30d": 97
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "skipped",
-    "at": "2026-11-25T10:33:27Z"
+    "at": "2026-11-25T10:34:07Z"
   },
   "perDay": [
     {
@@ -213,18 +213,18 @@
     },
     {
       "lang": "Python",
-      "added": 93196,
-      "removed": 12152
+      "added": 92762,
+      "removed": 12108
     },
     {
       "lang": "Other",
-      "added": 41692,
-      "removed": 1266
+      "added": 41690,
+      "removed": 1264
     },
     {
       "lang": "HTML",
-      "added": 28242,
-      "removed": 16494
+      "added": 27774,
+      "removed": 16314
     },
     {
       "lang": "Shell",
@@ -258,7 +258,7 @@
       6,
       6,
       12,
-      31,
+      29,
       42,
       22,
       26,
@@ -433,10 +433,17 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 592
+      "commits": 590
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
+      "at": "2026-11-25T10:34:07Z",
+      "secs": 2
+    },
     {
       "repo": "yalator-v2",
       "workflow": "Claude Mention",
@@ -512,13 +519,6 @@
       "workflow": "Claude Mention",
       "conclusion": "skipped",
       "at": "2026-11-25T09:17:17Z",
-      "secs": 1
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Claude Mention",
-      "conclusion": "skipped",
-      "at": "2026-11-25T09:17:15Z",
       "secs": 1
     }
   ],
