@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-11-26T14:48:17.137Z",
+  "updatedAt": "2026-11-26T15:06:39.543Z",
   "stats": {
     "commits7d": 391,
     "commits30d": 1495,
     "prsMerged7d": 100,
-    "prsMerged30d": 469,
+    "prsMerged30d": 468,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 2,
@@ -21,7 +21,7 @@
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "skipped",
-    "at": "2026-11-26T14:45:16Z"
+    "at": "2026-11-26T15:06:06Z"
   },
   "perDay": [
     {
@@ -441,6 +441,34 @@
       "repo": "yalator-v2",
       "workflow": "Claude Mention",
       "conclusion": "skipped",
+      "at": "2026-11-26T15:06:06Z",
+      "secs": 10
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-26T15:05:50Z",
+      "secs": 20
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-26T15:00:38Z",
+      "secs": 953
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-26T14:57:31Z",
+      "secs": 985
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Claude Mention",
+      "conclusion": "skipped",
       "at": "2026-11-26T14:45:16Z",
       "secs": 1
     },
@@ -492,34 +520,6 @@
       "conclusion": "success",
       "at": "2026-11-26T13:19:05Z",
       "secs": 310
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-11-26T13:17:02Z",
-      "secs": 268
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy Yalator Backend",
-      "conclusion": "success",
-      "at": "2026-11-26T13:14:11Z",
-      "secs": 1070
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-26T13:13:51Z",
-      "secs": 1050
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-26T13:12:28Z",
-      "secs": 974
     }
   ],
   "releases": [],
