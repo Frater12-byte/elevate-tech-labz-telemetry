@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-26T10:48:36.881Z",
+  "updatedAt": "2026-11-26T11:05:55.569Z",
   "stats": {
-    "commits7d": 382,
+    "commits7d": 381,
     "commits30d": 1479,
     "prsMerged7d": 95,
-    "prsMerged30d": 465,
+    "prsMerged30d": 464,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 2,
-    "linesAdded7d": 95222,
-    "linesRemoved7d": 19983,
+    "linesAdded7d": 95050,
+    "linesRemoved7d": 19893,
     "linesAdded30d": 379005,
     "linesRemoved30d": 71661,
     "linesPartial": false,
     "ciRuns7d": 131,
     "ciPassRate7d": 96,
-    "ciRuns30d": 141,
+    "ciRuns30d": 140,
     "ciPassRate30d": 96
   },
   "lastRun": {
     "repo": "elevate-hub",
-    "conclusion": "cancelled",
-    "at": "2026-11-26T10:35:19Z"
+    "conclusion": "success",
+    "at": "2026-11-26T11:01:51Z"
   },
   "perDay": [
     {
@@ -440,6 +440,27 @@
     {
       "repo": "elevate-hub",
       "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-26T11:01:51Z",
+      "secs": 1608
+    },
+    {
+      "repo": "yalator-v2",
+      "workflow": "Controlled drain",
+      "conclusion": "success",
+      "at": "2026-11-26T11:01:34Z",
+      "secs": 16
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
+      "conclusion": "cancelled",
+      "at": "2026-11-26T11:00:59Z",
+      "secs": 1113
+    },
+    {
+      "repo": "elevate-hub",
+      "workflow": "CI",
       "conclusion": "cancelled",
       "at": "2026-11-26T10:35:19Z",
       "secs": 817
@@ -499,27 +520,6 @@
       "conclusion": "success",
       "at": "2026-11-26T08:38:23Z",
       "secs": 1085
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Controlled drain",
-      "conclusion": "success",
-      "at": "2026-11-26T08:13:34Z",
-      "secs": 1283
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Deploy published staging applications",
-      "conclusion": "success",
-      "at": "2026-11-26T08:08:55Z",
-      "secs": 20
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "Publish staging release candidates",
-      "conclusion": "success",
-      "at": "2026-11-26T08:08:32Z",
-      "secs": 25
     }
   ],
   "releases": [],
