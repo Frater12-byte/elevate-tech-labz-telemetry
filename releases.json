@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-11-27T04:21:07.621Z",
+  "updatedAt": "2026-11-27T04:33:42.459Z",
   "stats": {
-    "commits7d": 380,
+    "commits7d": 376,
     "commits30d": 1497,
     "prsMerged7d": 94,
     "prsMerged30d": 470,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 2,
-    "linesAdded7d": 97690,
-    "linesRemoved7d": 26476,
+    "linesAdded7d": 96935,
+    "linesRemoved7d": 25734,
     "linesAdded30d": 387728,
     "linesRemoved30d": 78891,
     "linesPartial": false,
-    "ciRuns7d": 151,
+    "ciRuns7d": 152,
     "ciPassRate7d": 98,
-    "ciRuns30d": 160,
+    "ciRuns30d": 161,
     "ciPassRate30d": 98
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-27T04:16:46Z"
+    "at": "2026-11-27T04:30:19Z"
   },
   "perDay": [
     {
@@ -439,6 +439,13 @@
   "recentRuns": [
     {
       "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-27T04:30:19Z",
+      "secs": 959
+    },
+    {
+      "repo": "yalator-v2",
       "workflow": "Controlled drain",
       "conclusion": "success",
       "at": "2026-11-27T04:16:46Z",
@@ -513,13 +520,6 @@
       "conclusion": "success",
       "at": "2026-11-26T18:25:00Z",
       "secs": 15
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-26T17:48:48Z",
-      "secs": 915
     }
   ],
   "releases": [],
