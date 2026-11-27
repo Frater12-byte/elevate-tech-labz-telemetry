@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-11-27T16:33:57.776Z",
+  "updatedAt": "2026-11-27T16:48:09.383Z",
   "stats": {
-    "commits7d": 421,
-    "commits30d": 1515,
+    "commits7d": 420,
+    "commits30d": 1513,
     "prsMerged7d": 105,
     "prsMerged30d": 475,
     "releases30d": 0,
     "activeRepos7d": 2,
     "activeRepos30d": 2,
-    "linesAdded7d": 110487,
+    "linesAdded7d": 110480,
     "linesRemoved7d": 28514,
-    "linesAdded30d": 389041,
-    "linesRemoved30d": 79920,
+    "linesAdded30d": 388920,
+    "linesRemoved30d": 79681,
     "linesPartial": false,
-    "ciRuns7d": 153,
+    "ciRuns7d": 152,
     "ciPassRate7d": 98,
     "ciRuns30d": 158,
     "ciPassRate30d": 98
@@ -213,18 +213,18 @@
     },
     {
       "lang": "Python",
-      "added": 82719,
-      "removed": 12439
+      "added": 82642,
+      "removed": 12297
     },
     {
       "lang": "Other",
-      "added": 41567,
-      "removed": 1301
+      "added": 41566,
+      "removed": 1300
     },
     {
       "lang": "HTML",
-      "added": 27161,
-      "removed": 19255
+      "added": 27118,
+      "removed": 19159
     },
     {
       "lang": "Shell",
@@ -316,7 +316,7 @@
       5,
       5,
       3,
-      3,
+      1,
       3,
       6,
       1
@@ -433,7 +433,7 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 544
+      "commits": 542
     }
   ],
   "recentRuns": [
