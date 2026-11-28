@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-28T06:25:44.947Z",
+  "updatedAt": "2026-11-28T06:39:43.014Z",
   "stats": {
     "commits7d": 422,
-    "commits30d": 1503,
+    "commits30d": 1502,
     "prsMerged7d": 106,
     "prsMerged30d": 471,
     "releases30d": 0,
@@ -10,18 +10,18 @@
     "activeRepos30d": 2,
     "linesAdded7d": 113134,
     "linesRemoved7d": 29079,
-    "linesAdded30d": 388252,
-    "linesRemoved30d": 79281,
+    "linesAdded30d": 388068,
+    "linesRemoved30d": 79178,
     "linesPartial": false,
-    "ciRuns7d": 148,
+    "ciRuns7d": 149,
     "ciPassRate7d": 98,
-    "ciRuns30d": 157,
+    "ciRuns30d": 158,
     "ciPassRate30d": 98
   },
   "lastRun": {
     "repo": "yalator-v2",
     "conclusion": "success",
-    "at": "2026-11-28T06:24:48Z"
+    "at": "2026-11-28T06:35:42Z"
   },
   "perDay": [
     {
@@ -213,18 +213,18 @@
     },
     {
       "lang": "Python",
-      "added": 82524,
-      "removed": 12294
+      "added": 82376,
+      "removed": 12211
     },
     {
       "lang": "Other",
-      "added": 41262,
-      "removed": 1204
+      "added": 41261,
+      "removed": 1203
     },
     {
       "lang": "HTML",
-      "added": 26501,
-      "removed": 18382
+      "added": 26466,
+      "removed": 18363
     },
     {
       "lang": "Shell",
@@ -332,7 +332,7 @@
       8,
       23,
       28,
-      24,
+      23,
       15,
       28,
       46,
@@ -433,10 +433,17 @@
     },
     {
       "repo": "elevate-hub",
-      "commits": 537
+      "commits": 536
     }
   ],
   "recentRuns": [
+    {
+      "repo": "yalator-v2",
+      "workflow": "CI",
+      "conclusion": "success",
+      "at": "2026-11-28T06:35:42Z",
+      "secs": 667
+    },
     {
       "repo": "yalator-v2",
       "workflow": "Controlled drain",
@@ -513,13 +520,6 @@
       "conclusion": "success",
       "at": "2026-11-28T01:09:45Z",
       "secs": 290
-    },
-    {
-      "repo": "yalator-v2",
-      "workflow": "CI",
-      "conclusion": "success",
-      "at": "2026-11-28T01:04:51Z",
-      "secs": 1016
     }
   ],
   "releases": [],
